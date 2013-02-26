@@ -93,12 +93,12 @@ html, body {
 	position: relative;
 }
 
-#topo .menu .liMenuFirst {
+#topo .menu .liMenuPrimeiro {
 	padding-left: 0;
 	line-height: 33px;
 }
 
-#topo .menu .liMenuLast {
+#topo .menu .liMenuUltimo {
 	background: none;
 	padding-right: 0;
 }
@@ -145,15 +145,25 @@ html, body {
 	line-height: 22px;
 }
 
-#topo .boxSacolaCompras {
-	width: 397px;
-	height: 150px;
-	background: #FFF;
-	border: 5px solid #d71925;
-	position: absolute;
-	top: 55px;
-	right: 0;
+.boxSacolaCompras {
+	background: url('../img/backgrounds/bg-sacola.png') no-repeat;
+	width: 407px;
+	height: 0;
 	z-index: 100;
+	overflow: hidden;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+
+
+.btCompras:hover .boxSacolaCompras {
+	height: 287px;
 }
 
 
@@ -164,4 +174,20 @@ html, body {
 	background: url('../img/backgrounds/bg-rodape.png') repeat-x;
 	height: 389px;
 	padding-top: 60px;
+}
+
+#rodape .blocoLinks {
+	background: red;
+	position: relative;
+	height: 145px;
+}
+
+#rodape .boxLinksRodape {
+	float: left;
+	width: 305px;
+	margin-right: 20px;
+}
+
+#rodape .boxLinksRodapeUltimo {
+	margin-right: 0;
 }

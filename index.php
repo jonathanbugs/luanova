@@ -68,7 +68,9 @@
 		<? include 'includes/topo.php';?>
 
 		<div id="conteudo" style="height: 300px">
-			conteudo
+        <div class="container clearfix">
+          rewre
+        </div>
 		</div>
 
 		<? include 'includes/rodape.php';?>
