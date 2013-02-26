@@ -1,66 +1,60 @@
 /************************/
 @import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
 /************************/
 
-
-html, body {
-	height: 100%;
+.navegacaoAuxiliar{
+    padding:30px 0 12px 0;
 }
 
-/*--------------------------
- FONTES
- ------------------------*/
-
-
-/*-----------------------
-	CENTRALIZAR CONTEUDO
-----------------------*/
-.container {
-	width: 955px;
-	margin: 0 auto;
-	position: relative;
+.btVoltar{
+    font-size:11px;
+    font-family:"vidaloka_regular";
+    color:#4c4c4c;
+    text-transform:uppercase;
+    text-decoration:none;
+    float:left;
+    line-height:17px;
+    height:17px;
+    background:url("../img/bt-voltar.png") no-repeat left center;
+    padding-left:20px;
 }
 
-/*-----------------------
-	TOPO
-----------------------*/
-#topo {
+#migalhaPao{
+    float:left;
+    margin-left:8px;
+    padding-left:10px;
+    border-left:1px solid #ACACAC;
+    height:11px;
+    line-height:11px;
+    margin-top:2px;
 }
 
-#topo .menuTopo {
-	background: url('../img/backgrounds/bg-topo.jpg') repeat-x;
-	height: 105px;
+#migalhaPao li{
+    float:left;
+    padding-right:10px;
+    background:url("../img/seta-migalha-de-pao.png") no-repeat right center;
+    margin-right:10px;
 }
 
-#topo .boxLogo {
-	width: 204px;
-	height: 27px;
-	float: left;
-	margin-top: 18px;
+#migalhaPao .last{
+    margin-right:0;
+    background:none;
 }
 
-#topo .boxLogo .logo {
-	background: url('../img/logos/logo.png') no-repeat;
-	width: 204px;
-	height: 27px;
+#migalhaPao a{
+    text-decoration:underline;
+    color:#ACACAC;
+    font-size:10px;
 }
 
-#topo .menu {
-	float: right;
-	margin-top: 20px;
+.cabecalhoProduto{
+    background:url("../img/bg-linha-cabecalhos.gif") no-repeat left top;
 }
 
-#topo .menu .liMenu {
-	float: left;
-}
-
-#topo .bannerHome {
-	background: #f4f4f4;
-	height: 311px;
-}
-
-/*-----------------------
-	RODAPÉ
-----------------------*/
-#rodape {
+.ttProduto{
+    font-size:22px;
+    font-family:"vidaloka_regular";
+    font-weight:normal;
+    text-transform:uppercase;
 }
