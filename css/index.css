@@ -1,0 +1,19 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+/************************/
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE TEMPLATE PADRÃO DO SITE */
+/************************/
+
+
+.bannerHome {
+	height: 311px;
+	overflow: hidden;
+}
+
+#bannerDestaques {
+	height: 311px;
+}
+
+

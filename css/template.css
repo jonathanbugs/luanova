@@ -1,0 +1,167 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+
+html, body {
+	height: 100%;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+}
+
+/*--------------------------
+ FONTES
+ ------------------------*/
+ @font-face {
+    font-family: 'vidaloka_regular';
+    src: url('../fontes/vidaloka-regular-webfont.eot');
+    src: url('../fontes/vidaloka-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/vidaloka-regular-webfont.woff') format('woff'),
+         url('../fontes/vidaloka-regular-webfont.ttf') format('truetype'),
+         url('../fontes/vidaloka-regular-webfont.svg#vidaloka_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksandbook';
+    src: url('../fontes/quicksand_book-webfont.eot');
+    src: url('../fontes/quicksand_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/quicksand_book-webfont.woff') format('woff'),
+         url('../fontes/quicksand_book-webfont.ttf') format('truetype'),
+         url('../fontes/quicksand_book-webfont.svg#quicksandbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fontes/quicksand_light-webfont.eot');
+    src: url('../fontes/quicksand_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/quicksand_light-webfont.woff') format('woff'),
+         url('../fontes/quicksand_light-webfont.ttf') format('truetype'),
+         url('../fontes/quicksand_light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*-----------------------
+	CENTRALIZAR CONTEUDO
+----------------------*/
+.container {
+	width: 955px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*-----------------------
+	TOPO
+----------------------*/
+#topo {
+}
+
+#topo .menuTopo {
+	background: url('../img/backgrounds/bg-topo.jpg') repeat-x;
+	height: 105px;
+}
+
+#topo .boxLogo {
+	width: 204px;
+	height: 27px;
+	float: left;
+	margin-top: 19px;
+}
+
+#topo .boxLogo .logo {
+	background: url('../img/logos/logo.png') no-repeat;
+	width: 204px;
+	height: 27px;
+}
+
+#topo .menu {
+	float: right;
+	margin-top: 16.4px;
+}
+
+#topo .menu .liMenu {
+	background: url('../img/backgrounds/bg-li-menu.png') center right no-repeat;
+	float: left;
+	padding: 0 22px 0 12px;
+	min-height: 36px;
+	line-height: 36px;
+	position: relative;
+}
+
+#topo .menu .liMenuFirst {
+	padding-left: 0;
+	line-height: 33px;
+}
+
+#topo .menu .liMenuLast {
+	background: none;
+	padding-right: 0;
+}
+
+#topo .menu .textoMenu {
+	color: #888;
+}
+
+#topo .menu .linkMenu {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#topo .menu .linkMenuDisplay {
+	display: block;
+}
+
+#topo .menu .linkMenu:hover {
+	color: #d2232a;
+}
+
+#topo .menu .numeroItens,
+#topo .menu .linkMenuSacola {
+	background: url('../img/icones/icones.png') top right no-repeat;
+}
+
+#topo .menu .linkMenuSacola {
+	padding-right: 40px;
+}
+
+#topo .menu .numeroItens {
+	background-position: 0 -77px;
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	text-align: center;
+	line-height: 22px;
+}
+
+#topo .boxSacolaCompras {
+	width: 397px;
+	height: 150px;
+	background: #FFF;
+	border: 5px solid #d71925;
+	position: absolute;
+	top: 55px;
+	right: 0;
+	z-index: 100;
+}
+
+
+/*-----------------------
+	RODAPÉ
+----------------------*/
+#rodape {
+	background: url('../img/backgrounds/bg-rodape.png') repeat-x;
+	height: 389px;
+	padding-top: 60px;
+}

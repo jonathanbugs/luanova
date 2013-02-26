@@ -1,0 +1,213 @@
+/*-----------------------------------------------------------------
+	BASICO
+-----------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: none repeat scroll 0 0 transparent;
+}
+body {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+hr {
+	display:none
+}
+textarea {
+	resize:none;
+	overflow:auto
+}
+/* lembre-se de definir estilos de foco! */
+
+:focus {
+	outline: 0
+}
+
+/* lembre-se de destacar insercoes de alguma forma! */
+ins {
+	text-decoration: none
+}
+del {
+	text-decoration: line-through
+}
+
+/* tabelas ainda precisa de 'cellspacing="0"' e cellpadding="0" no HTML*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+/* clearing */
+
+	.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden
+	}
+	* html>body .clearfix {
+		display: inline-block;
+		width: 100%
+	}
+
+/* fim clearing */
+
+
+/* replace */
+	.replace {
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-color:transparent;
+		text-indent:-50000px;
+		overflow:hidden;
+		display:block
+	}
+	.replace * {
+		text-indent: -10000px;
+		display:block;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-color:transparent
+	}
+	.replace a {
+		text-indent:0
+	}
+	.replace a span {
+		text-indent:-10000px
+	}
+/* fim replace */
+
+/* replace de botoes */
+	.replace-bt{
+		text-indent:-999px;
+		line-height:999999px;
+		cursor:pointer;
+		border:none
+	}
+/* fim replace de botoes */
+
+/* accessibility */
+     span.accesskey {
+     	text-decoration:none
+     }
+     .accessibility {
+     	position: absolute;
+     	top: -999em;
+     	left: -999em
+     }
+/* fim accessibility */
+
+/* hidden */
+	.hidden {
+		visibility:hidden !important; display:none !important;
+	}
+/* fim hidden */
+
+/*--- centralizar imagem ---*/
+/*----------------------------------------------------------------------
+Exemplo da estrutura HTML:
+<ul>
+	<li class="centralizar">
+		<span></span>
+		<a href="" class="" title="" >
+			<img src="comum/img/ex-carrossel-detalhe.jpg" alt="" />
+		</a>
+	</li>
+</ul>
+
+OBS: setar a largura e a altura do elemento com a classe "centralizar".
+-------------------------------------------------------------------------*/
+.centralizar{
+	display: table-cell !important;
+	text-align: center !important;
+	vertical-align: middle !important;
+}
+.centralizar * {
+	 vertical-align: middle !important;
+}
+/*-- IE 6 e 7 --*/
+.centralizar span {
+	*display: inline-block !important;
+	*height: 100% !important;
+}
+/*-- IE 6 e 7 --*/
+
+/*--- fim centralizar imagem ---*/
+
+/*--- biblioteca de estilos padroes ---*/
+.fl{ float:left }
+.fr{ float:right }
+.oh{ overflow:hidden }
+.db{ display:block }
+.cb{ clear:both; width:100%; }
+.sem-borda{ border:none !important; }
+.sem-margin{ margin:0 !important; }
+.semMarginRight{margin-right:0 !important;}
+.paddingLeftNone{padding-left:0 !important;}
+.paddingRightNone{padding-right:0 !important;}
+/*--- fim biblioteca de estilos padroes ---*/
+
+/************************
+*************************
+	FORMULÁRIOS
+*************************
+************************/
+
+/*-----------------------
+	CHECKBOX / RADIOBUTTON
+----------------------*/
+
+/*-- INPUT --*/
+.radio-check{
+	border:none !important;
+	padding:0 !important;
+	margin:0 4px 0 0 !important;
+	height:22px !important; /* setar a mesma altura definida para os campos de texto */
+	float:left !important;
+	width:12px !important
+}
+
+/*-- LABEL --*/
+.lb-radio-check{
+	float:left !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	line-height:20px !important;
+}
+
+/*-----------------------
+	PADRÃO DE CAMPOS
+----------------------*/
+input, select, textarea{
+}
+input{
+	padding:6px 5px;
+	float:left
+}
+select{
+	padding:4px 3px;
+	height:28px
+}
+textarea{
+	padding:2px 2px 2px 5px;
+	resize:none;
+	overflow:auto
+}
