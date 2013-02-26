@@ -16,7 +16,7 @@
     float:left;
     line-height:17px;
     height:17px;
-    background:url("../img/bt-voltar.png") no-repeat left center;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -133px 0;
     padding-left:20px;
 }
 
@@ -33,7 +33,7 @@
 #migalhaPao li{
     float:left;
     padding-right:10px;
-    background:url("../img/seta-migalha-de-pao.png") no-repeat right center;
+    background:url("../img/icones/seta-migalha-de-pao.png") no-repeat right center;
     margin-right:10px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .cabecalhoProduto{
-    background:url("../img/bg-linha-cabecalhos.gif") no-repeat left top;
+    background:url("../img/backgrounds/bg-linha-cabecalhos.gif") no-repeat left top;
 }
 
 .ttProduto{

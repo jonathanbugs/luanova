@@ -82,7 +82,7 @@
                     <div id="galeriaProduto">
                         <div class="imgPrincipal">
                             <a class="lkGaleria" href="javascript:;" >
-                                <img src="" alt="" />
+                                <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
                                 <span class="icoZoom replace">Ampliar</span>
                                 <span class="auxZoom">Clique para ver a imagem ampliada</span>
                             </a>
@@ -91,7 +91,7 @@
                             <ul class="ulThumbs">
                                 <li>
                                     <a href="javascript:;">
-                                        <img src="" alt="" />
+                                        <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
                                     </a>
                                 </li>
                             </ul>
@@ -203,7 +203,7 @@
                             <ul>
                                 <li>
                                     <a href="javascript:;">
-                                        <img src="" alt="" />
+                                        <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
                                         
                                         <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
                                         <span class="valoresProdutoRelacionado">
