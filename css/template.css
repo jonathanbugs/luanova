@@ -312,19 +312,54 @@ html, body {
 /* REDES SOCIAS */
 #rodape .blocoPagamentoRedes .boxSocial {
 	background: none;
-	margin-left: 53px;
+	float: right;
+	width: 290px;
 }
 
 #rodape .boxSocial .listaSocial {
 	position: absolute;
-	top: 0;
-	left: 150px;
+	top: 13px;
+	right: 0;
 }
 
 #rodape .boxSocial .listaSocial .liSocial {
 	float: left;
+	margin-left: 9px;
 }
 
 #rodape .boxSocial .listaSocial .liSocial .iconeSocial {
+	background: url('../img/icones/social.png') no-repeat;
+	width: 34px;
+	height: 34px;
 	float: left;
+	display: block;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocialFacebook {
+	background-position: 0 0;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocialFacebook:hover{
+	background-position: 0 -50px;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocialTwitter {
+	background-position: -44px 0;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocialTwitter:hover{
+	background-position: -44px -50px;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocialInstagram {
+	background-position: -87px 0;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocialInstagram:hover{
+	background-position: -87px -50px;
 }
