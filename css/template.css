@@ -241,6 +241,8 @@ html, body {
 	position: relative;
 }
 
+
+/* FORMAS DE PAGAMENTO */
 #rodape .blocoPagamentoRedes .boxFormasPagamento {
 	width: 355px;
 }
@@ -263,13 +265,13 @@ html, body {
 #rodape .blocoPagamentoRedes .box .tituloMaior {
 	font-size: 14px;
 	text-transform: uppercase;
-	padding-left: 12px;
+	padding-left: 15px;
 }
 
 #rodape .listaPagamento {
 	position: absolute;
 	top: 20px;
-	left: 103px;
+	left: 105px;
 }
 
 #rodape .listaPagamento .liPagamento {
@@ -300,3 +302,29 @@ html, body {
 	background-position: -132px 0;
 }
 
+
+/* ÚLTIMAS DO0 BLOG */
+#rodape .blocoPagamentoRedes .boxBlog {
+	width: 211px;
+	margin-left: 53px;
+}
+
+/* REDES SOCIAS */
+#rodape .blocoPagamentoRedes .boxSocial {
+	background: none;
+	margin-left: 53px;
+}
+
+#rodape .boxSocial .listaSocial {
+	position: absolute;
+	top: 0;
+	left: 150px;
+}
+
+#rodape .boxSocial .listaSocial .liSocial {
+	float: left;
+}
+
+#rodape .boxSocial .listaSocial .liSocial .iconeSocial {
+	float: left;
+}
