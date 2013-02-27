@@ -18,6 +18,20 @@
     height:17px;
     background:url("../img/sp-produto-detalhe.png") no-repeat -133px 0;
     padding-left:20px;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.btVoltar:hover{
+    color:#d2232a;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
 }
 
 #migalhaPao{
@@ -46,6 +60,10 @@
     text-decoration:underline;
     color:#ACACAC;
     font-size:10px;
+}
+
+#migalhaPao a:hover{
+    text-decoration:none;
 }
 
 .cabecalhoProduto{
@@ -111,6 +129,20 @@
     background:url("../img/sp-produto-detalhe.png") no-repeat -198px -228px;
     display:block;
     padding:6px 0 3px 24px;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.ulAuxiliarCompra a:hover{
+    color:#268572;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
 }
 
 .descricaoProduto{
@@ -122,7 +154,6 @@
 
 .opcoesValores{
     width:310px;
-    height:47px;
     float:left;
 }
 
@@ -158,4 +189,43 @@
 
 .aPrazo{
     float:left;
+}
+
+.numeroVezes{
+    width:55px;
+    text-align:center;
+    color:#d2232a;
+    text-align:center;
+    font-family:"vidaloka_regular";
+    float:left;
+    padding:6px 5px 0 0;
+}
+
+.numeroVezes span{
+    display:block;
+    font-size:24px;
+}
+
+.valorParcela{
+    float:left;
+    font-family:"vidaloka_regular";
+    font-size:52px;
+    color:#d2232a;
+}
+
+.valorParcelaCentavos{
+    font-size:17px;
+}
+
+.valores{
+    margin-bottom:42px;
+}
+
+.ttTamanho,
+.ttCor{
+    font-family:"vidaloka_regular";
+    text-transform:uppercase;
+    display:block;
+    color:#888888;
+    font-size:15px;
 }

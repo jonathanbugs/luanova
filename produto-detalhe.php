@@ -130,8 +130,8 @@
                                     <span class="porValor">Por R$ 426,90</span>
                                 </div>
                                 <div class="aPrazo">
-                                    <span class="numeroVezes">6x s/ juros</span>
-                                    <span class="valorParcela">71,00</span>
+                                    <span class="numeroVezes"><span>6x</span> s/ juros</span>
+                                    <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
                                 </div>
                             </div>
 
