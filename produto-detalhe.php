@@ -60,167 +60,168 @@
 </head>
 
 <body>
-	<div id="pagina">
-            <div id="topo">
-                <? include 'includes/topo.php';?>
+    <div id="pagina">
+        <? include 'includes/topo.php';?>
+
+        <div class="container">
+            <div class="navegacaoAuxiliar clearfix">
+                <a class="btVoltar" href="javascript:;" title="Voltar">Voltar</a>
+                <ul id="migalhaPao">
+                    <li><a href="javascript:;" title="Página inicial">Página inicial</a></li>
+                    <li><a href="javascript:;" title="Bolsas">Bolsas</a></li>
+                    <li class="last"><a href="javascript:;" title="Bolsas médias">Bolsas médias</a></li>
+                </ul>
             </div>
-            <div class="container">
-                <div class="navegacaoAuxiliar clearfix">
-                    <a class="btVoltar" href="javascript:;" title="Voltar">Voltar</a>
-                    <ul id="migalhaPao">
-                        <li><a href="javascript:;" title="Página inicial">Página inicial</a></li>
-                        <li><a href="javascript:;" title="Bolsas">Bolsas</a></li>
-                        <li class="last"><a href="javascript:;" title="Bolsas médias">Bolsas médias</a></li>
-                    </ul>
+            <div id="blocoProduto" class="clearfix">
+                <div class="cabecalhoProduto">
+                    <h2 class="ttProduto">Bolsa Média - 4174V33</h2>
+                    <span class="categoria catBolsa replace">Bolsa</span>
                 </div>
-                <div id="blocoProduto" class="clearfix">
-                    <div class="cabecalhoProduto">
-                        <h2 class="ttProduto">Bolsa Média - 4174V33</h2>
-                        <span class="categoria catBolsa replace">Bolsa</span>
-                    </div>
 
-                    <div id="galeriaProduto">
-                        <div class="imgPrincipal">
-                            <a class="lkGaleria" href="javascript:;" >
-                                <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
-                                <span class="icoZoom replace">Ampliar</span>
-                                <span class="auxZoom">Clique para ver a imagem ampliada</span>
-                            </a>
-                        </div>
-                        <div class="imgThumbs">
-                            <ul class="ulThumbs">
-                                <li>
-                                    <a href="javascript:;">
-                                        <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                <div id="galeriaProduto">
+                    <div class="imgPrincipal">
+                        <a class="lkGaleria" href="javascript:;" >
+                            <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
+                            <span class="icoZoom replace">Ampliar</span>
+                            <span class="auxZoom">Clique para ver a imagem ampliada</span>
+                        </a>
                     </div>
-                    
-                    
-                    <div class="infosProduto">
-                        <ul class="ulAuxiliarCompra">
+                    <div class="imgThumbs">
+                        <ul class="ulThumbs">
                             <li>
-                                <a href="javascript:;" title="Adicionar a lista de desejos">Adicionar a lista de desejos</a>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
+                                </a>
                             </li>
-                            
-                            <li>
-                                <a href="javascript:;" title="Comparar">Comparar</a>
-                            </li>
-                                
-
                         </ul>
-                    
-                        <div class="descricaoProduto">
-                            <p><strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem. 
-                            Mauris malesuada viverra dolor vitae porttitor.</p>
-                            
-                            
-                            <p><strong>Material: </strong>MARROCOS CAPRI</p>
-                            <p><strong>Cor: </strong>Capri</p>
-                            <p><strong>Dimensões:</strong> 32X21X10 cm</p>
-                        </div>
-                    
-                        <div class="clearfix">
-                            <div class="opcoesValores">
-                                <div class="valores">
-                                    <div class="aVista">
-                                        <span class="deValor">De R$ 709,90</span>
-                                        <span class="porValor">Por R$ 426,90</span>
-                                    </div>
-                                    <div class="aPrazo">
-                                        <span class="numeroVezes">6x s/ juros</span>
-                                        <span class="valorParcela">71,00</span>
-                                    </div>
+                    </div>
+                </div>
+
+
+                <div class="infosProduto">
+                    <ul class="ulAuxiliarCompra">
+                        <li>
+                            <a href="javascript:;" title="Adicionar a lista de desejos">Adicionar a lista de desejos</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" title="Comparar">Comparar</a>
+                        </li>
+
+
+                    </ul>
+
+                    <div class="descricaoProduto">
+                        <p><strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem. 
+                        Mauris malesuada viverra dolor vitae porttitor.</p>
+
+
+                        <p><strong>Material: </strong>MARROCOS CAPRI</p>
+                        <p><strong>Cor: </strong>Capri</p>
+                        <p><strong>Dimensões:</strong> 32X21X10 cm</p>
+                    </div>
+
+                    <div class="clearfix">
+                        <div class="opcoesValores">
+                            <div class="valores">
+                                <div class="aVista">
+                                    <span class="deValor">De R$ 709,90</span>
+                                    <span class="porValor">Por R$ 426,90</span>
                                 </div>
-
-                                <div class="opcaoTamanhos">
-                                    <span class="ttTamanho">Escolha o tamanho</span>
-                                    <ul class="ulTamanhos">
-                                        <li>
-                                            <a href="javascript:;" title="Único">Único</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="javascript:;" title="P">P</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:;" title="M">M</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:;" title="G">G</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="opcaoCores">
-                                    <span class="ttCor">Escolha a cor</span>
+                                <div class="aPrazo">
+                                    <span class="numeroVezes">6x s/ juros</span>
+                                    <span class="valorParcela">71,00</span>
                                 </div>
                             </div>
 
-                            <a class="btComprar" href="javascript:;" title="Comprar">Comprar</a>
+                            <div class="opcaoTamanhos">
+                                <span class="ttTamanho">Escolha o tamanho</span>
+                                <ul class="ulTamanhos">
+                                    <li>
+                                        <a href="javascript:;" title="Único">Único</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" title="P">P</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" title="M">M</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" title="G">G</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="opcaoCores">
+                                <span class="ttCor">Escolha a cor</span>
+                            </div>
                         </div>
 
-                        <div class="Compartilhe">
-                            <span class="ttCompartilhe">Compartilhe esse produto</span>
-
-                            <ul class="linksCompartilhe">
-                                <li>
-                                    CURTIR
-                                </li>
-
-                                <li>
-                                    TWEETAR
-                                </li>
-
-                                <li>
-                                    PINTEREST
-                                </li>
-
-                                <li>
-                                    GOOGLE PLUS
-                                </li>
-
-                                <li>
-                                    ENVIE PARA UM AMIGO
-                                </li>
-                            </ul>
-                        </div>
+                        <a class="btComprar" href="javascript:;" title="Comprar">Comprar</a>
                     </div>
-                </div>
-                
-                <div id="blocoProdutosRelacionados">
-                    <div class="cabecalhoProdutosRelacionados">
-                        <span class="ttProdutosRelacionados">
-                            <span class="produtos">Produtos</span>
-                            <span class="relacionados">Relacionados</span>
-                        </span>
+
+                    <div class="Compartilhe">
+                        <span class="ttCompartilhe">Compartilhe esse produto</span>
+
+                        <ul class="linksCompartilhe">
+                            <li>
+                                CURTIR
+                            </li>
+
+                            <li>
+                                TWEETAR
+                            </li>
+
+                            <li>
+                                PINTEREST
+                            </li>
+
+                            <li>
+                                GOOGLE PLUS
+                            </li>
+
+                            <li>
+                                ENVIE PARA UM AMIGO
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="produtosRelacionados">
-                        <li class="slide">
-                            <ul>
-                                <li>
-                                    <a href="javascript:;">
-                                        <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
-                                        
-                                        <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
-                                        <span class="valoresProdutoRelacionado">
-                                            <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
-                                            <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoRelacionado">
-                                                <span class="numeroVezesProdutoRelacionado">6x s/ juros</span>
-                                                <span class="valorParcelaProdutoRelacionado">22,00</span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
                 </div>
             </div>
-	</div>
+
+            <div id="blocoProdutosRelacionados">
+                <div class="cabecalhoProdutosRelacionados">
+                    <span class="ttProdutosRelacionados">
+                        <span class="produtos">Produtos</span>
+                        <span class="relacionados">Relacionados</span>
+                    </span>
+                </div>
+                <ul class="produtosRelacionados">
+                    <li class="slide">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado">6x s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22,00</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <? include 'includes/rodape.php';?>
 </body>
 </html>
