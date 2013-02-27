@@ -1,7 +1,7 @@
 <div id="rodape">
     <div class="container clearfix">
 
-        <!-- BOX LINKS -->
+        <!-- box links -->
         <div class="blocoLinks clearfix">
             <ul class="boxLinksRodape">
                 <li class="tituloBloco">Institucional</li>
@@ -25,6 +25,7 @@
             <a class="logoRodape replace" href="./">Luz da Lua</a>
         </div>
 
+        <!-- box pagamentos e redes socias -->
         <div class="blocoPagamentoRedes">
             <ul class="box boxFormasPagamento">
                 <a class="linkBox" href="javascript:;">
@@ -46,7 +47,7 @@
                 </a>
             </ul>
 
-             <ul class="box boxSocial">
+            <ul class="box boxSocial">
                 <a class="linkBox" href="javascript:;">
                     <span class="titulo tituloMenor">Siga-nos</span>
                     <span class="titulo tituloMaior">nas redes sociais</span>
