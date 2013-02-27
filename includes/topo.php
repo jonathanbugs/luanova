@@ -1,7 +1,7 @@
 <div id="topo">
     <div class="menuTopo">
         <div class="container clearfix">
-            <h1 class="boxLogo"><a class="logo replace" href="../" title="LUZ DA LUA">LUZ DA LUA</a></h1>
+            <h1 class="boxLogo"><a class="logo replace" href="./" title="LUZ DA LUA">LUZ DA LUA</a></h1>
 
             <ul class="menu">
                 <li class="liMenu liMenuPrimeiro"><span class="textoMenu">Seja bem vindo. <a class="linkMenu" href="javascript:;">Faça Login</a> ou <a class="linkMenu" href="javascript:;">Cadastre-se</a></li>

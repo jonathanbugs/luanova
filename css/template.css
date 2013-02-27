@@ -177,9 +177,17 @@ html, body {
 }
 
 #rodape .blocoLinks {
-	background: red;
 	position: relative;
 	height: 145px;
+}
+
+#rodape .logoRodape {
+	background: url('../img/logos/logo-rodape.png') no-repeat;
+	width: 123px;
+	height: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 40px;
 }
 
 #rodape .boxLinksRodape {
@@ -191,3 +199,104 @@ html, body {
 #rodape .boxLinksRodapeUltimo {
 	margin-right: 0;
 }
+
+#rodape .boxLinksRodape .tituloBloco {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	display: block;
+}
+
+#rodape .boxLinksRodape .liLista {
+	background: url('../img/icones/lista-rodape.png') no-repeat left center;
+	padding-left: 10px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#rodape .boxLinksRodape .liLista .linkLista {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	color: #AAA;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#rodape .boxLinksRodape .liLista .linkLista:hover {
+	text-decoration: underline;
+	color: #DDD;
+}
+
+#rodape .blocoPagamentoRedes {
+	border-top: 1px solid #393939;
+	border-bottom: 1px solid #393939;
+	height: 62px;
+}
+
+#rodape .blocoPagamentoRedes .box {
+	background: url('../img/backgrounds/bg-li-rodape.png') no-repeat right center;
+	float: left;
+	height: 62px;
+	position: relative;
+}
+
+#rodape .blocoPagamentoRedes .boxFormasPagamento {
+	width: 355px;
+}
+
+#rodape .blocoPagamentoRedes .box .linkBox {
+	text-decoration: none;
+}
+
+#rodape .blocoPagamentoRedes .box .titulo {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	color: #FFF;
+	display: block;
+}
+
+#rodape .blocoPagamentoRedes .box .tituloMenor {
+	padding: 18px 0 3px;
+	font-size: 13px;
+}
+
+#rodape .blocoPagamentoRedes .box .tituloMaior {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 12px;
+}
+
+#rodape .listaPagamento {
+	position: absolute;
+	top: 20px;
+	left: 103px;
+}
+
+#rodape .listaPagamento .liPagamento {
+	float: left;
+	margin-left: 3px;
+}
+
+#rodape .listaPagamento .liPagamento .iconePagamento {
+	background: url('../img/icones/pagamentos.png') no-repeat;
+	width: 41px;
+	height: 27px;
+	display: block;
+}
+
+#rodape .listaPagamento .liPagamento .iconePagamento1 {
+	background-position: 0 0;
+}
+
+#rodape .listaPagamento .liPagamento .iconePagamento2 {
+	background-position: -44px 0;
+}
+
+#rodape .listaPagamento .liPagamento .iconePagamento3 {
+	background-position: -88px 0;
+}
+
+#rodape .listaPagamento .liPagamento .iconePagamento4 {
+	background-position: -132px 0;
+}
+

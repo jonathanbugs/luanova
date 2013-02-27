@@ -3,7 +3,7 @@
         <div class="blocoLinks clearfix">
             <ul class="boxLinksRodape">
                 <li class="tituloBloco">Institucional</li>
-                <li class="liLista"><a class="linkLista" href="javascript:;">A Luz da Lua></a></li>
+                <li class="liLista"><a class="linkLista" href="javascript:;">A Luz da Lua</a></li>
                 <li class="liLista"><a class="linkLista" href="javascript:;">Política de Privacidade</a></li>
                 <li class="liLista"><a class="linkLista" href="javascript:;">Cuidados com seu produto</a></li>
             </ul>
@@ -20,7 +20,22 @@
                 <li class="liLista"><a class="linkLista" href="javascript:;">Contato</a></li>
             </ul>
 
-            <a class="logoRodape replace" href="../">Luz da Lua</a>
+            <a class="logoRodape replace" href="./">Luz da Lua</a>
+        </div>
+
+        <div class="blocoPagamentoRedes">
+            <ul class="box boxFormasPagamento">
+                <a class="linkBox" href="javascript:;">
+                    <span class="titulo tituloMenor">Formas de</span>
+                    <span class="titulo tituloMaior">Pagamento</span>
+                </a>
+                <ul class="listaPagamento">
+                    <li class="liPagamento"><a class="iconePagamento iconePagamento1" href="javascript:;"></a></li>
+                    <li class="liPagamento"><a class="iconePagamento iconePagamento2" href="javascript:;"></a></li>
+                    <li class="liPagamento"><a class="iconePagamento iconePagamento3" href="javascript:;"></a></li>
+                    <li class="liPagamento"><a class="iconePagamento iconePagamento4" href="javascript:;"></a></li>
+                </ul>
+            </ul>
         </div>
     </div>
 </div>
