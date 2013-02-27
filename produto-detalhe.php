@@ -113,12 +113,14 @@
                         </ul>
                     
                         <div class="descricaoProduto">
-                            <strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            <p><strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem. 
-                            Mauris malesuada viverra dolor vitae porttitor.
-                            <strong>Material: </strong>MARROCOS CAPRI
-                            <strong>Cor: </strong>Capri
-                            <strong>Dimensões:</strong> 32X21X10 cm
+                            Mauris malesuada viverra dolor vitae porttitor.</p>
+                            
+                            
+                            <p><strong>Material: </strong>MARROCOS CAPRI</p>
+                            <p><strong>Cor: </strong>Capri</p>
+                            <p><strong>Dimensões:</strong> 32X21X10 cm</p>
                         </div>
                     
                         <div class="clearfix">

@@ -91,8 +91,31 @@
     width:456px;
 }
 
+.ulAuxiliarCompra{
+    height:20px;
+    padding-bottom:40px;
+}
+
 .ulAuxiliarCompra li{
     float:left;
-    margin-right:27px;
-    height:20px;
+    margin-right:30px;
+}
+
+.ulAuxiliarCompra a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#5ac1ac;
+    font-family:"vidaloka_regular";
+    font-size:11px;
+    line-height:11px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -198px -228px;
+    display:block;
+    padding:6px 0 3px 24px;
+}
+
+.descricaoProduto{
+    font-size:13px;
+    color:#888888;
+    line-height:18px;
+    padding-bottom:40px;
 }
