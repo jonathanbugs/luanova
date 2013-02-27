@@ -26,7 +26,7 @@
         </div>
 
         <!-- box pagamentos e redes socias -->
-        <div class="blocoPagamentoRedes">
+        <div class="blocoPagamentoRedes clearfix">
             <ul class="box boxFormasPagamento">
                 <a class="linkBox" href="javascript:;">
                     <span class="titulo tituloMenor">Formas de</span>
@@ -58,6 +58,36 @@
                     <li class="liSocial"><a class="iconeSocial iconeSocialInstagram replace" href="javascript:;">Instagram</a></li>
                 </ul>
             </ul>
+        </div>
+        <div class="boxTextoRodape">
+            <span class="textoRodape textoRodapeComprar">
+                Comprar na Loja Luz da Lua é seguro, fácil, rápido e prático. Oferecemos frete grátis nas compras acima de R$ 399,00 para Sul e Sudeste, sete dias para devolução ou troca e o pagamento pode ser
+                parcelado em até 6 vezes, nos cartões Visa, Mastercard, Dinners e à vista no boleto bancário. As fotos aqui veiculadas, logotipo e marca são de propriedade www.luzdalua.com.br.
+                É vetada a sua reprodução, total ou parcial, sem a expressa autorização da administradora do site. Boas compras!
+            </span>
+
+            <span class="textoRodape textoRodapeDireitos">© 2012, Luz da Lua. Todos os direitos reservados</span>
+            <a class="textoRodape textoRodapeSite" href="http://www.luzdalua.com.br">www.luzdalua.com.br</a>
+        </div>
+
+        <div class="boxCadastroNovidades">
+            <span class="textoFashion">FASHION UPDATES</span>
+            <span class="textoCadastro">Receba novidades do mundo da moda em seu e-mail.</span>
+            <form action="javascript:;" method="post" name="cadastro" id="cadastroForm" lang="pt">
+                <div class="relative">
+                    <label class="label" for="nome">Nome</label>
+                    <input class="inputCadastro" type="text" id="nome" name="nome" />
+                </div>
+                <div class="relative">
+                    <label class="label" for="email">E-mail</label>
+                    <input class="inputCadastro" type="text" id="email" name="email" />
+                </div>
+                <div class="relative">
+                    <!--button type="submit" class="btSubmit replace">
+                        Cadastrar
+                    </button-->
+                </div>
+            </form>
         </div>
     </div>
 </div>

@@ -196,18 +196,11 @@ OBS: setar a largura e a altura do elemento com a classe "centralizar".
 /*-----------------------
 	PADRÃO DE CAMPOS
 ----------------------*/
-input, select, textarea{
+input, select, textarea {
+	border: none;
 }
-input{
-	padding:6px 5px;
-	float:left
-}
-select{
-	padding:4px 3px;
-	height:28px
-}
+
 textarea{
-	padding:2px 2px 2px 5px;
 	resize:none;
 	overflow:auto
 }
