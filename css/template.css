@@ -242,7 +242,10 @@ html, body {
 }
 
 
-/* FORMAS DE PAGAMENTO */
+
+/*-----------------------
+	FORMAS DE PAGAMENTO
+----------------------*/
 #rodape .blocoPagamentoRedes .boxFormasPagamento {
 	width: 355px;
 }
@@ -303,13 +306,19 @@ html, body {
 }
 
 
-/* ÚLTIMAS DO0 BLOG */
+
+/*-----------------------
+	ÚLTIMAS DO0 BLOG
+----------------------*/
 #rodape .blocoPagamentoRedes .boxBlog {
 	width: 211px;
 	margin-left: 53px;
 }
 
-/* REDES SOCIAS */
+
+/*-----------------------
+	REDES SOCIAS
+----------------------*/
 #rodape .blocoPagamentoRedes .boxSocial {
 	background: none;
 	float: right;

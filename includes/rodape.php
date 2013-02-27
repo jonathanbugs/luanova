@@ -1,5 +1,7 @@
 <div id="rodape">
     <div class="container clearfix">
+
+        <!-- BOX LINKS -->
         <div class="blocoLinks clearfix">
             <ul class="boxLinksRodape">
                 <li class="tituloBloco">Institucional</li>
