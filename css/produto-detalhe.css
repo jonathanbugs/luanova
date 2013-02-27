@@ -142,13 +142,14 @@
 
 .aVista{
     width:131px;
-    padding-right:36px;
     float:left;
+    height:45px;
 }
 
 .aPrazo{
     height:45px;
     background:url("../img/sp-produto-detalhe.png") no-repeat -198px 0;
+    padding-left:36px;
 }
 
 .aVista span{
