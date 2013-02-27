@@ -57,4 +57,42 @@
     font-family:"vidaloka_regular";
     font-weight:normal;
     text-transform:uppercase;
+    float:left;
+    padding:18px 20px 0 0;
+    background:#FFF;
+}
+
+.cabecalhoProduto{
+    height:47px;
+    padding-bottom:7px;
+}
+
+.catBolsa{
+    width:55px;
+    height:47px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -133px -176px;
+    float:right;
+}
+
+#galeriaProduto{
+    clear: both;
+    float:left;
+    width:479px;
+    padding-right:20px;
+}
+
+#galeriaProduto .lkGaleria{
+    border:1px solid #d6d6d6;
+    display:block;
+}
+
+.infosProduto{
+    float:left;
+    width:456px;
+}
+
+.ulAuxiliarCompra li{
+    float:left;
+    margin-right:27px;
+    height:20px;
 }

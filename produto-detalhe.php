@@ -73,7 +73,7 @@
                         <li class="last"><a href="javascript:;" title="Bolsas médias">Bolsas médias</a></li>
                     </ul>
                 </div>
-                <div id="blocoProduto">
+                <div id="blocoProduto" class="clearfix">
                     <div class="cabecalhoProduto">
                         <h2 class="ttProduto">Bolsa Média - 4174V33</h2>
                         <span class="categoria catBolsa replace">Bolsa</span>
@@ -112,82 +112,80 @@
 
                         </ul>
                     
-                        
-                    </div>
-
-                    <div class="descricaoProduto">
-                        <strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem. 
-                        Mauris malesuada viverra dolor vitae porttitor.
-                        <strong>Material: </strong>MARROCOS CAPRI
-                        <strong>Cor: </strong>Capri
-                        <strong>Dimensões:</strong> 32X21X10 cm
-                    </div>
+                        <div class="descricaoProduto">
+                            <strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem. 
+                            Mauris malesuada viverra dolor vitae porttitor.
+                            <strong>Material: </strong>MARROCOS CAPRI
+                            <strong>Cor: </strong>Capri
+                            <strong>Dimensões:</strong> 32X21X10 cm
+                        </div>
                     
-                    <div class="clearfix">
-                        <div class="opcoesValores">
-                            <div class="valores">
-                                <div class="aVista">
-                                    <span class="deValor">De R$ 709,90</span>
-                                    <span class="porValor">Por R$ 426,90</span>
+                        <div class="clearfix">
+                            <div class="opcoesValores">
+                                <div class="valores">
+                                    <div class="aVista">
+                                        <span class="deValor">De R$ 709,90</span>
+                                        <span class="porValor">Por R$ 426,90</span>
+                                    </div>
+                                    <div class="aPrazo">
+                                        <span class="numeroVezes">6x s/ juros</span>
+                                        <span class="valorParcela">71,00</span>
+                                    </div>
                                 </div>
-                                <div class="aPrazo">
-                                    <span class="numeroVezes">6x s/ juros</span>
-                                    <span class="valorParcela">71,00</span>
+
+                                <div class="opcaoTamanhos">
+                                    <span class="ttTamanho">Escolha o tamanho</span>
+                                    <ul class="ulTamanhos">
+                                        <li>
+                                            <a href="javascript:;" title="Único">Único</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="javascript:;" title="P">P</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" title="M">M</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" title="G">G</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="opcaoCores">
+                                    <span class="ttCor">Escolha a cor</span>
                                 </div>
                             </div>
 
-                            <div class="opcaoTamanhos">
-                                <span class="ttTamanho">Escolha o tamanho</span>
-                                <ul class="ulTamanhos">
-                                    <li>
-                                        <a href="javascript:;" title="Único">Único</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="javascript:;" title="P">P</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;" title="M">M</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;" title="G">G</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="opcaoCores">
-                                <span class="ttCor">Escolha a cor</span>
-                            </div>
+                            <a class="btComprar" href="javascript:;" title="Comprar">Comprar</a>
                         </div>
 
-                        <a class="btComprar" href="javascript:;" title="Comprar">Comprar</a>
-                    </div>
+                        <div class="Compartilhe">
+                            <span class="ttCompartilhe">Compartilhe esse produto</span>
 
-                    <div class="Compartilhe">
-                        <span class="ttCompartilhe">Compartilhe esse produto</span>
-                        
-                        <ul class="linksCompartilhe">
-                            <li>
-                                CURTIR
-                            </li>
-                            
-                            <li>
-                                TWEETAR
-                            </li>
-                            
-                            <li>
-                                PINTEREST
-                            </li>
-                            
-                            <li>
-                                GOOGLE PLUS
-                            </li>
-                            
-                            <li>
-                                ENVIE PARA UM AMIGO
-                            </li>
-                        </ul>
+                            <ul class="linksCompartilhe">
+                                <li>
+                                    CURTIR
+                                </li>
+
+                                <li>
+                                    TWEETAR
+                                </li>
+
+                                <li>
+                                    PINTEREST
+                                </li>
+
+                                <li>
+                                    GOOGLE PLUS
+                                </li>
+
+                                <li>
+                                    ENVIE PARA UM AMIGO
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 
