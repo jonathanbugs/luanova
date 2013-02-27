@@ -119,3 +119,42 @@
     line-height:18px;
     padding-bottom:40px;
 }
+
+.opcoesValores{
+    width:310px;
+    height:47px;
+    float:left;
+}
+
+.valores{
+    font-size:13px;
+    height:45px;
+}
+
+.deValor{
+    text-decoration:line-through; 
+    padding-bottom:14px;
+}
+
+.porValor{
+    font-weight:bold;
+}
+
+.aVista{
+    width:131px;
+    padding-right:36px;
+    float:left;
+}
+
+.aPrazo{
+    height:45px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -198px 0;
+}
+
+.aVista span{
+    display:block;
+}
+
+.aPrazo{
+    float:left;
+}
