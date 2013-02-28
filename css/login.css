@@ -91,4 +91,21 @@
     width:111px;
     height:38px;
     background:url("../img/sp-login.png") no-repeat 0 -104px;
+    opacity:0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+
+}
+
+#btEnviarLogin:hover,
+#btEnviarCadastro:hover{
+    opacity:1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
