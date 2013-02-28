@@ -4,3 +4,91 @@
 /************************/
 
 
+.blocoLoginCadastro{
+    padding-bottom:90px;
+}
+
+.blocoLogin, .blocoCadastro{
+    width:375px;
+    height:255px;
+    border:1px solid #d6d6d6;
+    float:left;
+    padding:40px;
+    position:relative;
+}
+
+.blocoLogin{
+    margin-right:41px;
+}
+
+.ttLogin{
+    font-size:13px;
+    font-family:"vidaloka_regular";
+    text-transform: uppercase;
+    padding-bottom:10px;
+    display:block;
+}
+
+.blocoLoginCadastro p{
+    font-size:13px;
+    font-family: "vidaloka_regular";
+    color:#888888;
+    line-height:18px;
+}
+
+.ulLogin,
+.divIptEmailCadastro{
+    position:absolute;
+    top:110px;
+    left:40px;
+}
+
+.blocoLoginCadastro label{
+    display:block;
+    font-size:11px;
+    font-weight:bold;
+    padding-bottom:7px;
+}
+
+.ulLogin input,
+#iptEmailCadastro{
+    font-size:11px;
+    line-height:14px;
+    padding:13px 8px;
+    width:359px;
+    background:#e9e8e4;
+}
+
+.ulLogin li{
+    padding-bottom:6px;
+}
+
+.ulLogin .first{
+    padding-bottom:20px;
+}
+
+.lkEsqueciSenha{
+    color:#d2232a;
+    font-size:10px;
+    text-decoration:underline;
+}
+
+.lkEsqueciSenha:hover{
+    text-decoration:none;
+}
+
+.divBtEnviar{
+    position:absolute;
+    bottom:33px;
+    right:40px;
+    width:111px;
+    height:38px;
+    background:url("../img/sp-login.png") no-repeat 0 -57px;
+}
+
+#btEnviarLogin,
+#btEnviarCadastro{
+    width:111px;
+    height:38px;
+    background:url("../img/sp-login.png") no-repeat 0 -104px;
+}

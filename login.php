@@ -76,6 +76,47 @@
                     <h2 class="ttCabecalho">Faça seu Login</h2>
                     <span class="categoria catLogin replace"></span>
                 </div>
+                
+                <div class="blocoLoginCadastro clearfix">
+                    <div class="blocoLogin">
+                        <span class="ttLogin">Sou Cadastrado</span>
+                        <p>Informe seus dados e faça login para prosseguir.</p>
+                        <form>
+                            <ul class="ulLogin">
+                                <li class="first">
+                                    <label for="iptEmailLogin">E-mail:</label>
+                                    <input type="text" name="iptEmailLogin" id="iptEmailLogin" />
+                                </li>
+                                <li>
+                                    <label for="iptSenhaLogin">Senha:</label>
+                                    <input type="password" name="iptSenhaLogin" id="iptSenhaLogin" />
+                                </li>
+                                <li>
+                                    <a href="javascript:;"class="lkEsqueciSenha" title="Esqueci minha senha">Esqueci minha senha</a>
+                                </li>
+                            </ul>
+
+                            <div class="divBtEnviar">
+                                <input type="submit" id="btEnviarLogin" class="replace-bt" />
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="blocoCadastro">
+                        <span class="ttLogin">Quero me cadastrar</span>
+                        <p>Cadastre-se na loja Luz da Lua e garanta seu login para fazer suas compras e criar sua lista de desejos.</p>
+                        <form>
+                            <div class="divIptEmailCadastro">
+                                <label for="iptEmailCadastro">E-mail:</label>
+                                <input type="text" name="iptEmailCadastro" id="iptEmailCadastro" />
+                            </div>
+                            
+                            <div class="divBtEnviar">
+                                <input type="submit" id="btEnviarCadastro" class="replace-bt" />
+                            </div>
+                        </form>                        
+                    </div>
+                </div>
 
             </div>
     </div>
