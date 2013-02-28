@@ -25,7 +25,6 @@
 
     <!-- links -->
     <link rel="shortcut icon" href="favicon.ico" /> <!-- tamanho do favicon: 32x32 -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/produto-detalhe.css" />
     <!-- /links -->
 
     <!-- meta tags da secao -->
@@ -53,9 +52,11 @@
     <!-- /Google Analytics -->
 
     <!-- CSS e JS da secao -->
-
-    <!--link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
-    <script type="text/javascript" src="js/index.js"></script-->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/produto-detalhe.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/funcoes.js"></script>
+        <script type="text/javascript" src="js/produto-detalhe.js"></script>
     <!-- /CSS e JS da secao -->
 </head>
 
@@ -126,8 +127,10 @@
                         <div class="opcoesValores">
                             <div class="valores">
                                 <div class="aVista">
-                                    <span class="deValor">De R$ 709,90</span>
-                                    <span class="porValor">Por R$ 426,90</span>
+                                    <div class="valoresVista">
+                                     <span class="deValor">De R$ 709,90</span>
+                                      <span class="porValor">Por R$ 426,90</span>
+                                    </div>
                                 </div>
                                 <div class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
@@ -139,27 +142,49 @@
                                 <span class="ttTamanho">Escolha o tamanho</span>
                                 <ul class="ulTamanhos">
                                     <li>
-                                        <a href="javascript:;" title="Único">Único</a>
+                                        <a href="javascript:;" title="Único"><span>Único</span></a>
                                     </li>
 
                                     <li>
-                                        <a href="javascript:;" title="P">P</a>
+                                        <a class="selecionado" href="javascript:;" title="P"><span>P</span></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;" title="M">M</a>
+                                        <a href="javascript:;" title="M"><span>M</span></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;" title="G">G</a>
+                                        <a href="javascript:;" title="G"><span>G</span></a>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="opcaoCores">
                                 <span class="ttCor">Escolha a cor</span>
+                                
+                                <ul class="ulCoresProdutos">
+                                    <li>
+                                        <a style="background:#4abdb6;" class="corProduto corProdutoSelecionado replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                    </li>
+
+                                    <li>
+                                        <a style="background:#ede9dc;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a style="background:#ec9524;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                    </li>
+
+                                    <li>
+                                        <a style="background:#2c67a8;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                    </li>
+
+                                    <li>
+                                        <a style="background:#dee030;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
-                        <a class="btComprar" href="javascript:;" title="Comprar">Comprar</a>
+                        <a class="btComprar replace" href="javascript:;" title="Comprar"><span>Comprar</span></a>
                     </div>
 
                     <div class="Compartilhe">
