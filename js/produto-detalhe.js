@@ -1,26 +1,20 @@
 $(document).ready(function(){
-	//inicia();
-	bannerDestaques();
+    galeriaProdutoDetalhe();
 });
 
-$(window).resize(function(){
-	bannerDestaques();
-});
-
-function bannerDestaques(){
-	var larguraTela = $(window).width();
-	var larguraBanner = 2000 /*LARGURA DAS IMAGENS DO BANNER */
-	$('.bannerCentro').css({
-		marginLeft: Math.ceil((larguraTela - larguraBanner) /2)
-	});
-
-	$("#bannerDestaques").cycle({
-		fx:				'scrollLeft',
-		easing:			'easeInQuart',
-		speed:			1000,
-		cleartype:		!$.support.opacity,
-		cleartypeNoBg:	true,
-		timeout:		2000
-	});
+function galeriaProdutoDetalhe(){
+    $('#imgPrincipal ul').cycle({
+        fx: 'fade',
+        speed: 'fast',
+        timeout: 0,
+        prev: '#prev',
+        next: '#next',
+        nowrap: 1,
+        pager: '#imgThumbs ul',
+        pagerAnchorBuilder: function(idx, slide) {
+            // return selector string for existing anchor
+            return '#imgThumbs ul li:eq(' + idx + ') a';
+        }
+    });
 }
 

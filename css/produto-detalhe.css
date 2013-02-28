@@ -348,3 +348,67 @@
 #blocoProduto{
     padding-bottom:60px;
 }
+
+
+/* GALERIA */
+#imgPrincipal{
+    width:479px;
+    height:479px;
+    overflow:hidden;
+    position:relative;
+}
+
+#imgPrincipal ul{
+    width:479px;
+    height:479px;
+}
+
+#imgPrincipal li{
+    width:479px;
+    height:479px;
+}
+
+#imgPrincipal li a{
+    float:left;
+}
+
+.auxZoom{
+    position:absolute;
+    bottom:7px; left:7px;
+    font-size:10px;
+    color:#888888;
+    font-style:italic;
+}
+
+.icoZoom{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:25px;
+    height:25px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -89px -76px;
+}
+
+#imgThumbs{
+    margin-top:9px;
+}
+
+#imgThumbs ul{
+    height:113px;
+}
+
+#imgThumbs li{
+    float:left;
+    margin-right:9px;
+}
+
+#imgThumbs a{
+    float:left;
+    width:113px;
+    height:113px;
+    border:1px solid #d6d6d6; 
+}
+
+#imgThumbs .activeSlide a{
+    border:1px solid #000;
+}

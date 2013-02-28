@@ -80,15 +80,31 @@
                 </div>
 
                 <div id="galeriaProduto">
-                    <div class="imgPrincipal">
-                        <a class="lkGaleria" href="javascript:;" >
-                            <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
-                            <span class="icoZoom replace">Ampliar</span>
-                            <span class="auxZoom">Clique para ver a imagem ampliada</span>
-                        </a>
+                    <div id="imgPrincipal">
+                        <ul>
+                            <li>
+                                <a class="lkGaleria" href="javascript:;" >
+                                    <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
+                                    <span class="icoZoom replace">Ampliar</span>
+                                    <span class="auxZoom">Clique para ver a imagem ampliada</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="lkGaleria" href="javascript:;" >
+                                    <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
+                                    <span class="icoZoom replace">Ampliar</span>
+                                    <span class="auxZoom">Clique para ver a imagem ampliada</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="imgThumbs">
-                        <ul class="ulThumbs">
+                    <div id="imgThumbs">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
+                                </a>
+                            </li>
                             <li>
                                 <a href="javascript:;">
                                     <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
