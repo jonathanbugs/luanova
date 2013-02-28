@@ -75,8 +75,8 @@
                 </ul>
             </div>
             <div id="blocoProduto" class="clearfix">
-                <div class="cabecalhoProduto">
-                    <h2 class="ttProduto">Bolsa Média - 4174V33</h2>
+                <div class="cabecalhoInternas">
+                    <h2 class="ttCabecalho">Bolsa Média - 4174V33</h2>
                     <span class="categoria catBolsa replace">Bolsa</span>
                 </div>
 
