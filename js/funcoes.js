@@ -20,4 +20,5 @@ function placeHolder(){
 
 function inicia(){
 	placeHolder();
+	$('.scroll').jScrollPane({autoReinitialise: true});
 }

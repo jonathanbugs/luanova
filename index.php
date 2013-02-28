@@ -66,40 +66,16 @@
 
 <body>
 	<div id="pagina">
-		  <? include 'includes/topo.php';?>
+	<? include 'includes/topo.php';?>
 
-		  <div id="conteudo">
-				  <div class="container clearfix">
-				  	  <div id="produtosDestaque">
-				  	  		<div class="boxTituloBlocos">Produtos Em Destaque</div>
+	<div id="conteudo">
+		<div class="container clearfix">
+			<? include 'includes/produtos-destaques.php';?>
+			<? include 'includes/principais-ofertas.php';?>
+		</div>
+	</div>
 
-				  	  		<div class="bannerDestaque">
-					  	  	    <div class="destaqueMaior">
-					  	  	    		<img class="imgDestaque imgDestaqueMaior" src="img/conteudo/produto-destaque.png" alt=""/>
-					  	  	    		<div class="informacoesProduto">
-					  	  	    				<span class="titulo">Bolsa média - 4174V33</span>
-					  	  	    				<span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
-					  	  	    		</div>
-					  	  	    </div>
-
-					  	  	    <div class="destaqueMenor">
-					  	  	    		<div class="boxImagem">
-					  	  	    			<img class="imgDestaque imgDestaqueMenor" src="img/conteudo/produto-destaque-menor.png" alt=""/>
-					  	  	    		</div>
-					  	  	    		<div class="informacoesProduto">
-					  	  	    				<span class="titulo">Bolsa média - 4174V33</span>
-					  	  	    				<span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
-					  	  	    		</div>
-					  	  	    </div>
-
-					  	  	    <div class="destaqueMenor destaqueMenorMargem">
-					  	  	    </div>
-				  	  		</div>
-				      </div>
-			    </div>
-		  </div>
-
-		  <? include 'includes/rodape.php';?>
+	<? include 'includes/rodape.php';?>
 	</div>
 </body>
 </html>

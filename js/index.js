@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	inicia();
 	bannerDestaques();
-	$('.scroll').jScrollPane({autoReinitialise: true});
+	bannerProdutosDestaques();
 });
 
 $(window).resize(function(){
@@ -21,7 +21,19 @@ function bannerDestaques(){
 		speed:			1000,
 		cleartype:		!$.support.opacity,
 		cleartypeNoBg:	true,
-		timeout:		2000
+		timeout:		4000
+	});
+}
+
+function bannerProdutosDestaques(){
+	$("#bannerProdutosDestaques").before('<div id="nav">').cycle({
+		fx:				'fade',
+		easing:			'linear',
+		speed:			1500,
+		cleartype:		!$.support.opacity,
+		cleartypeNoBg:	true,
+		timeout:		4000,
+		pager:  '#nav'
 	});
 }
 

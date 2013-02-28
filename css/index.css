@@ -7,6 +7,10 @@
 /************************/
 
 
+
+/*-----------------------
+	BANNER DESTAQUES
+----------------------*/
 .bannerHome {
 	height: 311px;
 	overflow: hidden;
@@ -16,16 +20,78 @@
 	height: 311px;
 }
 
-#produtosDestaque {
-	background: red;
-	height: 575px;
-	margin-top: 20px;
-	margin-bottom: 50px;
+
+
+/*-----------------------
+	TITULOS BLOCOS
+----------------------*/
+#produtosDestaque .boxTituloBlocos,
+#principaisOfertas .boxTituloBlocos {
+	width: 842px;
+	height: 50px;
+	margin: 0 0 9px 30px;
 }
 
-#produtosDestaque .boxTituloBlocos {
-	height: 46px;
-	margin-bottom: 9px;
+.boxTituloBlocos .titulo {
+	font-size: 37px;
+	color: #000;
+	display: block;
+	margin-left: -30px;
+}
+
+.boxTituloBlocos .subTitulo {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+	border-top: 1px solid #7f7f7f;
+	display: block;
+}
+
+
+
+
+/*-----------------------
+	NAVEGACAO BANNER
+----------------------*/
+#produtosDestaque #nav {
+	position: absolute;
+	top: 32px;
+	right: -5px;
+}
+
+#produtosDestaque #nav a {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	background: url('../img/botoes/navegacao-banner.png') no-repeat 0 0;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+}
+
+#produtosDestaque #nav a.activeSlide {
+	background-position: -15px 0;
+}
+
+#produtosDestaque #nav a:focus { outline:none;}
+
+
+/*-----------------------
+	FORMATAÇÃO GERAIS BLOCOS
+----------------------*/
+.blocoProdutos {
+	height: 575px;
+	margin-bottom: 55px;
+	position: relative;
+}
+
+
+/*-----------------------
+	BLOCO PRODUTOS EM DESTAQUE
+----------------------*/
+#produtosDestaque {
+	margin-top: 20px;
 }
 
 #produtosDestaque .destaqueMaior {
@@ -33,10 +99,38 @@
 	float: left;
 }
 
+#produtosDestaque .linkDestaques {
+	position: relative;
+	display: block;
+}
+
+#produtosDestaque .hoverDestaques {
+	background: url('../img/backgrounds/hover_destaques.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -75px 0 0 -75px;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+
+#produtosDestaque .linkDestaques:hover .hoverDestaques {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
 
 .destaqueMaior .imgDestaqueMaior {
 	width: 449px;
-	height: 450px;
+	height: 448px;
 	display: block;
 	padding: 13px;
 	border: 1px solid #CCC;
@@ -45,6 +139,8 @@
 .informacoesProduto {
 	float: left;
 	margin-top: 12px;
+	position: relative;
+	width: 100%;
 }
 
 .informacoesProduto .titulo {
@@ -69,11 +165,46 @@
 }
 
 
+.informacoesProduto .aPrazo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.informacoesProduto .numeroVezes {
+    width: 55px;
+    text-align: center;
+    color: #d2232a;
+    text-align: center;
+    font-family: "vidaloka_regular";
+    float: left;
+    padding: 0px 5px 0 0;
+}
+
+.numeroVezes span {
+    display: block;
+    font-size: 18px;
+}
+
+.valorParcela {
+    float: left;
+    font-family: "vidaloka_regular";
+    font-size: 38px;
+    color: #d2232a;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+}
+
+.valorParcelaCentavos{
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
 .destaqueMenor {
 	width: 454px;
 	height: 252px;
 	float: right;
-	background: blue;
 }
 
 .destaqueMenor .boxImagem {
@@ -93,4 +224,20 @@
 
 .destaqueMenorMargem {
 	margin-top: 15px;
+}
+
+
+
+/*-----------------------
+	BLOCO PRINCIPAIS OFERTAS
+----------------------*/
+#principaisOfertas {
+}
+
+#principaisOfertas .liDestaqueOferta {
+	width: 303px;
+	height: 478px;
+	border: 1px solid #CCC;
+	float: left;
+	margin-left: 20px;
 }

@@ -320,6 +320,8 @@ html, body {
 	height: 38px;
 	display: block;
 	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
@@ -329,6 +331,8 @@ html, body {
 
 .finalizarCompra:hover .finalizarComprahover {
 	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100)
 }
 
 /*-----------------------
