@@ -402,10 +402,16 @@
     margin-right:9px;
 }
 
+#imgThumbs li img{
+    float:left;
+}
+
+#imgThumbs .last{
+    margin-right:0;
+}
+
 #imgThumbs a{
     float:left;
-    width:113px;
-    height:113px;
     border:1px solid #d6d6d6; 
 }
 
@@ -468,7 +474,7 @@
     color:#D2232A;
     text-align:center;
     height:34px;
-    width:118px;
+    width:118px; 
     margin:0 auto;
 }
 
@@ -494,4 +500,33 @@
 
 .valorParcelaProdutoRelacionado span{
     font-size:13px;
+}
+
+
+.pgProdutosRelacionados{
+    padding-top:26px;
+    float:right;
+    background:#FFF;
+}
+
+.pgProdutosRelacionados a {
+	display: block;
+	float: left;
+        overflow:hidden;
+	text-indent: -9999px;
+	background: url('../img/botoes/navegacao-banner.png') no-repeat 0 0;
+	width: 10px;
+	height: 10px;
+	margin:0 0 0 5px;
+}
+
+.pgProdutosRelacionados a.activeSlide {
+	background-position: -15px 0;
+}
+
+.pgProdutosRelacionados a:focus { outline:none;}
+
+.cabecalhoProdutosRelacionados{
+    background:url("../img/backgrounds/bg-linha-produto-relacionado.gif") no-repeat top left;
+    height:56px
 }

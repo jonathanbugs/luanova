@@ -53,6 +53,7 @@
 
     <!-- CSS e JS da secao -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/produto-detalhe.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox.css" />
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
@@ -83,6 +84,20 @@
                     <div id="imgPrincipal">
                         <ul>
                             <li>
+                                <a class="lkGaleria" href="img/conteudo/produto-detalhe.jpg" rel="galeria" >
+                                    <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
+                                    <span class="icoZoom replace">Ampliar</span>
+                                    <span class="auxZoom">Clique para ver a imagem ampliada</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="lkGaleria" href="img/conteudo/produto-detalhe.jpg" rel="galeria" >
+                                    <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
+                                    <span class="icoZoom replace">Ampliar</span>
+                                    <span class="auxZoom">Clique para ver a imagem ampliada</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a class="lkGaleria" href="javascript:;" >
                                     <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
                                     <span class="icoZoom replace">Ampliar</span>
@@ -106,6 +121,16 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
+                                </a>
+                            </li>
+                            <li class="last">
                                 <a href="javascript:;">
                                     <img src="img/conteudo/thumb-produto-detalhe.jpg" alt="Bolsa Verde" />
                                 </a>

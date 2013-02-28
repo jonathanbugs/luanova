@@ -1,6 +1,7 @@
 $(document).ready(function(){
     galeriaProdutoDetalhe();
     paginasProdutoRelacionado();
+    zoomProduto();
 });
 
 function galeriaProdutoDetalhe(){
@@ -29,4 +30,10 @@ function paginasProdutoRelacionado(){
     });
 }
 
-
+function zoomProduto(){
+    $("#imgPrincipal a").fancybox({
+        padding: 10,
+        prevEffect: "fade",
+        nextEffect: "fade"
+    });
+}
