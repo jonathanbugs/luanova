@@ -412,3 +412,86 @@
 #imgThumbs .activeSlide a{
     border:1px solid #000;
 }
+
+.produtosRelacionados{
+    height:275px;
+    padding-bottom:70px;
+}
+
+.produtosRelacionados li{
+    height:275px;
+}
+
+.produtosRelacionados li li{
+    float:left;
+    margin-right:20px;
+}
+
+.produtosRelacionados li .last{
+    margin-right:0;
+}
+
+.produtosRelacionados li a{
+    float:left;
+    color:#888888;
+    text-decoration: none;
+}
+
+.produtosRelacionados li img{
+    border:1px solid #d6d6d6;
+}
+
+.ttProdutoRelacionado{
+    display:block;
+    font-family:"vidaloka_regular";
+    font-size:13px;
+    padding:9px 0 9px 0;
+}
+
+.valorPrazoProdutoRelacionado{
+    display:block;
+}
+
+.deValorProdutoRelacionado{
+    font-size:11px;
+    text-decoration:line-through;
+}
+
+.porValorProdutoRelacionado{
+    font-size:11px;
+    font-weight:bold;
+}
+
+.valorPrazoProdutoRelacionado{
+    padding-top:10px;
+    font-family:"vidaloka_regular";
+    color:#D2232A;
+    text-align:center;
+    height:34px;
+    width:118px;
+    margin:0 auto;
+}
+
+.numeroVezesProdutoRelacionado{
+    font-size:11px;
+    float:left;
+    padding-top:4px;
+}
+
+.numeroVezesProdutoRelacionado span{
+    display:block;
+    text-align:center;
+    font-size:18px;
+}
+
+.valorParcelaProdutoRelacionado{
+    display:block;
+    font-size:38px;
+    float:left;
+    width:80px;
+    text-align:right;
+}
+
+.valorParcelaProdutoRelacionado span{
+    font-size:13px;
+}

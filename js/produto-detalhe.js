@@ -1,5 +1,6 @@
 $(document).ready(function(){
     galeriaProdutoDetalhe();
+    paginasProdutoRelacionado();
 });
 
 function galeriaProdutoDetalhe(){
@@ -17,4 +18,15 @@ function galeriaProdutoDetalhe(){
         }
     });
 }
+
+function paginasProdutoRelacionado(){
+    $(".produtosRelacionados").cycle({
+        fx: 'fade',
+        speed: 'fast',
+        timeout: 0,
+        nowrap: 1,
+        pager: '.pgProdutosRelacionados'
+    });
+}
+
 

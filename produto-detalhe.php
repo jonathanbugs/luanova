@@ -237,6 +237,10 @@
                         <span class="produtos">Produtos</span>
                         <span class="relacionados">Relacionados</span>
                     </span>
+                    
+                    <div class="pgProdutosRelacionados">
+                        
+                    </div>
                 </div>
                 <ul class="produtosRelacionados">
                     <li class="slide">
@@ -248,10 +252,159 @@
                                     <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
                                     <span class="valoresProdutoRelacionado">
                                         <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
                                         <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
                                         <span class="valorPrazoProdutoRelacionado">
-                                            <span class="numeroVezesProdutoRelacionado">6x s/ juros</span>
-                                            <span class="valorParcelaProdutoRelacionado">22,00</span>
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="slide">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoRelacionado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoRelacionado">
+                                        <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoRelacionado">
+                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
                                         </span>
                                     </span>
                                 </a>
