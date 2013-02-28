@@ -272,9 +272,9 @@
 
 .boxProduto {
 	width: 174px;
-	height: 260px;
+	height: 265px;
 	float: left;
-	margin-right: 20px;
+	margin: 0 20px 20px 0;
 }
 
 .boxProdutoUltimo {
@@ -323,6 +323,53 @@
 
 .boxProduto .linkProdutoLista:hover .boxInformacoesProduto span {
 	color: #000;
+}
+
+.boxProduto .boxParcelas {
+	display: table;
+	text-align: center;
+	margin: 8px auto 0;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes {
+	float: left;
+	margin-right: 9px;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes .textoVezes,
+.boxProduto .boxParcelas .quantidadeVezes .textoJuros {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	display: block;
+	color: #d2232a;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes .textoVezes {
+	font-size: 18px;
+	padding-bottom: 3px;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes .textoJuros {
+	font-size: 12px;
+}
+
+.boxProduto .boxParcelas .valorParcela {
+	display: block;
+    font-size: 38px;
+    color: #d2232a;
+    margin-top: 2px;
+}
+
+.valorParcela .textoValor {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	color: #d2232a;
+	letter-spacing: -0.03em;
+}
+
+.valorParcela .textoCentavos {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	color: #d2232a;
+	font-size: 13px;
+	letter-spacing: -0.03em;
 }
 
 
