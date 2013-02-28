@@ -407,7 +407,6 @@
 
 .boxNuvem {
 	width: 100%;
-	margin-bottom: 100px;
 }
 
 .boxNuvem .tablePalavras {
@@ -432,7 +431,14 @@
 
 .boxPalavrasNuvem .tag {
 	font-family: 'vidaloka_regular', arial, sans-serif;
+	text-decoration: none;
 }
+
+.boxPalavrasNuvem .tag:hover {
+	color: #d2232a;
+	text-decoration: underline;
+}
+
 
 .boxPalavrasNuvem .tag1 {
 	font-size: 11px;

@@ -1,0 +1,74 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+#sidebarProdutos {
+    width: 175px;
+    float: left;
+}
+
+#sidebarProdutos .boxFiltros {
+    background: url('../img/backgrounds/bg-categorias.jpg') repeat;
+    width: 145px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+
+#sidebarProdutos .listaCategorias {
+    margin-bottom: 20px;
+}
+
+#sidebarProdutos .listaCategoriasUltima {
+    margin-bottom: 0;
+}
+
+.listaCategorias .liCategoria {
+    height: 17px;
+    display: block;
+    padding-bottom: 12px;
+    line-height: 21px;
+}
+
+.listaCategorias .titCategoria {
+    font-size: 11px;
+    color: #999999;
+    border-bottom: 1px dashed #d7d7d7;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+.liCategoria .linkCategoria {
+    background: url('../img/icones/lista-categorias.png') no-repeat left center;
+    height: 17px;
+    display: block;
+    font-size: 11px;
+    color: #5ac1ac;
+    text-transform: uppercase;
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    padding-left: 25px;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.liCategoria .linkCategoria:hover {
+    color: #d2232a;
+}
+
+#sidebarProdutos .linkBannerProdutos {
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+#listagemProdutos {
+    width: 760px;
+    height: 300px;
+    background: blue;
+    float: right;
+}

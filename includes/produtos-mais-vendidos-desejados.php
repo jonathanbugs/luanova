@@ -199,33 +199,33 @@
 
                     <div class="tablePalavras">
                         <ul class="boxPalavrasNuvem">
-                            <li><a class="tag tag1">cinta</a></li>
-                            <li><a class="tag tag3">Carteiras</a></li>
-                            <li><a class="tag tag5">Sapatilha - 4174V33</a></li>
-                            <li><a class="tag tag7">Bolsa Média</a></li>
-                            <li><a class="tag tag2">Bolsas</a></li>
-                            <li><a class="tag tag4">sem juros</a></li>
+                            <li><a href="javascript:;" class="tag tag1">cinta</a></li>
+                            <li><a href="javascript:;" class="tag tag3">Carteiras</a></li>
+                            <li><a href="javascript:;" class="tag tag5">Sapatilha - 4174V33</a></li>
+                            <li><a href="javascript:;" class="tag tag7">Bolsa Média</a></li>
+                            <li><a href="javascript:;" class="tag tag2">Bolsas</a></li>
+                            <li><a href="javascript:;" class="tag tag4">sem juros</a></li>
 
-                            <li><a class="tag tag1">cinta</a></li>
-                            <li><a class="tag tag3">Carteiras</a></li>
-                            <li><a class="tag tag1">Sapatilha - 4174V33</a></li>
-                            <li><a class="tag tag7">Bolsa Média</a></li>
-                            <li><a class="tag tag1">Bolsas</a></li>
-                            <li><a class="tag tag4">sem juros</a></li>
+                            <li><a href="javascript:;" class="tag tag1">cinta</a></li>
+                            <li><a href="javascript:;" class="tag tag3">Carteiras</a></li>
+                            <li><a href="javascript:;" class="tag tag1">Sapatilha - 4174V33</a></li>
+                            <li><a href="javascript:;" class="tag tag7">Bolsa Média</a></li>
+                            <li><a href="javascript:;" class="tag tag1">Bolsas</a></li>
+                            <li><a href="javascript:;" class="tag tag4">sem juros</a></li>
 
-                            <li><a class="tag tag2">cinta</a></li>
-                            <li><a class="tag tag3">Carteiras</a></li>
-                            <li><a class="tag tag3">Sapatilha - 4174V33</a></li>
-                            <li><a class="tag tag7">Bolsa Média</a></li>
-                            <li><a class="tag tag2">Bolsas</a></li>
-                            <li><a class="tag tag7">sem juros</a></li>
+                            <li><a href="javascript:;" class="tag tag2">cinta</a></li>
+                            <li><a href="javascript:;" class="tag tag3">Carteiras</a></li>
+                            <li><a href="javascript:;" class="tag tag3">Sapatilha - 4174V33</a></li>
+                            <li><a href="javascript:;" class="tag tag7">Bolsa Média</a></li>
+                            <li><a href="javascript:;" class="tag tag2">Bolsas</a></li>
+                            <li><a href="javascript:;" class="tag tag7">sem juros</a></li>
 
-                            <li><a class="tag tag5">cinta</a></li>
-                            <li><a class="tag tag4">Carteiras</a></li>
-                            <li><a class="tag tag4">Sapatilha - 4174V33</a></li>
-                            <li><a class="tag tag2">Bolsa Média</a></li>
-                            <li><a class="tag tag2">Bolsas</a></li>
-                            <li><a class="tag tag5">sem juros</a></li>
+                            <li><a href="javascript:;" class="tag tag5">cinta</a></li>
+                            <li><a href="javascript:;" class="tag tag4">Carteiras</a></li>
+                            <li><a href="javascript:;" class="tag tag4">Sapatilha - 4174V33</a></li>
+                            <li><a href="javascript:;" class="tag tag2">Bolsa Média</a></li>
+                            <li><a href="javascript:;" class="tag tag2">Bolsas</a></li>
+                            <li><a href="javascript:;" class="tag tag5">sem juros</a></li>
                         </ul>
                     </div>
                 </div>

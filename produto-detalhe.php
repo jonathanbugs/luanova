@@ -65,7 +65,7 @@
     <div id="pagina">
         <? include 'includes/topo.php';?>
 
-        <div class="container">
+        <div class="container clearfix">
             <div class="navegacaoAuxiliar clearfix">
                 <a class="btVoltar" href="javascript:;" title="Voltar">Voltar</a>
                 <ul id="migalhaPao">
@@ -154,8 +154,8 @@
                     </ul>
 
                     <div class="descricaoProduto">
-                        <p><strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem. 
+                        <p><strong>Diferenciais:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur lectus nisi, vehicula nec euismod nec, egestas non lorem.
                         Mauris malesuada viverra dolor vitae porttitor.</p>
 
 
@@ -200,7 +200,7 @@
 
                             <div class="opcaoCores">
                                 <span class="ttCor">Escolha a cor</span>
-                                
+
                                 <ul class="ulCoresProdutos">
                                     <li>
                                         <a style="background:#4abdb6;" class="corProduto corProdutoSelecionado replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
@@ -209,7 +209,7 @@
                                     <li>
                                         <a style="background:#ede9dc;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
                                     </li>
-                                    
+
                                     <li>
                                         <a style="background:#ec9524;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
                                     </li>
@@ -262,9 +262,9 @@
                         <span class="produtos">Produtos</span>
                         <span class="relacionados">Relacionados</span>
                     </span>
-                    
+
                     <div class="pgProdutosRelacionados">
-                        
+
                     </div>
                 </div>
                 <ul class="produtosRelacionados">
@@ -439,8 +439,7 @@
                 </ul>
             </div>
         </div>
+        <? include 'includes/rodape.php';?>
     </div>
-    
-    <? include 'includes/rodape.php';?>
 </body>
 </html>
