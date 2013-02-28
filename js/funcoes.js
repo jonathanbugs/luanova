@@ -2,7 +2,7 @@
 var $window = $(window);
 
 function placeHolder(){
-	$('.inputCadastro').on('keyup',function(){
+	$('.inputCadastro, .inputBusca').on('keyup',function(){
 		if($(this).val()===''){ $(this).prev().show(); }
 	}).on('keydown',function(){
 		$(this).prev().hide();

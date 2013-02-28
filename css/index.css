@@ -265,6 +265,39 @@
 /*-----------------------
 	BLOCO PRODUTOS MAIS VENDIDOS E PRODUTOS MAIS DESEJADOS
 ----------------------*/
+
+
+/*-----------------------
+	TITULOS BLOCOS
+----------------------*/
+.boxProdutosEsquerda .boxTituloBlocosEsquerda {
+	width: 726px;
+	height: 50px;
+	margin: 0 0 30px 30px;
+}
+
+.boxProdutosEsquerda .boxTituloBlocosEsquerda .titulo {
+	font-size: 37px;
+	color: #000;
+	margin-left: -30px;
+	height: 35px;
+}
+
+.boxProdutosEsquerda .boxTituloBlocosEsquerda .borderTitulo {
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #AAA;
+	display: block;
+}
+
+.boxProdutosEsquerda .boxTituloBlocosEsquerda .subTitulo {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+	display: block;
+}
+
+
 .boxProdutosEsquerda {
 	width: 760px;
 	float: left;
@@ -372,7 +405,69 @@
 	letter-spacing: -0.03em;
 }
 
+.boxNuvem {
+	width: 100%;
+	margin-bottom: 100px;
+}
 
+.boxNuvem .tablePalavras {
+	width: 713px;
+	height: 195px;
+	padding: 10px 20px;
+	border: 1px solid #CCCCCC;
+	display: table;
+}
+
+.boxNuvem .boxPalavrasNuvem {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.boxPalavrasNuvem li {
+	margin: 3px 3px;
+	vertical-align: middle;
+	display: inline;
+}
+
+.boxPalavrasNuvem .tag {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+}
+
+.boxPalavrasNuvem .tag1 {
+	font-size: 11px;
+	color: #5CC2AC;
+}
+
+.boxPalavrasNuvem .tag2 {
+	font-size: 18px;
+	color: #5CC2AC;
+}
+
+.boxPalavrasNuvem .tag3 {
+	font-size: 25px;
+	color: #000;
+}
+
+.boxPalavrasNuvem .tag4 {
+	font-size: 30px;
+	color: #5CC2AC;
+}
+
+.boxPalavrasNuvem .tag5 {
+	font-size: 40px;
+	color: #5CC2AC;
+}
+
+.boxPalavrasNuvem .tag6 {
+	font-size: 50px;
+	color: #000;
+}
+
+.boxPalavrasNuvem .tag7 {
+	font-size: 28px;
+	color: #5CC2AC;
+}
 
 /*-----------------------
 	BLOCO BANNERS LATERAIS

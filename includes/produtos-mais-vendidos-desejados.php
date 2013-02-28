@@ -1,5 +1,11 @@
             <div class="boxProdutosEsquerda">
-                <ul class="ListaProdutos">
+                <div class="boxTituloBlocosEsquerda">
+                    <span class="titulo">Produtos</span>
+                    <span class="borderTitulo"></span>
+                    <span class="subTitulo">Mais Vendidos</span>
+                </div>
+
+                <ul class="ListaProdutos clearfix">
                     <li class="boxProduto">
                         <a class="linkProdutoLista" href="javascript:">
                             <img class="imagemProduto" src="img/conteudo/produto-1.jpg" alt="" />
@@ -183,4 +189,44 @@
                         </a>
                     </li>
                 </ul>
+
+                <div class="boxNuvem">
+                    <div class="boxTituloBlocosEsquerda">
+                        <span class="titulo">Produtos</span>
+                        <span class="borderTitulo"></span>
+                        <span class="subTitulo">Mais Desejados</span>
+                    </div>
+
+                    <div class="tablePalavras">
+                        <ul class="boxPalavrasNuvem">
+                            <li><a class="tag tag1">cinta</a></li>
+                            <li><a class="tag tag3">Carteiras</a></li>
+                            <li><a class="tag tag5">Sapatilha - 4174V33</a></li>
+                            <li><a class="tag tag7">Bolsa Média</a></li>
+                            <li><a class="tag tag2">Bolsas</a></li>
+                            <li><a class="tag tag4">sem juros</a></li>
+
+                            <li><a class="tag tag1">cinta</a></li>
+                            <li><a class="tag tag3">Carteiras</a></li>
+                            <li><a class="tag tag1">Sapatilha - 4174V33</a></li>
+                            <li><a class="tag tag7">Bolsa Média</a></li>
+                            <li><a class="tag tag1">Bolsas</a></li>
+                            <li><a class="tag tag4">sem juros</a></li>
+
+                            <li><a class="tag tag2">cinta</a></li>
+                            <li><a class="tag tag3">Carteiras</a></li>
+                            <li><a class="tag tag3">Sapatilha - 4174V33</a></li>
+                            <li><a class="tag tag7">Bolsa Média</a></li>
+                            <li><a class="tag tag2">Bolsas</a></li>
+                            <li><a class="tag tag7">sem juros</a></li>
+
+                            <li><a class="tag tag5">cinta</a></li>
+                            <li><a class="tag tag4">Carteiras</a></li>
+                            <li><a class="tag tag4">Sapatilha - 4174V33</a></li>
+                            <li><a class="tag tag2">Bolsa Média</a></li>
+                            <li><a class="tag tag2">Bolsas</a></li>
+                            <li><a class="tag tag5">sem juros</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>

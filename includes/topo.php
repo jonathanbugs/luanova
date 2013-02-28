@@ -3,6 +3,7 @@
         <div class="container clearfix">
             <h1 class="boxLogo"><a class="logo replace" href="./" title="LUZ DA LUA">LUZ DA LUA</a></h1>
 
+            <!-- menu principal -->
             <ul class="menu">
                 <li class="liMenu liMenuPrimeiro"><span class="textoMenu">Seja bem vindo. <a class="linkMenu" href="javascript:;">Faça Login</a> ou <a class="linkMenu" href="javascript:;">Cadastre-se</a></li>
                 <li class="liMenu"><a class="linkMenu linkMenuDisplay" href="javascript:;">Minha Conta</a></li>
@@ -61,6 +62,30 @@
                     </div>
                 </li>
             </ul>
+
+            <!-- categoria de produtos -->
+            <ul class="menuCategorias clearfix">
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Lançamentos</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Acessórios</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Bolsas</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Calçados</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Carteiras</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Cintos</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Infantil</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Porta Bolsa</a></li>
+                <li class="liCategorias"><a href="javascript:;" class="linkCategoria">Promoção</a></li>
+                <li class="liCategorias liCategoriasUltimo"><a href="javascript:;" class="linkCategoria">Tendências</a></li>
+            </ul>
+
+            <form action="javascript:;" method="post" name="busca" id="buscaForm" lang="pt">
+                <div class="relative">
+                    <label class="label" for="busca">Buscar</label>
+                    <input class="inputBusca" type="text" id="busca" name="busca" />
+                </div>
+                <button type="submit" class="botaoBuscar replace">
+                    Buscar
+                </button>
+            </form>
         </div>
     </div>
 
@@ -84,3 +109,4 @@
     </div>
     <? } ?>
 </div>
+

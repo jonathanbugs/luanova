@@ -59,6 +59,7 @@ html, body {
 	TOPO
 ----------------------*/
 #topo {
+	position: relative;
 }
 
 #topo .menuTopo {
@@ -150,6 +151,11 @@ html, body {
 	line-height: 22px;
 }
 
+
+
+/*--------------------------
+ SACOLA DE COMPRAS
+ ------------------------*/
 .boxSacolaCompras {
 	background: url('../img/backgrounds/bg-sacola.png') no-repeat;
 	width: 407px;
@@ -334,6 +340,95 @@ html, body {
 	-moz-opacity: 1;
 	filter: alpha(opacity=100)
 }
+
+
+.menuCategorias {
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.menuCategorias .liCategorias {
+	float: left;
+	margin-right: 20px;
+}
+
+.menuCategorias .liCategoriasUltimo {
+	margin-right: 0;
+}
+
+.menuCategorias .liCategorias .linkCategoria {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.menuCategorias .liCategorias .linkCategoria:hover {
+	color: #d2232a;
+}
+
+/*-----------------------
+	FORUMLÁRIO DE BUSCA
+----------------------*/
+#buscaForm {
+	width: 185px;
+	height: 28px;
+	position: absolute;
+	top: 72px;
+	right: 0;
+}
+
+#buscaForm .relative {
+	position: relative;
+}
+
+#buscaForm .label {
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	color: #888;
+	font-size: 11px;
+}
+
+#buscaForm .inputBusca {
+	background: #e9e8e4;
+	width: 145px;
+	height: 14px;
+	border: none;
+	font-family: arial, sans-serif;
+	color: #888;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 6px 30px 6px 10px;
+}
+
+#buscaForm .botaoBuscar {
+	background: url('../img/botoes/botao-buscar.png') no-repeat;
+	border: none;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	cursor: pointer;
+}
+
+#buscaForm .botaoBuscar:hover {
+	background-position: 0 -23px;
+}
+
 
 /*-----------------------
 	RODAPÉ
