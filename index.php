@@ -72,6 +72,8 @@
 		<div class="container clearfix">
 			<? include 'includes/produtos-destaques.php';?>
 			<? include 'includes/principais-ofertas.php';?>
+			<? include 'includes/produtos-mais-vendidos-desejados.php';?>
+			<? include 'includes/banners-laterais.php';?>
 		</div>
 	</div>
 

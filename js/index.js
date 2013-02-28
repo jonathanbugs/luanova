@@ -2,6 +2,7 @@ $(document).ready(function(){
 	inicia();
 	bannerDestaques();
 	bannerProdutosDestaques();
+	bannerPrincipaisOfertas();
 });
 
 $(window).resize(function(){
@@ -26,7 +27,7 @@ function bannerDestaques(){
 }
 
 function bannerProdutosDestaques(){
-	$("#bannerProdutosDestaques").before('<div id="nav">').cycle({
+	$("#bannerProdutosDestaques").before('<div id="nav" class="nav">').cycle({
 		fx:				'fade',
 		easing:			'linear',
 		speed:			1500,
@@ -34,6 +35,18 @@ function bannerProdutosDestaques(){
 		cleartypeNoBg:	true,
 		timeout:		4000,
 		pager:  '#nav'
+	});
+}
+
+function bannerPrincipaisOfertas(){
+	$("#bannerPrincipaisOfertas").before('<div id="navOfertas" class="nav">').cycle({
+		fx:				'fade',
+		easing:			'linear',
+		speed:			1500,
+		cleartype:		!$.support.opacity,
+		cleartypeNoBg:	true,
+		timeout:		4000,
+		pager:  '#navOfertas'
 	});
 }
 
