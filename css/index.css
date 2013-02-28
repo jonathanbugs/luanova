@@ -16,4 +16,81 @@
 	height: 311px;
 }
 
+#produtosDestaque {
+	background: red;
+	height: 575px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
 
+#produtosDestaque .boxTituloBlocos {
+	height: 46px;
+	margin-bottom: 9px;
+}
+
+#produtosDestaque .destaqueMaior {
+	width: 477px;
+	float: left;
+}
+
+
+.destaqueMaior .imgDestaqueMaior {
+	width: 449px;
+	height: 450px;
+	display: block;
+	padding: 13px;
+	border: 1px solid #CCC;
+}
+
+.informacoesProduto {
+	float: left;
+	margin-top: 12px;
+}
+
+.informacoesProduto .titulo {
+	display: block;
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 13px;
+	color: #888;
+	padding-bottom: 6px;
+}
+
+.informacoesProduto .preco {
+	font-family: 'Arial', sans-serif;
+	font-size: 11px;
+	color: #888;
+	font-weight: bold;
+}
+
+.informacoesProduto .preco .textoSublinhado {
+	text-decoration: line-through;
+	font-weight: normal;
+	padding-right: 5px;
+}
+
+
+.destaqueMenor {
+	width: 454px;
+	height: 252px;
+	float: right;
+	background: blue;
+}
+
+.destaqueMenor .boxImagem {
+	width: 452px;
+	height: 206px;
+	background: #FFF;
+	display: block;
+	border: 1px solid #CCC;
+}
+
+.destaqueMenor .imgDestaqueMenor {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.destaqueMenorMargem {
+	margin-top: 15px;
+}

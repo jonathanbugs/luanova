@@ -153,8 +153,9 @@ html, body {
 .boxSacolaCompras {
 	background: url('../img/backgrounds/bg-sacola.png') no-repeat;
 	width: 407px;
+	height: 287px;
 	height: 0;
-	z-index: 100;
+	z-index: 1000;
 	overflow: hidden;
 	position: absolute;
 	top: 35px;
@@ -166,11 +167,169 @@ html, body {
 	transition: all .4s;
 }
 
-
 .btCompras:hover .boxSacolaCompras {
 	height: 287px;
 }
 
+.boxSacolaCompras .listaItens {
+	width: 380px;
+	height: 160px;
+	overflow: hidden;
+	margin: 18px 0 0 14px;
+}
+
+.listaItens .liItens {
+	width: 100%;
+	height: 70px;
+	display: block;
+	position: relative;
+	line-height: 70px;
+	margin-bottom: 10px;
+}
+
+.liItens .linkProduto {
+	float: left;
+	text-decoration: none;
+}
+
+.linkProduto .imgSacola {
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	border: 1px solid #CCC;
+	float: left;
+	margin-right: 9px;
+}
+
+.linkProduto .tituloProduto {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 13px;
+	color: #888;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+
+.linkProduto:hover .tituloProduto {
+	color: #d2232a;
+	text-decoration: underline;
+}
+
+.precoProduto {
+	font-family: 'Arial', sans-serif;
+	font-size: 11px;
+	color: #888;
+	font-weight: bold;
+	position: absolute;
+	right: 25px;
+}
+
+.excluirProduto {
+	background: url('../img/botoes/botao-excluir-sacola.png') no-repeat;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -8px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+.excluirProduto:hover {
+	background-position: 0 -23px;
+}
+
+
+.boxSubTotal {
+	width: 380px;
+	height: 32px;
+	margin: 2px auto 0;
+	line-height: 32px;
+	position: relative;
+	border-top: 1px dashed #e7e7e7;
+	border-bottom: 1px dashed #e7e7e7;
+}
+
+.boxSubTotal .textoSubtotal,
+.boxSubTotal .textoValorSubtotal {
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+}
+
+.boxSubTotal .textoSubtotal {
+	font-size: 11px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.boxSubTotal .textoValorSubtotal {
+	font-size: 15px;
+	color: #d2232a;
+	float: right;
+}
+
+
+.boxVoltarContinuar {
+	width: 380px;
+	height: 38px;
+	margin: 23px auto 0;
+}
+
+.boxVoltarContinuar .continuarCompra {
+	background: url('../img/botoes/botao-continuar-comprando.png') no-repeat left center;
+	background-position: 0 0;
+	height: 17px;
+	line-height: 18px;
+	padding-left: 20px;
+	display: block;
+	margin-top: 6px;
+	float: left;
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	color: #737373;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+.boxVoltarContinuar .continuarCompra:hover {
+	background-position: 0 -28px;
+	color: #d2232a;
+}
+
+.finalizarCompra {
+	background: url('../img/botoes/botao-comprar.png') no-repeat;
+	width: 194px;
+	height: 38px;
+	float: right;
+}
+
+.finalizarCompra .finalizarComprahover {
+	background: url('../img/botoes/botao-comprar.png') no-repeat;
+	background-position: 0 -60px;
+	width: 194px;
+	height: 38px;
+	display: block;
+	opacity: 0;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.finalizarCompra:hover .finalizarComprahover {
+	opacity: 1;
+}
 
 /*-----------------------
 	RODAPÉ
@@ -451,6 +610,7 @@ html, body {
 #cadastroForm {
 	float: right;
 	height: 24px;
+	margin-top: 1px;
 }
 
 #cadastroForm .relative {
@@ -461,7 +621,7 @@ html, body {
 
 #cadastroForm .label {
 	position: absolute;
-	top: 2px;
+	top: 8px;
 	left: 10px;
 	color: #888;
 	font-size: 11px;
@@ -470,11 +630,32 @@ html, body {
 #cadastroForm .inputCadastro {
 	background: #e9e8e4;
 	width: 213px;
-	height: 14px;
+	height: 13px;
 	border: none;
 	font-family: arial, sans-serif;
 	color: #888;
 	font-size: 11px;
 	line-height: 14px;
 	padding: 6px 10px;
+}
+
+#cadastroForm .botaoCadastro {
+	background: #000;
+	background: url('../img/botoes/botao-ok.png') no-repeat;
+	border: none;
+	width: 28px;
+	height: 24px;
+	display: block;
+	color: #FFF;
+	text-transform: uppercase;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	cursor: pointer;
+}
+
+#cadastroForm .botaoCadastro:hover {
+	background-position: 0 -26px;
 }

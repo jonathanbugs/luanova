@@ -1,6 +1,7 @@
 $(document).ready(function(){
-	//inicia();
+	inicia();
 	bannerDestaques();
+	$('.scroll').jScrollPane({autoReinitialise: true});
 });
 
 $(window).resize(function(){

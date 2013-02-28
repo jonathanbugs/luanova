@@ -10,15 +10,57 @@
                 <li class="liMenu liMenuUltimo btCompras">
                     <a class="linkMenu linkMenuDisplay linkMenuSacola" href="javascript:;">Sacola de Compras</a>
                     <span class="numeroItens">02</span>
-                    <ul class="boxSacolaCompras">
-                        <li><a href="javascript:;"></a></li>
-                        <li><a href="javascript:;"></a></li>
-                    </ul>
+                    <div class="boxSacolaCompras">
+                        <ul class="listaItens scroll">
+                            <li class="liItens">
+                                <a class="linkProduto" href="javascript:;">
+                                    <img class="imgSacola" src="img/conteudo/produto-sacola.jpg" alt=""/>
+                                    <span class="tituloProduto">Bolsa média - 4174V33</span>
+                                </a>
+
+                                <div class="boxPreco">
+                                    <span class="precoProduto">R$ 426,90</span>
+                                    <a class="excluirProduto replace" href="javascript:;">Excluir</a>
+                                </div>
+                            </li>
+                            <li class="liItens">
+                                <a class="linkProduto" href="javascript:;">
+                                    <img class="imgSacola" src="img/conteudo/produto-sacola.jpg" alt=""/>
+                                    <span class="tituloProduto">Bolsa média - 4174V33</span>
+                                </a>
+
+                                <div class="boxPreco">
+                                    <span class="precoProduto">R$ 426,90</span>
+                                    <a class="excluirProduto replace" href="javascript:;">Excluir</a>
+                                </div>
+                            </li>
+                            <!--li class="liItens">
+                                <a class="linkProduto" href="javascript:;">
+                                    <img class="imgSacola" src="img/conteudo/produto-sacola.jpg" alt=""/>
+                                    <span class="tituloProduto">Bolsa média - 4174V33</span>
+                                </a>
+
+                                <div class="boxPreco">
+                                    <span class="precoProduto">R$ 1200,90</span>
+                                    <a class="excluirProduto replace" href="javascript:;">Excluir</a>
+                                </div>
+                            </li-->
+                        </ul>
+
+                        <div class="boxSubTotal">
+                            <span class="textoSubtotal">SUBTOTAL:</span>
+                            <span class="textoValorSubtotal">R$ 653,80</span>
+                        </div>
+
+                        <div class="boxVoltarContinuar clearfix">
+                            <a class="continuarCompra" href="javascript:;">Continuar Comprando</a>
+                            <a class="finalizarCompra replace" href="javascript:;">
+                                <span class="finalizarComprahover">Finalizar Compra</span>
+                            </a>
+                        </div>
+                    </div>
                 </li>
             </ul>
-
-            <!--div class="boxSacolaCompras">
-            </div-->
         </div>
     </div>
 

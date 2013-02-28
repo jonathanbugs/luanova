@@ -83,9 +83,9 @@
                     <input class="inputCadastro" type="text" id="email" name="email" />
                 </div>
                 <div class="relative">
-                    <!--button type="submit" class="btSubmit replace">
-                        Cadastrar
-                    </button-->
+                    <button type="submit" class="botaoCadastro replace">
+                        OK
+                    </button>
                 </div>
             </form>
         </div>
