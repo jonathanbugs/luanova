@@ -1,0 +1,75 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catLogin{
+    width:44px;
+    height:46px;
+    background:url("../img/sp-login.png") no-repeat -6px 0;
+}
+
+.pCadastro{
+    font-size:13px;
+    color:#888888;
+    font-family:"vidaloka_regular";
+    padding-bottom:30px;
+}
+
+#formCadastro li{
+    height:60px;
+    padding-bottom:16px;
+}
+
+#formCadastro .divCampo{
+    float:left;
+}
+
+#formCadastro label{
+    display:block;
+    padding-bottom:5px;
+}
+
+#formCadastro .divCampo input{
+    font-size:11px;
+    line-height:14px;
+    padding:13px 8px;
+    background:#e9e8e4;
+}
+
+.divCampoCEP
+{width:175px;}
+
+.divCampo
+{margin-right:20px;}
+
+.divCampoLast
+{margin-right:0;}
+
+#iptNome,
+#iptEmail,
+#iptBairro,
+#iptSenha,
+#iptSenhaRepeticao
+{width:354px;}
+
+.divSelCidade,
+.divSelEstado{
+    width:370px;
+}
+
+
+#iptTelefone,
+#iptNascimento,
+#iptCPF,
+#iptRG,
+#iptNumero,
+#iptComplemento
+{width:159px;}
+
+#iptCEP
+{width:89px;}
+
+#iptEndereco
+{width:549px;}
+

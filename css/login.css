@@ -3,6 +3,11 @@
 @import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
 /************************/
 
+.catLogin{
+    width:44px;
+    height:46px;
+    background:url("../img/sp-login.png") no-repeat -6px 0;
+}
 
 .blocoLoginCadastro{
     padding-bottom:90px;
@@ -51,7 +56,8 @@
 }
 
 .ulLogin input,
-#iptEmailCadastro{
+#iptEmailCadastro,
+#iptEsqueciSenha{
     font-size:11px;
     line-height:14px;
     padding:13px 8px;
@@ -73,7 +79,17 @@
     text-decoration:underline;
 }
 
-.lkEsqueciSenha:hover{
+.lkVoltarLogin{
+    color:#d2232a;
+    font-size:10px;
+    text-decoration:underline;
+    float:left;
+    clear:both;
+    margin-top:7px;
+}
+
+.lkEsqueciSenha:hover,
+.lkVoltarLogin:hover{
     text-decoration:none;
 }
 
@@ -87,7 +103,8 @@
 }
 
 #btEnviarLogin,
-#btEnviarCadastro{
+#btEnviarCadastro,
+#btEnviarEsqueciSenha{
     width:111px;
     height:38px;
     background:url("../img/sp-login.png") no-repeat 0 -104px;
@@ -101,11 +118,28 @@
 }
 
 #btEnviarLogin:hover,
-#btEnviarCadastro:hover{
+#btEnviarCadastro:hover,
+#btEnviarEsqueciSenha:hover{
     opacity:1;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+/* ESQUECI MINHA SENHA */
+.divEsqueciSenha{
+    display:none;
+}
+
+.pEsqueciSenha{
+    width:264px;
+}
+
+
+.divIptEsqueciSenha{
+    position:absolute;
+    top:110px;
+    left:40px;
 }

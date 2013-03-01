@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /************************/
 @import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
 @import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
@@ -447,3 +448,455 @@
     background:url("../img/backgrounds/bg-linha-produto-relacionado.gif") no-repeat top left;
     height:56px
 }
+=======
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+
+.catBolsa{
+    width:55px;
+    height:47px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -133px -66px;
+}
+
+#galeriaProduto{
+    clear: both;
+    float:left;
+    width:479px;
+    padding-right:20px;
+}
+
+#galeriaProduto .lkGaleria{
+    border:1px solid #d6d6d6;
+    display:block;
+}
+
+.infosProduto{
+    float:left;
+    width:456px;
+}
+
+.ulAuxiliarCompra{
+    height:20px;
+    padding-bottom:40px;
+}
+
+.ulAuxiliarCompra li{
+    float:left;
+    margin-right:30px;
+}
+
+.ulAuxiliarCompra a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#5ac1ac;
+    font-family:"vidaloka_regular";
+    font-size:11px;
+    line-height:11px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -198px -118px;
+    display:block;
+    padding:6px 0 3px 24px;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.ulAuxiliarCompra a:hover{
+    color:#268572;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.descricaoProduto{
+    font-size:13px;
+    color:#888888;
+    line-height:18px;
+    padding-bottom:40px;
+}
+
+.opcoesValores{
+    width:310px;
+    float:left;
+}
+
+.valores{
+    font-size:13px;
+    height:52px;
+}
+
+.deValor{
+    text-decoration:line-through; 
+    padding-bottom:10px;
+}
+
+.porValor{
+    font-weight:bold;
+}
+
+.aVista{
+    float:left;
+    height:52px;
+    display:table;
+    padding-right:15px;
+}
+
+.valoresVista{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.aPrazo{
+    height:52px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -198px 3px;
+    padding-left:20px;
+}
+
+.aVista span{
+    display:block;
+}
+
+.aPrazo{
+    float:left;
+}
+
+.numeroVezes{
+    width:55px;
+    text-align:center;
+    color:#d2232a;
+    text-align:center;
+    font-family:"vidaloka_regular";
+    float:left;
+    padding:6px 5px 0 0;
+}
+
+.numeroVezes span{
+    display:block;
+    font-size:24px;
+}
+
+.valorParcela{
+    float:left;
+    font-family:"vidaloka_regular";
+    font-size:52px;
+    color:#d2232a;
+    line-height:52px;
+    letter-spacing: 0.04em;
+}
+
+.valorParcelaCentavos{
+    font-size:17px;
+    line-height:100%;
+    letter-spacing:0;
+}
+
+.valores{
+    margin-bottom:42px;
+}
+
+.ttTamanho,
+.ttCor,
+.ttCompartilhe{
+    font-family:"vidaloka_regular";
+    text-transform:uppercase;
+    display:block;
+    color:#888888;
+    font-size:13px;
+    padding-bottom:7px;
+}
+
+.btComprar{
+    width:133px;
+    height:156px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat 0 -233px;
+    
+}
+
+.btComprar span{
+    width:133px;
+    height:156px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat 0 -396px;
+    opacity:0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.btComprar:hover span{
+    opacity:1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.ulTamanhos{
+    height:20px;
+}
+
+.ulTamanhos li{
+    float:left;
+    margin-right:2px;
+}
+
+.ulTamanhos a{
+    display:block;
+    height:20px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat right -197px;
+    padding-right:22px;
+    text-align:center;
+    float:left;
+}
+
+.ulTamanhos .selecionado{
+    background-position: right -257px;
+}
+
+.ulTamanhos .selecionado span{
+    background-position:-133px -227px;
+}
+
+.ulTamanhos span{
+    padding-left:22px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -133px -167px;
+    display:block;
+    height:20px;
+    float:left;
+    line-height:20px;
+    color:#FFF;
+    font-family:"vidaloka_regular";
+    font-size:13px;
+}
+
+.opcaoTamanhos{
+    padding-bottom:20px;
+}
+
+.ulCoresProdutos{
+    height:22px;
+}
+
+.ulCoresProdutos li{
+    float:left;
+}
+
+.corProduto a{
+    display:block;
+    width:21px;
+    height:22px;
+}
+
+.corProduto span{
+    width:21px;
+    height:22px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -69px -121px;
+}
+
+.corProdutoSelecionado span{
+    background-position:-93px -121px;
+}
+
+.opcaoCores{
+    padding-bottom:23px;
+}
+
+.Compartilhe{
+    padding-top:23px;
+    border-top:1px dotted #dddddd;
+}
+
+#blocoProduto{
+    padding-bottom:60px;
+}
+
+
+/* GALERIA */
+#imgPrincipal{
+    width:479px;
+    height:479px;
+    overflow:hidden;
+    position:relative;
+}
+
+#imgPrincipal ul{
+    width:479px;
+    height:479px;
+}
+
+#imgPrincipal li{
+    width:479px;
+    height:479px;
+}
+
+#imgPrincipal li a{
+    float:left;
+}
+
+.auxZoom{
+    position:absolute;
+    bottom:7px; left:7px;
+    font-size:10px;
+    color:#888888;
+    font-style:italic;
+}
+
+.icoZoom{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:25px;
+    height:25px;
+    background:url("../img/sp-produto-detalhe.png") no-repeat -89px -76px;
+}
+
+#imgThumbs{
+    margin-top:9px;
+}
+
+#imgThumbs ul{
+    height:113px;
+}
+
+#imgThumbs li{
+    float:left;
+    margin-right:9px;
+}
+
+#imgThumbs li img{
+    float:left;
+}
+
+#imgThumbs .last{
+    margin-right:0;
+}
+
+#imgThumbs a{
+    float:left;
+    border:1px solid #d6d6d6; 
+}
+
+#imgThumbs .activeSlide a{
+    border:1px solid #000;
+}
+
+.produtosRelacionados{
+    height:275px;
+    padding-bottom:70px;
+}
+
+.produtosRelacionados li{
+    height:275px;
+}
+
+.produtosRelacionados li li{
+    float:left;
+    margin-right:20px;
+}
+
+.produtosRelacionados li .last{
+    margin-right:0;
+}
+
+.produtosRelacionados li a{
+    float:left;
+    color:#888888;
+    text-decoration: none;
+}
+
+.produtosRelacionados li img{
+    border:1px solid #d6d6d6;
+}
+
+.ttProdutoRelacionado{
+    display:block;
+    font-family:"vidaloka_regular";
+    font-size:13px;
+    padding:9px 0 9px 0;
+}
+
+.valorPrazoProdutoRelacionado{
+    display:block;
+}
+
+.deValorProdutoRelacionado{
+    font-size:11px;
+    text-decoration:line-through;
+}
+
+.porValorProdutoRelacionado{
+    font-size:11px;
+    font-weight:bold;
+}
+
+.valorPrazoProdutoRelacionado{
+    padding-top:10px;
+    font-family:"vidaloka_regular";
+    color:#D2232A;
+    text-align:center;
+    height:34px;
+    width:118px; 
+    margin:0 auto;
+}
+
+.numeroVezesProdutoRelacionado{
+    font-size:11px;
+    float:left;
+    padding-top:4px;
+}
+
+.numeroVezesProdutoRelacionado span{
+    display:block;
+    text-align:center;
+    font-size:18px;
+}
+
+.valorParcelaProdutoRelacionado{
+    display:block;
+    font-size:38px;
+    float:left;
+    width:80px;
+    text-align:right;
+}
+
+.valorParcelaProdutoRelacionado span{
+    font-size:13px;
+}
+
+
+.pgProdutosRelacionados{
+    padding-top:26px;
+    float:right;
+    background:#FFF;
+}
+
+.pgProdutosRelacionados a {
+	display: block;
+	float: left;
+        overflow:hidden;
+	text-indent: -9999px;
+	background: url('../img/botoes/navegacao-banner.png') no-repeat 0 0;
+	width: 10px;
+	height: 10px;
+	margin:0 0 0 5px;
+}
+
+.pgProdutosRelacionados a.activeSlide {
+	background-position: -15px 0;
+}
+
+.pgProdutosRelacionados a:focus { outline:none;}
+
+.cabecalhoProdutosRelacionados{
+    background:url("../img/backgrounds/bg-linha-produto-relacionado.gif") no-repeat top left;
+    height:56px
+}
+>>>>>>> Atualizando!!

@@ -56,6 +56,7 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
     <!-- /CSS e JS da secao -->
 </head>
 
@@ -63,7 +64,7 @@
     <div id="pagina">
         <? include 'includes/topo.php';?>
 
-        <div class="container">
+        <div class="container clearfix">
             <div class="navegacaoAuxiliar clearfix">
                 <a class="btVoltar" href="javascript:;" title="Voltar">Voltar</a>
                 <ul id="migalhaPao">
@@ -76,51 +77,69 @@
                     <h2 class="ttCabecalho">Faça seu Login</h2>
                     <span class="categoria catLogin replace"></span>
                 </div>
-                
+
                 <div class="blocoLoginCadastro clearfix">
                     <div class="blocoLogin">
                         <span class="ttLogin">Sou Cadastrado</span>
-                        <p>Informe seus dados e faça login para prosseguir.</p>
-                        <form>
-                            <ul class="ulLogin">
-                                <li class="first">
-                                    <label for="iptEmailLogin">E-mail:</label>
-                                    <input type="text" name="iptEmailLogin" id="iptEmailLogin" />
-                                </li>
-                                <li>
-                                    <label for="iptSenhaLogin">Senha:</label>
-                                    <input type="password" name="iptSenhaLogin" id="iptSenhaLogin" />
-                                </li>
-                                <li>
-                                    <a href="javascript:;"class="lkEsqueciSenha" title="Esqueci minha senha">Esqueci minha senha</a>
-                                </li>
-                            </ul>
+
+                        <div class="divLogin">
+                            <p>Informe seus dados e faça login para prosseguir.</p>
+                            <form>
+                                <ul class="ulLogin">
+                                    <li class="first">
+                                        <label for="iptEmailLogin">E-mail:</label>
+                                        <input type="text" name="iptEmailLogin" id="iptEmailLogin" />
+                                    </li>
+                                    <li>
+                                        <label for="iptSenhaLogin">Senha:</label>
+                                        <input type="password" name="iptSenhaLogin" id="iptSenhaLogin" />
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"class="lkEsqueciSenha" title="Esqueci minha senha">Esqueci minha senha</a>
+                                    </li>
+                                </ul>
+
+                                <div class="divBtEnviar">
+                                    <input type="submit" id="btEnviarLogin" class="replace-bt" value="Enviar" />
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="divEsqueciSenha">
+                            <p class="pEsqueciSenha">Se você esqueceu sua senha, informe seu email para que uma nova senha seja enviada.</p>
+                            <div class="divIptEsqueciSenha">
+                                <label for="iptEsqueciSenha">E-mail</label>
+                                <input type="text" name="iptEsqueciSenha" id="iptEsqueciSenha" />
+                                
+                                <a class="lkVoltarLogin" href="javascript:;" title="Voltar ao login">Voltar ao login</a>
+                            </div>
 
                             <div class="divBtEnviar">
-                                <input type="submit" id="btEnviarLogin" class="replace-bt" />
+                                <input type="submit" id="btEnviarEsqueciSenha" class="replace-bt" value="Enviar" />
                             </div>
-                        </form>
+
+                        </div>
                     </div>
-                    
+
                     <div class="blocoCadastro">
                         <span class="ttLogin">Quero me cadastrar</span>
                         <p>Cadastre-se na loja Luz da Lua e garanta seu login para fazer suas compras e criar sua lista de desejos.</p>
                         <form>
                             <div class="divIptEmailCadastro">
                                 <label for="iptEmailCadastro">E-mail:</label>
-                                <input type="text" name="iptEmailCadastro" id="iptEmailCadastro" />
+                                <input type="text" name="iptEmailCadastro" id="iptEmailCadastro" />                                
                             </div>
-                            
+
                             <div class="divBtEnviar">
-                                <input type="submit" id="btEnviarCadastro" class="replace-bt" />
+                                <input type="submit" id="btEnviarCadastro" class="replace-bt" value="Enviar" />
                             </div>
                         </form>                        
                     </div>
                 </div>
-
             </div>
+        </div>
+
+        <? include 'includes/rodape.php';?>
     </div>
-    
-    <? include 'includes/rodape.php';?>
 </body>
 </html>
