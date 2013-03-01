@@ -100,7 +100,7 @@
                                 </ul>
 
                                 <div class="divBtEnviar">
-                                    <button id="btEnviarLogin" class="replace-bt">Enviar</button>
+                                    <button id="btEnviarLogin" class="replace">Enviar</button>
                                 </div>
                             </form>
                         </div>
