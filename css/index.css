@@ -386,7 +386,6 @@
 }
 
 .boxProduto .boxParcelas .valorParcela {
-	display: block;
     font-size: 38px;
     color: #d2232a;
     margin-top: 2px;
@@ -411,7 +410,7 @@
 
 .boxNuvem .tablePalavras {
 	width: 713px;
-	height: 195px;
+	height: 196px;
 	padding: 10px 20px;
 	border: 1px solid #CCCCCC;
 	display: table;

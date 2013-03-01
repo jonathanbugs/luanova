@@ -3,6 +3,10 @@
 @import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
 /************************/
 
+
+/*-----------------------
+    SIDEBAR
+----------------------*/
 #sidebarProdutos {
     width: 175px;
     float: left;
@@ -66,9 +70,198 @@
 }
 
 
+
+/*-----------------------
+    LISTAGEM DE PRODUTOS
+----------------------*/
 #listagemProdutos {
     width: 760px;
-    height: 300px;
-    background: blue;
     float: right;
+}
+
+#listagemProdutos .boxProdutosEncontrados {
+    height: 22px;
+    border-bottom: 1px dashed #d7d7d7;
+    display: block;
+}
+
+#listagemProdutos .boxProdutosEncontrados .textoEncontrados {
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #888888;
+    float: left;
+}
+
+#listagemProdutos .boxProdutosEncontrados .textoEncontrados .quantidadeEncontrados {
+    color: #000;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+#listagemProdutos .boxProdutosEncontrados .linkOrdenar {
+    background: url('../img/icones/ordenar.png') no-repeat top right;
+    padding-right: 20px;
+    height: 16px;
+    line-height: 18px;
+    float: right;
+    display: block;
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    font-size: 11px;
+    color: #737373;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#listagemProdutos .boxProdutosEncontrados .linkOrdenar:hover {
+    background-position: right -17px;
+    color: #d2232a;
+}
+
+
+#listaProdutos {
+    margin-top: 20px;
+}
+
+.boxProduto {
+    width: 175px;
+    height: 265px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.boxProdutoUltimo {
+    margin-right: 0;
+}
+
+.boxProduto a {
+    color: #888;
+    float: left;
+    text-decoration: none;
+}
+
+.boxProduto .imagemProduto {
+    width: 150px;
+    height: 150px;
+    padding: 11px;
+    border: 1px solid #CCC;
+}
+
+.boxProduto .boxInformacoesProduto .ttProdutoLista {
+    display: block;
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    font-size: 13px;
+    color: #888;
+    padding: 9px 0;
+}
+
+.boxProduto .boxInformacoesProduto span {
+    font-family: 'Arial', sans-serif;
+    color: #888;
+    font-size: 11px;
+}
+
+.boxProduto .boxInformacoesProduto .precoAntigo {
+    text-decoration: line-through;
+    float: left;
+}
+
+.boxProduto .boxInformacoesProduto .divisorProduto {
+    padding: 0 5px 0 7px;
+}
+
+.boxProduto .boxInformacoesProduto .precoAtual {
+    font-weight: bold;
+}
+
+.boxProduto .linkProdutoLista:hover .boxInformacoesProduto span {
+    color: #000;
+}
+
+.boxProduto .boxParcelas {
+    display: table;
+    text-align: center;
+    margin: 8px auto 0;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes {
+    float: left;
+    margin-right: 9px;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes .textoVezes,
+.boxProduto .boxParcelas .quantidadeVezes .textoJuros {
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    display: block;
+    color: #d2232a;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes .textoVezes {
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.boxProduto .boxParcelas .quantidadeVezes .textoJuros {
+    font-size: 12px;
+}
+
+.boxProduto .boxParcelas .valorParcela {
+    font-size: 38px;
+    color: #d2232a;
+    margin-top: 2px;
+}
+
+.valorParcela .textoValor {
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    color: #d2232a;
+    letter-spacing: -0.03em;
+}
+
+.valorParcela .textoCentavos {
+    font-family: 'vidaloka_regular', arial, sans-serif;
+    color: #d2232a;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+}
+
+
+.boxMaisProdutos {
+    border-top: 1px dashed #d7d7d7;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.boxMaisProdutos .botaoMaisProdutos {
+    background: url('../img/botoes/botao-mais-produtos.png') no-repeat;
+    width: 175px;
+    height: 38px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.boxMaisProdutos .botaoMaisProdutos .botaoMaisProdutoshover {
+    background: url('../img/botoes/botao-mais-produtos.png') no-repeat;
+    background-position: 0 -40px;
+    width: 175px;
+    height: 38px;
+    display: block;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.botaoMaisProdutos:hover .botaoMaisProdutoshover {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100)
 }
