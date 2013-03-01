@@ -100,7 +100,7 @@
                                 </ul>
 
                                 <div class="divBtEnviar">
-                                    <input type="submit" id="btEnviarLogin" class="replace-bt" value="Enviar" />
+                                    <button id="btEnviarLogin" class="replace-bt">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -115,7 +115,7 @@
                             </div>
 
                             <div class="divBtEnviar">
-                                <input type="submit" id="btEnviarEsqueciSenha" class="replace-bt" value="Enviar" />
+                                <button id="btEnviarEsqueciSenha" class="replace">Enviar</button>
                             </div>
 
                         </div>
@@ -131,7 +131,7 @@
                             </div>
 
                             <div class="divBtEnviar">
-                                <input type="submit" id="btEnviarCadastro" class="replace-bt" value="Enviar" />
+                                <button id="btEnviarCadastro" class="replace">Enviar</button>
                             </div>
                         </form>                        
                     </div>

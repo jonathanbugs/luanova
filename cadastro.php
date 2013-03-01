@@ -186,7 +186,7 @@
                                     </div>
 
                                     <div class="divBtEnviar">
-                                        <input type="submit" value="Enviar" id="btEnviarDadosCadastro" class="replace-bt" />
+                                        <button id="btEnviarDadosCadastro" class="replace">Enviar</button>
                                     </div>
                                 </li>
                             </ul>
