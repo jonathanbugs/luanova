@@ -367,3 +367,18 @@
     color:#000;
 }
 
+
+#blocoProdutosVisualizados {
+    width: 100%;
+}
+
+.produtosVisualizados li.slide {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.slide ul li {
+    width: 175px;
+    float: left;
+}
