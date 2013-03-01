@@ -339,3 +339,22 @@
     -o-transition: all .3s;
     transition: all .3s;
 }
+
+.cabecalhoProdutosVisualizados{
+    position:relative;
+}
+
+.ttProdutosVisualizados .produtos{
+    font-family:"porcelai";
+    font-size:38px;
+}
+
+.ttProdutosVisualizados .visualizados{
+    font-family:"vidaloka_regular";
+    font-size:15px;
+    text-transform:uppercase;
+    display:block;
+    position:absolute;
+    top:33px;
+    left:83px;
+}
