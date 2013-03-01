@@ -253,10 +253,12 @@
 }
 
 
-.pgProdutosVisualizados{
-    padding-top:26px;
-    float:right;
-    background:#FFF;
+.pgProdutosVisualizados {
+    position: absolute;
+    top: 26px;
+    right: 0;
+    z-index: 9999;
+    height: 20px;
 }
 
 .pgProdutosVisualizados a {
@@ -277,6 +279,7 @@
 .pgProdutosVisualizados a:focus { outline:none;}
 
 .cabecalhoProdutosVisualizados{
+    width: 100%;
     background:url("../img/backgrounds/bg-linha-produto-relacionado.gif") no-repeat top left;
     height:56px
 }
