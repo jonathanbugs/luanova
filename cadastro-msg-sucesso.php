@@ -202,7 +202,7 @@
                     </div>
                 </div>
 
-                <div id="blocoProdutosVisualizados">
+                 <div id="blocoProdutosVisualizados">
                     <div class="cabecalhoProdutosVisualizados">
                         <span class="ttProdutosVisualizados">
                             <span class="produtos">Produtos</span>
@@ -225,9 +225,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">442</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -241,9 +246,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">02</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -257,9 +267,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">32</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -273,11 +288,16 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">322</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
-                                        </span>
+                                       </span>
                                     </a>
                                 </li>
                                 <li class="last">
@@ -289,9 +309,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">1232</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -309,9 +334,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">2</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -325,9 +355,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">0492</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -341,9 +376,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">12</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
@@ -357,10 +397,16 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">2444</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
+
                                         </span>
                                     </a>
                                 </li>
@@ -373,9 +419,14 @@
                                             <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
                                             /
                                             <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
-                                            <span class="valorPrazoProdutoVisualizado">
-                                                <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
-                                                <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                            <span class="boxParcelas">
+                                                <span class="quantidadeVezes">
+                                                    <span class="textoVezes">6x</span>
+                                                    <span class="textoJuros">s/ juros</span>
+                                                </span>
+                                                <span class="valorParcela">
+                                                    <span class="textoValor">232</span><span class="textoCentavos">,00</span>
+                                                </span>
                                             </span>
                                         </span>
                                     </a>
