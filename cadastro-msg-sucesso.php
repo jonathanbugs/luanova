@@ -81,7 +81,7 @@
                 <div class="blocoCadastro">
                     <p class="pCadastro">Cadastre-se na loja Luz da Lua e garanta seu login para fazer compras e criar sua lista de desejos. Os campos com * são obrigatórios.</p> 
 
-                    <div class="divFormCadastro">
+                    <div class="divFormCadastro hidden">
 
                         <form id="formCadastro" action="" method="post">
                             <ul>
@@ -193,7 +193,7 @@
                         </form>
                         
                     </div>
-                    <div class="divMsgSucesso hidden">
+                    <div class="divMsgSucesso">
                         <div>
                             <p class="msgPrimaria">Seu cadastro foi efetuado com sucesso!</p>
                             <p class="msgSecundaria">Agora você já pode aproveitar todas as ofertas da loja Luz da Lua.</p>
