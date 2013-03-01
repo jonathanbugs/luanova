@@ -508,3 +508,21 @@
     height:56px
 }
 
+.cabecalhoProdutosRelacionados{
+    position:relative;
+}
+
+.ttProdutosRelacionados .produtos{
+    font-family:"porcelai";
+    font-size:38px;
+}
+
+.ttProdutosRelacionados .relacionados{
+    font-family:"vidaloka_regular";
+    font-size:15px;
+    text-transform:uppercase;
+    display:block;
+    position:absolute;
+    top:33px;
+    left:83px;
+}
