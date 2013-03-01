@@ -58,3 +58,99 @@ this.update()},afterClose:function(a){this.overlay&&!b.isActive&&this.overlay.fa
 H&&d.width(d.width()),d.wrapInner('<span class="child"></span>'),b.current.margin[2]+=Math.abs(l(d.css("margin-bottom")))}d["top"===a.position?"prependTo":"appendTo"](c)}}};f.fn.fancybox=function(a){var d,e=f(this),c=this.selector||"",k=function(g){var h=f(this).blur(),j=d,k,l;!g.ctrlKey&&(!g.altKey&&!g.shiftKey&&!g.metaKey)&&!h.is(".fancybox-wrap")&&(k=a.groupAttr||"data-fancybox-group",l=h.attr(k),l||(k="rel",l=h.get(0)[k]),l&&(""!==l&&"nofollow"!==l)&&(h=c.length?f(c):e,h=h.filter("["+k+'="'+l+
 '"]'),j=h.index(this)),a.index=j,!1!==b.open(h,a)&&g.preventDefault())};a=a||{};d=a.index||0;!c||!1===a.live?e.unbind("click.fb-start").bind("click.fb-start",k):n.undelegate(c,"click.fb-start").delegate(c+":not('.fancybox-item, .fancybox-nav')","click.fb-start",k);this.filter("[data-fancybox-start=1]").trigger("click");return this};n.ready(function(){f.scrollbarWidth===r&&(f.scrollbarWidth=function(){var a=f('<div style="width:50px;height:50px;overflow:auto"><div/></div>').appendTo("body"),b=a.children(),
 b=b.innerWidth()-b.height(99).innerWidth();a.remove();return b});if(f.support.fixedPosition===r){var a=f.support,d=f('<div style="position:fixed;top:20px;"></div>').appendTo("body"),e=20===d[0].offsetTop||15===d[0].offsetTop;d.remove();a.fixedPosition=e}f.extend(b.defaults,{scrollbarWidth:f.scrollbarWidth(),fixed:f.support.fixedPosition,parent:f("body")})})})(window,document,jQuery);
+
+/*
+ * styleCombobox 1.0 - Grifo
+ * http://www.grifotecnologia.com.br/
+ * Date: 2010
+ */
+
+(function($) {
+
+	$.fn.extend({
+
+		// Combobox replace
+		styleCombobox: function(options) {
+			// IE6
+			if (jQuery.browser.msie && parseInt(jQuery.browser.version) == 6 && typeof window['XMLHttpRequest'] != "object")
+				return;
+
+			// Init
+			var $selector = $(this),
+				classFocus = options.classFocus;
+
+			$selector.each(function() {
+				var $combo = $(this),
+					initialValue = $combo.attr("title") ? $combo.attr("title") : $combo.find("option:selected").text();
+
+				$combo.css("position","relative").before('<span>'+ initialValue +'</span>');
+			});
+
+			$selector.bind("change keypress keydown keyup",function() {
+				$(this).prev().html($(this).find("option:selected").text());
+			});
+
+			$selector.focus(function() {
+				$(this).parent().addClass(classFocus);
+			}).blur(function() {
+				$(this).parent().removeClass(classFocus);
+			});
+		}
+	});
+})(jQuery);
+
+
+/*
+ * styleRadioCheckbox 1.0 - Grifo
+ * http://www.grifotecnologia.com.br/
+ * Date: 2010
+ */
+
+(function($) {
+
+	$.fn.extend({
+
+		// Checkbox radiobutton replace
+		styleRadioCheckbox: function(options) {
+			// Init
+			var $selector = $(this),
+				classChecked = options.classChecked,
+				classFocus = options.classFocus;
+
+			var check = function($obj) {
+				if ($obj.attr("checked")) {
+					$obj.parent().addClass(classChecked);
+				} else {
+					$obj.parent().removeClass(classChecked);
+				}
+			}
+
+			// Estado inicial
+			$(document).ready(function() { // Document ready - IE fix
+				$selector.each(function() {
+					check($(this));
+				});
+			});
+
+			// Checkbox
+			$selector.filter(":checkbox").click(function() {
+				check($(this));
+			});
+
+			// Radio
+			$selector.filter(":radio").click(function() {
+				var name = $(this).attr("name");
+
+				$selector.filter("input[name='"+name+"']").each(function() {
+					check($(this));
+				});
+			});
+
+			$selector.focus(function() {
+				$(this).parent().addClass(classFocus);
+			}).blur(function() {
+				$(this).parent().removeClass(classFocus);
+			});
+		}
+	});
+})(jQuery);

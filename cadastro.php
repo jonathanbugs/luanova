@@ -56,6 +56,7 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
+        <script type="text/javascript" src="js/cadastro.js"></script>
     <!-- /CSS e JS da secao -->
 </head>
 
@@ -84,12 +85,12 @@
                     <ul>
                         <li>
                             <div class="divCampo">
-                                <label for="iptNome">Nome: *</label>
+                                <label for="iptNome">Nome: <span>*</span></label>
                                 <input type="text" name="iptNome" id="iptNome" />
                             </div>
                             
                             <div class="divCampo divCampoLast">
-                                <label for="">E-mail: *</label>
+                                <label for="">E-mail: <span>*</span></label>
                                 <input type="text" name="iptEmail" id="iptEmail" />
                             </div>
                         </li>
@@ -101,12 +102,12 @@
                             </div>
                             
                             <div class="divCampo">
-                                <label for="iptNascimento">Data de Nascimento: *</label>
+                                <label for="iptNascimento">Data de Nascimento: <span>*</span></label>
                                 <input type="text" name="iptNascimento" id="iptNascimento" />
                             </div>
                             
                             <div class="divCampo">
-                                <label for="iptCPF">CPF: *</label>
+                                <label for="iptCPF">CPF: <span>*</span></label>
                                 <input type="text" name="iptCPF" id="iptCPF" />
                             </div>
                             
@@ -118,18 +119,18 @@
                             
                         <li>
                             <div class="divCampo divCampoCEP">
-                                <label for="iptCEP">CEP: *</label>
+                                <label for="iptCEP">CEP: <span>*</span></label>
                                 <input type="text" name="iptCEP" id="iptCEP" />
                             </div>
-                            <div class="divCampo">
-                                <label for="iptEndereco">Endereço: *</label>
+                            <div class="divCampo divCampoLast">
+                                <label for="iptEndereco">Endereço: <span>*</span></label>
                                 <input type="text" name="iptEndereco" id="iptEndereco" />
                             </div>
                         </li>    
                             
                         <li>
                             <div class="divCampo">
-                                <label for="iptNumero">Número: *</label>
+                                <label for="iptNumero">Número: <span>*</span></label>
                                 <input type="text" name="iptNumero" id="iptNumero" />
                             </div>
                             
@@ -139,50 +140,238 @@
                             </div>
                             
                             <div class="divCampo divCampoLast">
-                                <label for="iptBairro">Bairro: *</label>
+                                <label for="iptBairro">Bairro: <span>*</span></label>
                                 <input type="text" name="iptBairro" id="iptBairro" />
                             </div>
                         </li>
                             
                         <li>
-                            <div class="divCampo divSelCidade">
-                                <label for="selCidade">Cidade: *</label>
-                                <select>
-                                    <option></option>
-                                </select>
+                            <div class="divCampo">
+                                <label for="selCidade">Cidade: <span>*</span></label>
+                                
+                                <div class="divSelCidade">
+                                    <select name="selCidade" id="selCidade">
+                                        <option>Selecione a Cidade</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="divCampo divSelEstado divCampoLast">
-                                <label for="selEstado">Estado: *</label>
-                                <select>
-                                    <option></option>
-                                </select>
-
+                            <div class="divCampo divCampoLast">
+                                <label for="selEstado">Estado: <span>*</span></label>
+                                
+                                <div class="divSelEstado">
+                                    <select name="selEstado" id="selEstado">
+                                        <option>Selecione o Estado</option>
+                                    </select>
+                                </div>
                             </div>
                         </li>
                             
                         <li>
                             <div class="divCampo">
-                                <label for="iptSenha">Senha: *</label>
+                                <label for="iptSenha">Senha: <span>*</span></label>
                                 <input type="text" name="iptSenha" id="iptSenha" />
                             </div>
                             <div class="divCampo divCampoLast">
-                                <label for="iptSenhaRepeticao">Repetir a senha: *</label>
+                                <label for="iptSenhaRepeticao">Repetir a senha: <span>*</span></label>
                                 <input type="text" name="iptSenhaRepeticao" id="iptSenhaRepeticao" />
                             </div>
                         </li>    
                             
-                        <li>
+                        <li class="divCheckboxEnviarCadastro">
                             <div class="divCheckNews">
-                                <input id="ckNews" type="checkbox" value="" />
-                                <label for="ckNews">Desejo receber os informativos da Luz da Lua por e-mail.</label>
+                                
+                                <label><input id="ckNews" type="checkbox" value="" />Desejo receber os informativos da Luz da Lua por e-mail.</label>
                             </div>
                             
-                            <div class="btEnviar">
-                                <input type="submit" value="Enviar" id="btEnviarDadosCadastro" />
+                            <div class="divBtEnviar">
+                                <input type="submit" value="Enviar" id="btEnviarDadosCadastro" class="replace-bt" />
                             </div>
                         </li>
                     </ul>
                 </form>
+            </div>
+            
+            <div id="blocoProdutosVisualizados">
+                <div class="cabecalhoProdutosVisualizados">
+                    <span class="ttProdutosVisualizados">
+                        <span class="produtos">Produtos</span>
+                        <span class="visualizados">Visualizados</span>
+                    </span>
+
+                    <div class="pgProdutosVisualizados">
+
+                    </div>
+                </div>
+                <ul class="produtosVisualizados">
+                    <li class="slide">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="slide">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="javascript:;">
+                                    <img src="img/conteudo/thumb-produto-relacionado.jpg" alt="" />
+
+                                    <span class="ttProdutoVisualizado">Bolsa média - 4174V33</span>
+                                    <span class="valoresProdutoVisualizado">
+                                        <span class="deValorProdutoVisualizado">De R$ 1.709,90</span>
+                                         /
+                                        <span class="porValorProdutoVisualizado">Por R$ 826,90</span>
+                                        <span class="valorPrazoProdutoVisualizado">
+                                            <span class="numeroVezesProdutoVisualizado"><span>6x</span> s/ juros</span>
+                                            <span class="valorParcelaProdutoVisualizado">22<span>,00</span></span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
 
