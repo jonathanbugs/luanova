@@ -279,9 +279,14 @@
                                         <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
                                          /
                                         <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
-                                        <span class="valorPrazoProdutoRelacionado">
-                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
-                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        <span class="boxParcelas">
+                                            <span class="quantidadeVezes">
+                                                <span class="textoVezes">6x</span>
+                                                <span class="textoJuros">s/ juros</span>
+                                            </span>
+                                            <span class="valorParcela">
+                                                <span class="textoValor">2232</span><span class="textoCentavos">,00</span>
+                                            </span>
                                         </span>
                                     </span>
                                 </a>
@@ -295,9 +300,14 @@
                                         <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
                                          /
                                         <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
-                                        <span class="valorPrazoProdutoRelacionado">
-                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
-                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        <span class="boxParcelas">
+                                            <span class="quantidadeVezes">
+                                                <span class="textoVezes">6x</span>
+                                                <span class="textoJuros">s/ juros</span>
+                                            </span>
+                                            <span class="valorParcela">
+                                                <span class="textoValor">2232</span><span class="textoCentavos">,00</span>
+                                            </span>
                                         </span>
                                     </span>
                                 </a>
@@ -311,9 +321,14 @@
                                         <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
                                          /
                                         <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
-                                        <span class="valorPrazoProdutoRelacionado">
-                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
-                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        <span class="boxParcelas">
+                                            <span class="quantidadeVezes">
+                                                <span class="textoVezes">3x</span>
+                                                <span class="textoJuros">s/ juros</span>
+                                            </span>
+                                            <span class="valorParcela">
+                                                <span class="textoValor">32</span><span class="textoCentavos">,00</span>
+                                            </span>
                                         </span>
                                     </span>
                                 </a>
@@ -327,9 +342,14 @@
                                         <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
                                          /
                                         <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
-                                        <span class="valorPrazoProdutoRelacionado">
-                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
-                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        <span class="boxParcelas">
+                                            <span class="quantidadeVezes">
+                                                <span class="textoVezes">6x</span>
+                                                <span class="textoJuros">s/ juros</span>
+                                            </span>
+                                            <span class="valorParcela">
+                                                <span class="textoValor">2</span><span class="textoCentavos">,00</span>
+                                            </span>
                                         </span>
                                     </span>
                                 </a>
@@ -343,9 +363,14 @@
                                         <span class="deValorProdutoRelacionado">De R$ 1.709,90</span>
                                          /
                                         <span class="porValorProdutoRelacionado">Por R$ 826,90</span>
-                                        <span class="valorPrazoProdutoRelacionado">
-                                            <span class="numeroVezesProdutoRelacionado"><span>6x</span> s/ juros</span>
-                                            <span class="valorParcelaProdutoRelacionado">22<span>,00</span></span>
+                                        <span class="boxParcelas">
+                                            <span class="quantidadeVezes">
+                                                <span class="textoVezes">4x</span>
+                                                <span class="textoJuros">s/ juros</span>
+                                            </span>
+                                            <span class="valorParcela">
+                                                <span class="textoValor">2232</span><span class="textoCentavos">,00</span>
+                                            </span>
                                         </span>
                                     </span>
                                 </a>

@@ -125,7 +125,6 @@
                                     <span class="textoVezes">6X</span>
                                     <span class="textoJuros">s/ juros</span>
                                 </span>
-
                                 <span class="valorParcela">
                                     <span class="textoValor">2232</span><span class="textoCentavos">,00</span>
                                 </span>
