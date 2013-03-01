@@ -261,10 +261,11 @@
 .Compartilhe{
     padding-top:23px;
     border-top:1px dotted #dddddd;
+    width: 100%;
 }
 
 #blocoProduto{
-    padding-bottom:60px;
+    margin-bottom:60px;
 }
 
 
@@ -415,12 +416,10 @@
 }
 
 
-
-
-
-
-
-
+#blocoProdutosRelacionados {
+    width: 100%;
+    margin-top: 80px;
+}
 
 
 
@@ -481,8 +480,6 @@
 
 
 .pgProdutosRelacionados{
-    padding-top:26px;
-    float:right;
     background:#FFF;
 }
 
@@ -534,3 +531,22 @@
 .produtosRelacionados li a:hover{
     color:#000;
 }
+
+.produtosRelacionados li.slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.pgProdutosRelacionados {
+    position: absolute;
+    top: 26px;
+    right: 0;
+    z-index: 9999;
+    height: 20px;
+}
+
+.slide ul li {
+    width: 175px;
+    float: left;
+}
+

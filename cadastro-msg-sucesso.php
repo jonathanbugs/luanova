@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="blocoCadastro">
-                    <p class="pCadastro">Cadastre-se na loja Luz da Lua e garanta seu login para fazer compras e criar sua lista de desejos. Os campos com * são obrigatórios.</p> 
+                    <p class="pCadastro">Cadastre-se na loja Luz da Lua e garanta seu login para fazer compras e criar sua lista de desejos. Os campos com * são obrigatórios.</p>
 
                     <div class="divFormCadastro hidden">
 
@@ -128,7 +128,7 @@
                                         <label for="iptEndereco">Endereço: <span>*</span></label>
                                         <input type="text" name="iptEndereco" id="iptEndereco" />
                                     </div>
-                                </li>    
+                                </li>
 
                                 <li>
                                     <div class="divCampo">
@@ -177,7 +177,7 @@
                                         <label for="iptSenhaRepeticao">Repetir a senha: <span>*</span></label>
                                         <input type="text" name="iptSenhaRepeticao" id="iptSenhaRepeticao" />
                                     </div>
-                                </li>    
+                                </li>
 
                                 <li class="divCheckboxEnviarCadastro">
                                     <div class="divCheckNews">
@@ -191,13 +191,13 @@
                                 </li>
                             </ul>
                         </form>
-                        
+
                     </div>
                     <div class="divMsgSucesso">
                         <div>
                             <p class="msgPrimaria">Seu cadastro foi efetuado com sucesso!</p>
                             <p class="msgSecundaria">Agora você já pode aproveitar todas as ofertas da loja Luz da Lua.</p>
-                            <a class="btPaginaInicial replace" href="javascript:;" title="Página Inicial"><span>Página Inicial</span></a>
+                            <a class="btPaginaInicial replace" href="./" title="Página Inicial"><span>Página Inicial</span></a>
                         </div>
                     </div>
                 </div>

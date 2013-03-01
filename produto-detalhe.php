@@ -245,9 +245,9 @@
 
                             <li>
                                 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-                                <g:plusone size="medium"></g:plusone>                            
+                                <g:plusone size="medium"></g:plusone>
                             </li>
-                            
+
 <!--                            <li>
                                 ENVIE PARA UM AMIGO
                             </li>-->
@@ -256,7 +256,7 @@
                 </div>
             </div>
 
-            <div id="blocoProdutosRelacionados">
+            <div id="blocoProdutosRelacionados" class="clearfix">
                 <div class="cabecalhoProdutosRelacionados">
                     <span class="ttProdutosRelacionados">
                         <span class="produtos">Produtos</span>

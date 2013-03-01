@@ -72,6 +72,7 @@ html, body {
 ----------------------*/
 #topo {
 	position: relative;
+	z-index: 999;
 }
 
 #topo .menuTopo {
@@ -180,6 +181,7 @@ html, body {
 	position: absolute;
 	top: 35px;
 	right: 0;
+	z-index: 9999;
 	-webkit-transition: all .4s;
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
@@ -856,6 +858,8 @@ html, body {
     background:url("../img/backgrounds/bg-linha-cabecalhos.gif") no-repeat left top;
     height:47px;
     padding-bottom:7px;
+    position: relative;
+    z-index: 1;
 }
 
 .ttCabecalho{

@@ -152,6 +152,8 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    cursor: pointer;
+    border: none;
 
 }
 
@@ -222,7 +224,7 @@
     color:#D2232A;
     text-align:center;
     height:34px;
-    width:118px; 
+    width:118px;
     margin:0 auto;
 }
 
@@ -294,6 +296,7 @@
 .divMsgSucesso div{
     display: table-cell;
     vertical-align: middle;
+    *padding-top: 120px;
 }
 
 .msgPrimaria{
@@ -329,6 +332,7 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .btPaginaInicial span:hover{
