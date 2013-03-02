@@ -101,6 +101,20 @@
                         em movimento, independente e conectada às novidades do mundo fashion.
                     </p>
                 </div>
+                <div class="imagensInstitucionais">
+                    <a class="imgInstitucional" href="img/conteudo/institucional-1-ampliada.jpg">
+                        <img src="img/conteudo/institucional-1.jpg" alt="" />
+                    </a>
+                    <a class="imgInstitucional" href="img/conteudo/institucional-2-ampliada.jpg">
+                        <img src="img/conteudo/institucional-2.jpg" alt="" />
+                    </a>
+                    <a class="imgInstitucional" href="img/conteudo/institucional-3-ampliada.jpg">
+                        <img src="img/conteudo/institucional-3.jpg" alt="" />
+                    </a>
+                    <a class="imgInstitucional" href="img/conteudo/institucional-4-ampliada.jpg">
+                        <img src="img/conteudo/institucional-4.jpg" alt="" />
+                    </a>
+                </div>
             </div>
         </div>
 
