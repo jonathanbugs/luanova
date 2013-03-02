@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    inicia();
     selectPersonalizado();
     checkboxPersonalizado();
     paginasProdutoVisualizado();
@@ -13,7 +14,7 @@ function selectPersonalizado(){
 
 function checkboxPersonalizado(){
     $("#ckNews").styleRadioCheckbox({
-        classChecked:"inputCheckboxChecked", 
+        classChecked:"inputCheckboxChecked",
         classFocus:"inputFocus"
     });
 }

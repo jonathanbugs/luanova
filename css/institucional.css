@@ -1,0 +1,39 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catInstitucional {
+    background:url("../img/icones/institucional.png") no-repeat 0 0;
+    width: 44px;
+    height: 46px;
+}
+
+.blocoInstitucional {
+    width: 900px;
+    margin: 15px auto 0;
+}
+
+.blocoInstitucional .titutoInstitucional {
+    font-family: 'porcelai', arial, sans-serif;
+    color: #5ac1ac;
+    display: block;
+    line-height: 100%;
+}
+
+.blocoInstitucional .titutoInstitucionalMenor {
+    font-size: 45px;
+}
+
+.blocoInstitucional .titutoInstitucionalMaior {
+    font-size: 70px;
+    padding-left: 65px;
+    margin-top: -20px;
+}
+
+.blocoInstitucional .blocoTexto {
+    width: 360px;
+    float: left;
+    background: green;
+    margin-top: 52px;
+}
