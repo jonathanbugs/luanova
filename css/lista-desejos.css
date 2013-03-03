@@ -1,0 +1,12 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catDesejos {
+    background:url("../img/icones/lista-desejos.png") no-repeat 0 0;
+    width: 44px;
+    height: 46px;
+    position: relative;
+    top: 10px;
+}
