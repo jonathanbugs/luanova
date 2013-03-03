@@ -102,16 +102,21 @@
                     </p>
                 </div>
                 <div class="imagensInstitucionais">
-                    <a class="imgInstitucional" href="img/conteudo/institucional-1-ampliada.jpg">
+
+                    <a href="javascript:;" class="linkImgInstitucional imgInstitucional">
+                        <span class="imagemInstitucionalAmpliada">institucional-1-ampliada</span>
                         <img src="img/conteudo/institucional-1.jpg" alt="" />
                     </a>
-                    <a class="imgInstitucional" href="img/conteudo/institucional-2-ampliada.jpg">
+                    <a href="javascript:;" class="linkImgInstitucional imgInstitucional">
+                        <span class="imagemInstitucionalAmpliada">institucional-2-ampliada</span>
                         <img src="img/conteudo/institucional-2.jpg" alt="" />
                     </a>
-                    <a class="imgInstitucional" href="img/conteudo/institucional-3-ampliada.jpg">
+                    <a href="javascript:;" class="linkImgInstitucional imgInstitucional">
+                        <span class="imagemInstitucionalAmpliada">institucional-3-ampliada</span>
                         <img src="img/conteudo/institucional-3.jpg" alt="" />
                     </a>
-                    <a class="imgInstitucional" href="img/conteudo/institucional-4-ampliada.jpg">
+                    <a href="javascript:;" class="linkImgInstitucional imgInstitucional">
+                        <span class="imagemInstitucionalAmpliada">institucional-4-ampliada</span>
                         <img src="img/conteudo/institucional-4.jpg" alt="" />
                     </a>
                 </div>
