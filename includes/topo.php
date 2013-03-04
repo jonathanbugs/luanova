@@ -95,13 +95,13 @@
             <ul id="bannerDestaques">
                 <li class="liBanner">
                     <a class="linkBanner">
-                        <img src="img/banners/banner1.jpg" alt="Charme e Elegância">
+                        <img src="img/banners/banner1.jpg" alt="Charme e Elegância"/>
                     </a>
                 </li>
 
                 <li class="liBanner">
                     <a class="linkBanner">
-                        <img src="img/banners/banner2.jpg" alt="Charme e Elegância">
+                        <img src="img/banners/banner2.jpg" alt="Charme e Elegância"/>
                     </a>
                 </li>
             </ul>

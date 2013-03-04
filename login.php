@@ -84,7 +84,7 @@
 
                         <div class="divLogin">
                             <p>Informe seus dados e faça login para prosseguir.</p>
-                            <form>
+                            <form action="" method="post">
                                 <ul class="ulLogin">
                                     <li class="first">
                                         <label for="iptEmailLogin">E-mail:</label>
@@ -95,7 +95,7 @@
                                         <input type="password" name="iptSenhaLogin" id="iptSenhaLogin" />
                                     </li>
                                     <li>
-                                        <a href="javascript:;"class="lkEsqueciSenha" title="Esqueci minha senha">Esqueci minha senha</a>
+                                        <a href="javascript:;" class="lkEsqueciSenha" title="Esqueci minha senha">Esqueci minha senha</a>
                                     </li>
                                 </ul>
 
@@ -110,7 +110,7 @@
                             <div class="divIptEsqueciSenha">
                                 <label for="iptEsqueciSenha">E-mail</label>
                                 <input type="text" name="iptEsqueciSenha" id="iptEsqueciSenha" />
-                                
+
                                 <a class="lkVoltarLogin" href="javascript:;" title="Voltar ao login">Voltar ao login</a>
                             </div>
 
@@ -124,16 +124,16 @@
                     <div class="blocoCadastro">
                         <span class="ttLogin">Quero me cadastrar</span>
                         <p>Cadastre-se na loja Luz da Lua e garanta seu login para fazer suas compras e criar sua lista de desejos.</p>
-                        <form>
+                        <form action="" method="post">
                             <div class="divIptEmailCadastro">
                                 <label for="iptEmailCadastro">E-mail:</label>
-                                <input type="text" name="iptEmailCadastro" id="iptEmailCadastro" />                                
+                                <input type="text" name="iptEmailCadastro" id="iptEmailCadastro" />
                             </div>
 
                             <div class="divBtEnviar">
                                 <button id="btEnviarCadastro" class="replace">Enviar</button>
                             </div>
-                        </form>                        
+                        </form>
                     </div>
                 </div>
             </div>
