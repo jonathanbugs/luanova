@@ -5,7 +5,7 @@
 
             <!-- menu principal -->
             <ul class="menu">
-                <li class="liMenu liMenuPrimeiro"><span class="textoMenu">Seja bem vindo. <a class="linkMenu" href="javascript:;">Faça Login</a> ou <a class="linkMenu" href="javascript:;">Cadastre-se</a></li>
+                <li class="liMenu liMenuPrimeiro textoMenu">Seja bem vindo. <a class="linkMenu" href="javascript:;">Faça Login</a> ou <a class="linkMenu" href="javascript:;">Cadastre-se</a></li>
                 <li class="liMenu"><a class="linkMenu linkMenuDisplay" href="javascript:;">Minha Conta</a></li>
                 <li class="liMenu"><a class="linkMenu linkMenuDisplay" href="javascript:;">Lista de Desejos</a></li>
                 <li class="liMenu liMenuUltimo btCompras">
