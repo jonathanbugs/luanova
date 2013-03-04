@@ -3,6 +3,8 @@ $(document).ready(function(){
     galeriaProdutoDetalhe();
     paginasProdutoRelacionado();
     zoomProduto();
+    EscolhaCor();
+    EscolhaTamanho();
 });
 
 function galeriaProdutoDetalhe(){
@@ -36,5 +38,19 @@ function zoomProduto(){
         padding: 10,
         prevEffect: "fade",
         nextEffect: "fade"
+    });
+}
+
+function EscolhaCor(){
+    $(".corProduto").click(function(){
+        $(".corProduto").removeClass("corProdutoSelecionado");
+        $(this).addClass("corProdutoSelecionado");
+    });
+}
+
+function EscolhaTamanho(){
+    $(".ulTamanhos a").click(function(){
+        $(".ulTamanhos a").removeClass("selecionado");
+        $(this).addClass("selecionado");
     });
 }

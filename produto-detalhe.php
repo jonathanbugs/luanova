@@ -187,7 +187,7 @@
                                     </li>
 
                                     <li>
-                                        <a class="selecionado" href="javascript:;" title="P"><span>P</span></a>
+                                        <a href="javascript:;" title="P"><span>P</span></a>
                                     </li>
                                     <li>
                                         <a href="javascript:;" title="M"><span>M</span></a>
@@ -203,7 +203,7 @@
 
                                 <ul class="ulCoresProdutos">
                                     <li>
-                                        <a style="background:#4abdb6;" class="corProduto corProdutoSelecionado replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                        <a style="background:#4abdb6;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
                                     </li>
 
                                     <li>
