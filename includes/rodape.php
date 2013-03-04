@@ -27,7 +27,7 @@
 
         <!-- box pagamentos e redes socias -->
         <div class="blocoPagamentoRedes clearfix">
-            <ul class="box boxFormasPagamento">
+            <div class="box boxFormasPagamento">
                 <a class="linkBox" href="javascript:;">
                     <span class="titulo tituloMenor">Formas de</span>
                     <span class="titulo tituloMaior">Pagamento</span>
@@ -38,16 +38,16 @@
                     <li class="liPagamento"><a class="iconePagamento iconePagamento3" href="javascript:;"></a></li>
                     <li class="liPagamento"><a class="iconePagamento iconePagamento4" href="javascript:;"></a></li>
                 </ul>
-            </ul>
+            </div>
 
-            <ul class="box boxBlog">
+            <div class="box boxBlog">
                 <a class="linkBox" href="javascript:;">
                     <span class="titulo tituloMenor">últimas do</span>
                     <span class="titulo tituloMaior">Blog Luz da Lua</span>
                 </a>
-            </ul>
+            </div>
 
-            <ul class="box boxSocial">
+            <div class="box boxSocial">
                 <a class="linkBox" href="javascript:;">
                     <span class="titulo tituloMenor">Siga-nos</span>
                     <span class="titulo tituloMaior">nas redes sociais</span>
@@ -57,7 +57,7 @@
                     <li class="liSocial"><a class="iconeSocial iconeSocialTwitter replace" href="javascript:;">Twitter</a></li>
                     <li class="liSocial"><a class="iconeSocial iconeSocialInstagram replace" href="javascript:;">Instagram</a></li>
                 </ul>
-            </ul>
+            </div>
         </div>
         <div class="boxTextoRodape">
             <span class="textoRodape textoRodapeComprar">
