@@ -92,7 +92,7 @@
                                     </div>
 
                                     <div class="divCampo divCampoLast">
-                                        <label for="">E-mail: <span>*</span></label>
+                                        <label for="iptEmail">E-mail: <span>*</span></label>
                                         <input type="text" name="iptEmail" id="iptEmail" />
                                     </div>
                                 </li>
