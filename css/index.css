@@ -110,6 +110,7 @@
 #produtosDestaque .linkDestaques {
 	position: relative;
 	display: block;
+	cursor: pointer;
 }
 
 .linkDestaques .hoverDestaques {
@@ -122,7 +123,9 @@
 	margin: -75px 0 0 -75px;
 	opacity: 0;
 	-moz-opacity: 0;
-	filter: alpha(opacity=0);
+	*display: none;
+	display /*\**/: none;
+	/*filter: alpha(opacity=0);*/
 	-webkit-transition: all .4s;
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
@@ -133,7 +136,9 @@
 .linkDestaques:hover .hoverDestaques {
 	opacity: 1;
 	-moz-opacity: 1;
-	filter: alpha(opacity=100);
+	*display: block;
+	display /*\**/: block;
+	/*filter: alpha(opacity=100);*/
 }
 
 .destaqueMaior .imgDestaqueMaior {
@@ -264,6 +269,7 @@
 	top: 50%;
 	left: 50%;
 	margin: -140px 0 0 -140px;
+	cursor: pointer;
 }
 
 #principaisOfertas .liDestaqueOfertaMargem {
@@ -291,6 +297,7 @@
 	color: #000;
 	margin-left: -30px;
 	display: block;
+	*line-height: 30px;
 }
 
 .boxProdutosEsquerda .boxTituloBlocosEsquerda .borderTitulo {
@@ -338,6 +345,10 @@
 	border: 1px solid #CCC;
 }
 
+.boxProduto .boxInformacoesProduto {
+	*float: left;
+}
+
 .boxProduto .boxInformacoesProduto .ttProdutoLista {
 	display: block;
 	font-family: 'vidaloka_regular', arial, sans-serif;
@@ -373,6 +384,7 @@
 	display: table;
 	text-align: center;
 	margin: 8px auto 0;
+	*float: left;
 }
 
 .boxProduto .boxParcelas .quantidadeVezes {
@@ -417,6 +429,7 @@
 
 .boxNuvem {
 	width: 100%;
+	*margin-top: 7px;
 }
 
 .boxNuvem .tablePalavras {

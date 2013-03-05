@@ -73,13 +73,14 @@ html, body {
 #topo {
 	position: relative;
 	z-index: 999;
+	*z-index: 999;
 }
 
 #topo .menuTopo {
 	background: url('../img/backgrounds/bg-topo.jpg') repeat-x;
 	height: 105px;
 	position: relative;
-	z-index: 9999;
+	z-index: 999;
 }
 
 #topo .boxLogo {
@@ -98,6 +99,8 @@ html, body {
 #topo .menu {
 	float: right;
 	margin-top: 16.4px;
+	position: relative;
+	z-index: 999;
 }
 
 #topo .menu .liMenu {
@@ -202,6 +205,7 @@ html, body {
 
 .listaItens .liItens {
 	width: 100%;
+	float: left;
 	height: 70px;
 	display: block;
 	position: relative;
@@ -334,6 +338,7 @@ html, body {
 	width: 194px;
 	height: 38px;
 	float: right;
+	cursor: pointer;
 }
 
 .finalizarCompra .finalizarComprahover {
@@ -341,10 +346,11 @@ html, body {
 	background-position: 0 -60px;
 	width: 194px;
 	height: 38px;
-	display: block;
+	*display: none;
+	display /*\**/: none;
 	opacity: 0;
 	-moz-opacity: 0;
-	filter: alpha(opacity=0);
+	/*filter: alpha(opacity=0);*/
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
@@ -355,7 +361,9 @@ html, body {
 .finalizarCompra:hover .finalizarComprahover {
 	opacity: 1;
 	-moz-opacity: 1;
-	filter: alpha(opacity=100)
+	/*filter: alpha(opacity=100);*/
+	*display: block;
+	display /*\**/: block;
 }
 
 
@@ -630,6 +638,7 @@ html, body {
 	height: 34px;
 	float: left;
 	display: block;
+	cursor: pointer;
 }
 
 

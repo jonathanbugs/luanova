@@ -56,6 +56,7 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    text-decoration: none;
 }
 
 .ulAuxiliarCompra a:hover{
@@ -209,6 +210,8 @@
     padding-right:22px;
     text-align:center;
     float:left;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .ulTamanhos .selecionado{
@@ -295,14 +298,18 @@
 
 #imgPrincipal li a{
     float:left;
+    text-decoration: none;
 }
 
 .auxZoom{
     position:absolute;
-    bottom:7px; left:7px;
+    bottom:7px;
+    left:7px;
     font-size:10px;
     color:#888888;
     font-style:italic;
+    cursor: pointer;
+    text-decoration: none !important;
 }
 
 .icoZoom{
@@ -312,6 +319,7 @@
     width:25px;
     height:25px;
     background:url("../img/sp-produto-detalhe.png") no-repeat -89px -76px;
+    text-decoration: none;
 }
 
 #imgThumbs{

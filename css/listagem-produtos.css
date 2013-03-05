@@ -43,7 +43,7 @@
 }
 
 .liCategoria .linkCategoria {
-    background: url('../img/icones/lista-categorias.png') no-repeat left center;
+    background: url('../img/icones/lista-categorias.png') no-repeat;
     height: 17px;
     display: block;
     font-size: 11px;
@@ -249,10 +249,11 @@
     background-position: 0 -40px;
     width: 175px;
     height: 38px;
-    display: block;
+    *display: none;
+    display /*\**/: none;
     opacity: 0;
     -moz-opacity: 0;
-    filter: alpha(opacity=0);
+    /*filter: alpha(opacity=0);*/
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
@@ -263,5 +264,7 @@
 .botaoMaisProdutos:hover .botaoMaisProdutoshover {
     opacity: 1;
     -moz-opacity: 1;
-    filter: alpha(opacity=100)
+    /*filter: alpha(opacity=100)*/
+    *display: block;
+    display /*\**/: block;
 }
