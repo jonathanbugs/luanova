@@ -18,10 +18,10 @@
                                 <span class="titulo">Bolsa - 4174V33</span>
                                 <span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
 
-                                <div class="aPrazo">
+                                <span class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
                                     <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
 
@@ -36,10 +36,10 @@
                                 <span class="titulo">Bolsa - 4174V33</span>
                                 <span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
 
-                                <div class="aPrazo">
+                                <span class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
                                     <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
 
@@ -54,10 +54,10 @@
                                 <span class="titulo">Bolsa - 4174V33</span>
                                 <span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
 
-                                <div class="aPrazo">
+                                <span class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
                                     <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -75,10 +75,10 @@
                                 <span class="titulo">Bolsa - 4174V33</span>
                                 <span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
 
-                                <div class="aPrazo">
+                                <span class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
                                     <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
 
@@ -93,10 +93,10 @@
                                 <span class="titulo">Bolsa - 4174V33</span>
                                 <span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
 
-                                <div class="aPrazo">
+                                <span class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
                                     <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
 
@@ -111,10 +111,10 @@
                                 <span class="titulo">Bolsa - 4174V33</span>
                                 <span class="preco"><span class="textoSublinhado">De R$ 709,90</span> / Por R$ 426,90</span>
 
-                                <div class="aPrazo">
+                                <span class="aPrazo">
                                     <span class="numeroVezes"><span>6x</span> s/ juros</span>
                                     <span class="valorParcela">71<span class="valorParcelaCentavos">,00</span></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
                     </div>
