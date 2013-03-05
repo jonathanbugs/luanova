@@ -149,8 +149,6 @@
                         <li>
                             <a href="javascript:;" title="Comparar">Comparar</a>
                         </li>
-
-
                     </ul>
 
                     <div class="descricaoProduto">
@@ -210,7 +208,7 @@
                                     <li>
                                         <a style="background:#ede9dc;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
                                         <div class="thumbCor"><img src="img/conteudo/thumb-cor.png" alt="Nome da Cor" /></div>
-                                        
+
                                     </li>
 
                                     <li>
