@@ -254,9 +254,9 @@
                                 <g:plusone size="medium"></g:plusone>
                             </li>
 
-<!--                            <li>
+                            <!--li>
                                 ENVIE PARA UM AMIGO
-                            </li>-->
+                            </li-->
                         </ul>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-<div class="boxCadastroNovidades">
+<div class="boxCadastroNovidades <?if ($sessao == 'index') { ?> boxCadastroNovidadesFixed <? } ?>" >
     <div class="container clearfix">
         <span class="textoFashion">FASHION UPDATES</span>
         <span class="textoCadastro">Receba novidades do mundo da moda em seu e-mail.</span>

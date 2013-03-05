@@ -27,9 +27,9 @@
 ----------------------*/
 #produtosDestaque .boxTituloBlocos,
 #principaisOfertas .boxTituloBlocos {
-	width: 842px;
+	width: 880px;
 	height: 50px;
-	margin: 0 0 9px 30px;
+	margin: 0 0 8px 30px;
 }
 
 .boxTituloBlocos .titulo {
@@ -38,6 +38,7 @@
 	color: #000;
 	display: block;
 	margin-left: -30px;
+	line-height: 35px;
 }
 
 .boxTituloBlocos .subTitulo {
@@ -47,7 +48,12 @@
 	text-transform: uppercase;
 	border-top: 1px solid #7f7f7f;
 	display: block;
-	font-style: italic;
+	padding-top: 2px;
+	margin-top: -2px;
+}
+
+.boxTituloBlocos .subTituloOfertas {
+	padding-left: 50px;
 }
 
 
@@ -58,7 +64,7 @@
 ----------------------*/
 .nav {
 	position: absolute;
-	top: 32px;
+	top: 28px;
 	right: -5px;
 }
 
@@ -69,7 +75,7 @@
 	background: url('../img/botoes/navegacao-banner.png') no-repeat 0 0;
 	width: 10px;
 	height: 10px;
-	margin: 0 5px;
+	margin: 0 2px;
 }
 
 .nav a.activeSlide {
@@ -143,6 +149,7 @@
 	margin-top: 12px;
 	position: relative;
 	width: 100%;
+	text-decoration: none;
 }
 
 .informacoesProduto .titulo {
@@ -283,13 +290,14 @@
 	font-size: 37px;
 	color: #000;
 	margin-left: -30px;
-	height: 35px;
+	display: block;
 }
 
 .boxProdutosEsquerda .boxTituloBlocosEsquerda .borderTitulo {
 	border-top: 1px solid #d4d4d4;
 	border-bottom: 1px solid #AAA;
 	display: block;
+	margin: -2px 0 2px;
 }
 
 .boxProdutosEsquerda .boxTituloBlocosEsquerda .subTitulo {
@@ -298,7 +306,6 @@
 	color: #000;
 	text-transform: uppercase;
 	display: block;
-	font-style: italic;
 }
 
 

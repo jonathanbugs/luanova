@@ -17,12 +17,11 @@ function bannerDestaques(){
 	});
 
 	$("#bannerDestaques").cycle({
-		fx:				'scrollLeft',
-		easing:			'easeInQuart',
-		speed:			1000,
+		fx:				'fade',
+		speed:			800,
 		cleartype:		!$.support.opacity,
 		cleartypeNoBg:	true,
-		timeout:		4000
+		timeout:        4000
 	});
 }
 
@@ -30,10 +29,10 @@ function bannerProdutosDestaques(){
 	$("#bannerProdutosDestaques").before('<div id="nav" class="nav">').cycle({
 		fx:				'fade',
 		easing:			'linear',
-		speed:			1500,
+		speed:			800,
 		cleartype:		!$.support.opacity,
 		cleartypeNoBg:	true,
-		timeout:		4000,
+		timeout:		0,
 		pager:  '#nav'
 	});
 }
@@ -42,10 +41,10 @@ function bannerPrincipaisOfertas(){
 	$("#bannerPrincipaisOfertas").before('<div id="navOfertas" class="nav">').cycle({
 		fx:				'fade',
 		easing:			'linear',
-		speed:			1500,
+		speed:			800,
 		cleartype:		!$.support.opacity,
 		cleartypeNoBg:	true,
-		timeout:		4000,
+		timeout:		0,
 		pager:  '#navOfertas'
 	});
 }

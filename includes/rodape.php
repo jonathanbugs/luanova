@@ -53,9 +53,21 @@
                     <span class="titulo tituloMaior">nas redes sociais</span>
                 </a>
                 <ul class="listaSocial">
-                    <li class="liSocial"><a class="iconeSocial iconeSocialFacebook replace" href="javascript:;">Facebook</a></li>
-                    <li class="liSocial"><a class="iconeSocial iconeSocialTwitter replace" href="javascript:;">Twitter</a></li>
-                    <li class="liSocial"><a class="iconeSocial iconeSocialInstagram replace" href="javascript:;">Instagram</a></li>
+                    <li class="liSocial">
+                        <a class="iconeSocial iconeSocialFacebook replace" href="javascript:;">
+                            <span class="iconeSocialhover iconeSocialFacebookhover">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="liSocial">
+                        <a class="iconeSocial iconeSocialTwitter replace" href="javascript:;">
+                            <span class="iconeSocialhover iconeSocialTwitterhover">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="liSocial">
+                        <a class="iconeSocial iconeSocialInstagram replace" href="javascript:;">
+                            <span class="iconeSocialhover iconeSocialInstagramhover">Instagram</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
