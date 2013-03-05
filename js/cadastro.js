@@ -22,7 +22,7 @@ function checkboxPersonalizado(){
 function paginasProdutoVisualizado(){
     $(".produtosVisualizados").cycle({
         fx: 'fade',
-        speed: 'fast',
+        speed: 800,
         timeout: 0,
         nowrap: 1,
         pager: '.pgProdutosVisualizados'

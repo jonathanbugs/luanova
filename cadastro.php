@@ -123,6 +123,7 @@
                                     <div class="divCampo divCampoCEP">
                                         <label for="iptCEP">CEP: <span>*</span></label>
                                         <input type="text" name="iptCEP" id="iptCEP" />
+                                        <a class="lkPreencherCep" title="Preencher" href="javascript:;">Preencher</a>
                                     </div>
                                     <div class="divCampo divCampoLast">
                                         <label for="iptEndereco">Endereço: <span>*</span></label>

@@ -204,22 +204,28 @@
                                 <ul class="ulCoresProdutos">
                                     <li>
                                         <a style="background:#4abdb6;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                        <div class="thumbCor"><img src="img/conteudo/thumb-cor.png" alt="Nome da Cor" /></div>
                                     </li>
 
                                     <li>
                                         <a style="background:#ede9dc;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                        <div class="thumbCor"><img src="img/conteudo/thumb-cor.png" alt="Nome da Cor" /></div>
+                                        
                                     </li>
 
                                     <li>
                                         <a style="background:#ec9524;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                        <div class="thumbCor"><img src="img/conteudo/thumb-cor.png" alt="Nome da Cor" /></div>
                                     </li>
 
                                     <li>
                                         <a style="background:#2c67a8;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                        <div class="thumbCor"><img src="img/conteudo/thumb-cor.png" alt="Nome da Cor" /></div>
                                     </li>
 
                                     <li>
                                         <a style="background:#dee030;" class="corProduto replace" title="Nome da Cor" href="javascript:;"><span>Nome da Cor</span></a>
+                                        <div class="thumbCor"><img src="img/conteudo/thumb-cor.png" alt="Nome da Cor" /></div>
                                     </li>
                                 </ul>
                             </div>

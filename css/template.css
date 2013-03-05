@@ -841,13 +841,13 @@ html, body {
 }
 
 #migalhaPao a{
-    text-decoration:underline;
+    text-decoration:none;
     color:#ACACAC;
     font-size:10px;
 }
 
 #migalhaPao a:hover{
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 /*
