@@ -5,6 +5,7 @@ $(document).ready(function(){
     zoomProduto();
     EscolhaCor();
     EscolhaTamanho();
+    hoverThumbsCor();
 });
 
 function galeriaProdutoDetalhe(){
@@ -55,5 +56,13 @@ function EscolhaTamanho(){
     $(".ulTamanhos a").click(function(){
         $(".ulTamanhos a").removeClass("selecionado");
         $(this).addClass("selecionado");
+    });
+}
+
+function hoverThumbsCor(){
+    $(".corProduto").hover(function(){
+        $(this).next(".thumbCor").fadeIn(400);
+    }, function(){
+        $(".thumbCor").hide();
     });
 }

@@ -579,26 +579,10 @@
     position:absolute;
     bottom:20px;
     left:-45px;
-    opacity:0;
-    filter:alpha(opacity=0);
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+    display:none;
 }
 
 .thumbCor img{
     margin:5px;
 }
 
-.ulCoresProdutos li:hover .thumbCor{
-    opacity:1;
-    filter:alpha(opacity=100);
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-
-}
