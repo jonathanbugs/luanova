@@ -84,28 +84,28 @@
                     <div id="imgPrincipal">
                         <ul>
                             <li>
-                                <a class="lkGaleria" href="img/conteudo/produto-detalhe.jpg" rel="galeria" >
+                                <a class="lkGaleria" href="img/conteudo/teste-fancybox.jpg" rel="galeria" >
                                     <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
                                     <span class="icoZoom replace">Ampliar</span>
                                     <span class="auxZoom">Clique para ver a imagem ampliada</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="lkGaleria" href="img/conteudo/produto-detalhe.jpg" rel="galeria" >
+                                <a class="lkGaleria" href="img/conteudo/teste-fancybox.jpg" rel="galeria" >
                                     <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
                                     <span class="icoZoom replace">Ampliar</span>
                                     <span class="auxZoom">Clique para ver a imagem ampliada</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="lkGaleria" href="javascript:;" >
+                                <a class="lkGaleria" href="img/conteudo/teste-fancybox.jpg" >
                                     <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
                                     <span class="icoZoom replace">Ampliar</span>
                                     <span class="auxZoom">Clique para ver a imagem ampliada</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="lkGaleria" href="javascript:;" >
+                                <a class="lkGaleria" href="img/conteudo/teste-fancybox.jpg" >
                                     <img src="img/conteudo/produto-detalhe.jpg" alt="Bolsa Verde" />
                                     <span class="icoZoom replace">Ampliar</span>
                                     <span class="auxZoom">Clique para ver a imagem ampliada</span>
@@ -238,18 +238,18 @@
                         <span class="ttCompartilhe">Compartilhe esse produto</span>
 
                         <ul class="linksCompartilhe">
-                            <li>
-                                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>                            </li>
-                            <li>
+                            <li class="btCurtir">
+                                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fhttps://www.lojaluzdalua.com.br/site/produtos/interna.php?familia=5&id=2040&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>                            </li>
+                            <li class="btTweetar">
                                 <iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html" style="width:130px; height:20px;"></iframe>
                             </li>
 
-                            <li>
+                            <li class="btPinar">
                                 <a data-pin-config="none" href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Titulo%20do%20Produto" data-pin-do="buttonPin" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
                                 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
                             </li>
 
-                            <li>
+                            <li class="btGplus">
                                 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
                                 <g:plusone size="medium"></g:plusone>
                             </li>

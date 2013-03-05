@@ -10,7 +10,8 @@ $(document).ready(function(){
 function galeriaProdutoDetalhe(){
     $('#imgPrincipal ul').cycle({
         fx: 'fade',
-        speed: 'fast',
+        easing: "linear",
+        speed: 800,
         timeout: 0,
         prev: '#prev',
         next: '#next',
@@ -26,7 +27,8 @@ function galeriaProdutoDetalhe(){
 function paginasProdutoRelacionado(){
     $(".produtosRelacionados").cycle({
         fx: 'fade',
-        speed: 'fast',
+        easing: "linear",
+        speed: 800,
         timeout: 0,
         nowrap: 1,
         pager: '.pgProdutosRelacionados'
@@ -37,7 +39,8 @@ function zoomProduto(){
     $("#imgPrincipal a").fancybox({
         padding: 10,
         prevEffect: "fade",
-        nextEffect: "fade"
+        nextEffect: "fade",
+        fitToView : false
     });
 }
 

@@ -51,20 +51,21 @@
     background:url("../img/sp-produto-detalhe.png") no-repeat -198px -118px;
     display:block;
     padding:6px 0 3px 24px;
-    -webkit-transition: color .3s;
-    -moz-transition: color .3s;
-    -ms-transition: color .3s;
-    -o-transition: color .3s;
-    transition: color .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
 
 .ulAuxiliarCompra a:hover{
-    color:#268572;
-    -webkit-transition: color .3s;
-    -moz-transition: color .3s;
-    -ms-transition: color .3s;
-    -o-transition: color .3s;
-    transition: color .3s;
+    color:#d2232a;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background-position: -198px -139px;
 }
 
 .descricaoProduto{
@@ -529,8 +530,25 @@
     left:83px;
 }
 
+.linksCompartilhe{
+    height:30px;
+}
+
 .linksCompartilhe li{
     padding-bottom:5px;
+    float:left;
+}
+
+.linksCompartilhe .btCurtir{
+    width:104px;
+}
+
+.linksCompartilhe .btTweetar{
+    width:94px;
+}
+
+.linksCompartilhe .btPinar{
+    width:60px;
 }
 
 .produtosRelacionados li a:hover{
