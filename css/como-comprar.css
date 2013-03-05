@@ -1,0 +1,58 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catComoComprar{
+    width:44px;
+    height:46px;
+    background:url("../img/sp-como-comprar.png") no-repeat -3px 0;
+}
+
+
+.subMenuComoComprar{
+    padding-top:16px;
+    height:18px;
+    padding-bottom:22px;
+}
+
+.subMenuComoComprar li{
+    float:left;
+    padding-right:7px;
+}
+
+.subMenuComoComprar a{
+    font-size:13px;
+    font-family:"vidaloka_regular";
+    color:#000;
+    padding-right:6px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.subMenuComoComprar a:hover,
+.subMenuComoComprar .selecionado{
+    color:#5ac1ac;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+
+}
+
+
+.accordionComoComprar li{
+    background:#f6f6f6;
+}
+
+.accordionComoComprar h3{
+    height:40px;
+    line-height:40px;
+    font-family:"vidaloka_regular";
+    font-size:15px;
+    color:#888888;
+}
