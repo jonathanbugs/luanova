@@ -12,12 +12,14 @@
 	BANNER DESTAQUES
 ----------------------*/
 .bannerHome {
+	width: 100%;
 	height: 311px;
 	overflow: hidden;
 }
 
 #bannerDestaques {
 	height: 311px;
+	overflow: hidden;
 }
 
 

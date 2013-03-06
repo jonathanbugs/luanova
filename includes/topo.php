@@ -35,7 +35,7 @@
                                     <a class="excluirProduto replace" href="javascript:;">Excluir</a>
                                 </div>
                             </li>
-                            <!--li class="liItens">
+                            <li class="liItens">
                                 <a class="linkProduto" href="javascript:;">
                                     <img class="imgSacola" src="img/conteudo/produto-sacola.jpg" alt=""/>
                                     <span class="tituloProduto">Bolsa média - 4174V33</span>
@@ -45,7 +45,7 @@
                                     <span class="precoProduto">R$ 1200,90</span>
                                     <a class="excluirProduto replace" href="javascript:;">Excluir</a>
                                 </div>
-                            </li-->
+                            </li>
                         </ul>
 
                         <div class="boxSubTotal">

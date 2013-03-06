@@ -53,9 +53,11 @@
 
     <!-- CSS e JS da secao -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/cuidados-com-o-seu-produto.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.jscrollpane.css" />
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
+        <script type="text/javascript" src="js/cuidados-com-o-seu-produto.js"></script>
     <!-- /CSS e JS da secao -->
 </head>
 
@@ -76,33 +78,33 @@
                     <h2 class="ttCabecalho">Cuidados com o seu produto</h2>
                     <span class="categoria catComoComprar replace"></span>
                 </div>
-                
+
                 <ul class="subMenuComoComprar">
                     <li><a href="javascript:;" title="Como comprar">Como comprar</a> |</li>
                     <li><a href="javascript:;" title="Perguntas frequentes">Perguntas frequentes</a> |</li>
                     <li><a class="selecionado" href="javascript:;" title="Cuidados com o seu produto">Cuidados com o seu produto</a></li>
                 </ul>
-                
+
                 <div class="blocoCuidadosSeuProduto">
                     <p>
-                        O couro utilizado nas bolsas e calçados LUZ DA LUA é um material nobre e exige alguns cuidados especiais. 
+                        O couro utilizado nas bolsas e calçados LUZ DA LUA é um material nobre e exige alguns cuidados especiais.
                         Para guardar a sua bolsa, use sempre o saquinho protetor. Nunca guarde a sua LUZ DA LUA em locais úmidos  ou abafados.
                     </p>
-                    
+
                     <div class="clearfix">
                         <div class="blocoLimpeza">
                             <span class="ttLimpeza">Limpeza</span>
-                            
-                            <p>Nunca use solventes, água sanitária, acetona, álcool ou detergentes 
-para efetuar a limpeza dos couros. Em caso de mofo, uma flanela seca é suficiente para limpá-la. Não esqueça de colocá-los em local arejado. Uma flanela levemente umedecida é suficiente para limpar o forro das bolsas. Puxe-o para fora para facilitar 
-o trabalho. Mantenha sua maquiagem em uma nécessaire, evitando vazamentos ou acidentes que possam sujar a sua LUZ DA LUA 
-por dentro. Para limpar os calçados, não mergulhe-os em água. Utilize um pano úmido e deixe-os secar 
+
+                            <p>Nunca use solventes, água sanitária, acetona, álcool ou detergentes
+para efetuar a limpeza dos couros. Em caso de mofo, uma flanela seca é suficiente para limpá-la. Não esqueça de colocá-los em local arejado. Uma flanela levemente umedecida é suficiente para limpar o forro das bolsas. Puxe-o para fora para facilitar
+o trabalho. Mantenha sua maquiagem em uma nécessaire, evitando vazamentos ou acidentes que possam sujar a sua LUZ DA LUA
+por dentro. Para limpar os calçados, não mergulhe-os em água. Utilize um pano úmido e deixe-os secar
 na sombra. Nunca exponha ao sol ou em estufas.</p>
                         </div>
-                        
+
                         <div class="blocoDanosIrreparaveis">
                             <span class="ttDanosIrreparaveis">Danos irreparáveis</span>
-                            
+
                             <p>
                                 De maneira alguma molhe o couro, nem mesmo com água de chuva, pois por ser um material natural, fica manchado. Tenha cuidado com objetos pontiagudos, canetas esferográficas e superfícies ásperas. Elas danificam definitivamente o couro sem possibilidades de recuperação. Os tons claros são naturalmente mais sensíveis e suscetíveis à ocorrência de manchas. Por isso, evite o contato das bolsas de cores claras, de qualquer material, com roupas de cores escuras, que possam representar algum risco de manchar o couro.
                             </p>

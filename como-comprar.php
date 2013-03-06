@@ -53,6 +53,7 @@
 
     <!-- CSS e JS da secao -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/como-comprar.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.jscrollpane.css" />
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
@@ -77,13 +78,13 @@
                     <h2 class="ttCabecalho">Como Comprar</h2>
                     <span class="categoria catComoComprar replace"></span>
                 </div>
-                
+
                 <ul class="subMenuComoComprar">
                     <li><a class="selecionado" href="javascript:;" title="Como comprar">Como comprar</a> |</li>
                     <li><a href="javascript:;" title="Perguntas frequentes">Perguntas frequentes</a> |</li>
                     <li><a href="javascript:;" title="Cuidados com o seu produto">Cuidados com o seu produto</a></li>
                 </ul>
-                
+
                 <ul class="accordionComoComprar">
                     <li>
                         <h3>1 - Escolhendo os produtos<a class="btAbrirAccordion replace" href="javascript:;">Abrir</a></h3>
@@ -91,7 +92,7 @@
                             <p>Selecione através do menu a categoria de produtos desejada, posteriormente, opte por uma subcategoria, que divide os produtos por linhas similares. Escolha a sua e siga a navegação.</p>
                         </div>
                     </li>
-                    
+
                     <li>
                         <h3>2 - Formas de Busca<a class="btAbrirAccordion replace" href="javascript:;">Abrir</a></h3>
                         <div class="conteudoAccordion">
@@ -104,7 +105,7 @@
                             <p>Selecione através do menu a categoria de produtos desejada, posteriormente, opte por uma subcategoria, que divide os produtos por linhas similares. Escolha a sua e siga a navegação.</p>
                         </div>
                     </li>
-                    
+
                     <li>
                         <h3>2 - Formas de Busca<a class="btAbrirAccordion replace" href="javascript:;">Abrir</a></h3>
                         <div class="conteudoAccordion">
@@ -117,7 +118,7 @@
                             <p>Selecione através do menu a categoria de produtos desejada, posteriormente, opte por uma subcategoria, que divide os produtos por linhas similares. Escolha a sua e siga a navegação.</p>
                         </div>
                     </li>
-                    
+
                     <li>
                         <h3>2 - Formas de Busca<a class="btAbrirAccordion replace" href="javascript:;">Abrir</a></h3>
                         <div class="conteudoAccordion">
@@ -130,7 +131,7 @@
                             <p>Selecione através do menu a categoria de produtos desejada, posteriormente, opte por uma subcategoria, que divide os produtos por linhas similares. Escolha a sua e siga a navegação.</p>
                         </div>
                     </li>
-                    
+
                     <li>
                         <h3>2 - Formas de Busca<a class="btAbrirAccordion replace" href="javascript:;">Abrir</a></h3>
                         <div class="conteudoAccordion">

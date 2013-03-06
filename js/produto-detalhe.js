@@ -38,6 +38,7 @@ function paginasProdutoRelacionado(){
 
 function zoomProduto(){
     $("#imgPrincipal a").fancybox({
+        maxWidth: 900,
         padding: 10,
         prevEffect: "fade",
         nextEffect: "fade",

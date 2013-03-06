@@ -54,6 +54,7 @@
     <!-- CSS e JS da secao -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/produto-detalhe.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.jscrollpane.css" />
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
