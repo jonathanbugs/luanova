@@ -21,54 +21,26 @@
 	width: 100%;
 }
 
-.tabelaDesejos tr {
+.tabelaDesejos .blocoTabela {
+	background: #f2f2f2;
 	cursor: pointer;
+	position: relative;
+	line-height: 70px;
 }
 
 .tabelaDesejos .titulosTabela {
 	height: 20px;
-	display: block;
 	color: #888;
 	font-size: 11px;
+	font-weight: normal;
 }
 
-.titulosTabela .tituloProdutoLista {
-	padding-left: 10px;
+.tabelaDesejos .blocoProduto {
+	width: 315px;
+	text-align: left;
 }
 
-.boxListaDesejos .blocoTabela {
-	background: #f2f2f2;
-	display: block;
-	margin-bottom: 9px;
-	color: #000;
-}
-
-.tabelaDesejos .tdCenter {
-	padding: 45px 0;
-}
-
-.blocoTabelaHeight {
-	height: 6px;
-}
-
-.boxListaDesejos .blocoTabelaCenter {
-	text-align: center;
-}
-
-.boxListaDesejos .blocoTabelaProduto {
-	width: 316px;
-	float: left;
-	vertical-align: middle;
-}
-
-.boxListaDesejos .blocoTabelaValor {
-	background: url('../img/backgrounds/lista_desejos.png') no-repeat;
-	width: 337px;
-	font-weight: bold;
-	font-size: 11px;
-}
-
-.boxListaDesejos .blocoTabelaProdutoTitulo a {
+.tabelaDesejos .blocoProdutoTitulo a {
 	font-family: 'vidaloka_regular', arial, sans-serif;
 	font-size: 13px;
 	color: #000;
@@ -80,38 +52,65 @@
     transition: all .3s;
 }
 
-.boxListaDesejos .blocoTabelaProdutoTitulo:hover a {
+.tabelaDesejos .blocoProdutoTitulo:hover a {
 	color: #d2232a;
 }
 
-.boxListaDesejos .imgProdutoLista {
+.tabelaDesejos .imgProdutoLista {
 	background: #FFF;
 	float: left;
 	border: 1px solid #CCC;
-	margin: -35px 10px 0;
 	padding: 4px;
+	margin-right: 10px;
 }
 
-.blocoTabelaOpcoes {
+.tabelaDesejos .blocoTabelaValor {
+	background: url('../img/backgrounds/lista_desejos.png') no-repeat;
+	width: 317px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+
+.tabelaDesejos .blocoTabelaOpcoes {
 	position: relative;
 }
 
 .blocoTabelaOpcoes .iconesTabela {
 	background: url('../img/icones/lista-desejos.png') no-repeat;
 	width: 39px;
-	height: 37px;
+	height: 38px;
 	float: left;
 	position: absolute;
-	top: 20px;
+	top: 30px;
 	display: block;
 }
-
 .blocoTabelaOpcoes .iconeSacola {
 	background-position: 0 -93px;
-	left: 40px;
+	left: 100px;
 }
 
 .blocoTabelaOpcoes .iconeExcluir {
 	background-position: 0 -167px;
-	left: 80px;
+	left: 165px;
+}
+
+.iconeMover {
+	background: url('../img/icones/lista-desejos.png') no-repeat 0 -258px;
+	width: 181px;
+	height: 43px;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	display: none;
+}
+
+.blocoProdutoTitulo, .blocoTabelaValor, .blocoTabelaOpcoes {
+	padding: 10px !important;
+
+}
+
+td {
+	padding: 5px;
+	*padding: 20px;
 }

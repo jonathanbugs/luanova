@@ -1,16 +1,15 @@
 $(document).ready(function(){
 	inicia();
-    EsqueciSenha();
+    showMoverSacola();
 });
 
-function EsqueciSenha(){
-    $(".lkEsqueciSenha").click(function(){
-        $(".divLogin").hide();
-        $(".divEsqueciSenha").fadeIn();
+
+function showMoverSacola(){
+    $('.blocoTabela').on('mouseenter', function(){
+        $(this).find('.iconeMover').show();
     });
 
-    $(".lkVoltarLogin").click(function(){
-        $(".divEsqueciSenha").hide();
-        $(".divLogin").fadeIn();
+    $('.blocoTabela').on('mouseleave', function(){
+        $(this).find('.iconeMover').hide();
     });
 }
