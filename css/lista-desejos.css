@@ -10,3 +10,108 @@
     position: relative;
     top: 10px;
 }
+
+.boxListaDesejos {
+	width: 956px;
+	height: 400px;
+	margin: 25px auto 0;
+}
+
+.tabelaDesejos {
+	width: 100%;
+}
+
+.tabelaDesejos tr {
+	cursor: pointer;
+}
+
+.tabelaDesejos .titulosTabela {
+	height: 20px;
+	display: block;
+	color: #888;
+	font-size: 11px;
+}
+
+.titulosTabela .tituloProdutoLista {
+	padding-left: 10px;
+}
+
+.boxListaDesejos .blocoTabela {
+	background: #f2f2f2;
+	display: block;
+	margin-bottom: 9px;
+	color: #000;
+}
+
+.tabelaDesejos .tdCenter {
+	padding: 45px 0;
+}
+
+.blocoTabelaHeight {
+	height: 6px;
+}
+
+.boxListaDesejos .blocoTabelaCenter {
+	text-align: center;
+}
+
+.boxListaDesejos .blocoTabelaProduto {
+	width: 316px;
+	float: left;
+	vertical-align: middle;
+}
+
+.boxListaDesejos .blocoTabelaValor {
+	background: url('../img/backgrounds/lista_desejos.png') no-repeat;
+	width: 337px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.boxListaDesejos .blocoTabelaProdutoTitulo a {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.boxListaDesejos .blocoTabelaProdutoTitulo:hover a {
+	color: #d2232a;
+}
+
+.boxListaDesejos .imgProdutoLista {
+	background: #FFF;
+	float: left;
+	border: 1px solid #CCC;
+	margin: -35px 10px 0;
+	padding: 4px;
+}
+
+.blocoTabelaOpcoes {
+	position: relative;
+}
+
+.blocoTabelaOpcoes .iconesTabela {
+	background: url('../img/icones/lista-desejos.png') no-repeat;
+	width: 39px;
+	height: 37px;
+	float: left;
+	position: absolute;
+	top: 20px;
+	display: block;
+}
+
+.blocoTabelaOpcoes .iconeSacola {
+	background-position: 0 -93px;
+	left: 40px;
+}
+
+.blocoTabelaOpcoes .iconeExcluir {
+	background-position: 0 -167px;
+	left: 80px;
+}

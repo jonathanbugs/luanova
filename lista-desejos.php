@@ -77,6 +77,42 @@
                 <h2 class="ttCabecalho">Lista de Desejos</h2>
                 <span class="categoria catDesejos replace"></span>
             </div>
+
+            <div class="boxListaDesejos">
+                <table class="tabelaDesejos">
+                    <tr class="titulosTabela">
+                        <td class="blocoTabelaProduto tituloProdutoLista">Produto</td>
+                        <td class="blocoTabelaCenter blocoTabelaValor">Valor</td>
+                        <td class="blocoTabelaCenter blocoTabelaOpcoes">Opções</td>
+                    </tr>
+                    <tr class="blocoTabela">
+                        <td class="tdCenter blocoTabelaHeight blocoTabelaProduto blocoTabelaProdutoTitulo">
+                            <a href="javascript:;">
+                                <img class="imgProdutoLista" src="img/conteudo/produto-lista-desejo-1.jpg" alt="" />
+                                Bolsa média - 4174V33
+                            </a>
+                        </td>
+                        <td class="tdCenter blocoTabelaCenter blocoTabelaValor blocoTabelaHeight">R$ 426,90</td>
+                        <td class="tdCenter blocoTabelaCenter blocoTabelaOpcoes">
+                            <a href="javascript:;" class="iconesTabela iconeSacola replace">Sacola</a>
+                            <a href="javascript:;" class="iconesTabela iconeExcluir replace">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr class="blocoTabela">
+                        <td class="tdCenter blocoTabelaHeight blocoTabelaProduto blocoTabelaProdutoTitulo">
+                            <a href="javascript:;">
+                                <img class="imgProdutoLista" src="img/conteudo/produto-lista-desejo-2.jpg" alt="" />
+                                Bolsa média - 4174V33
+                            </a>
+                        </td>
+                        <td class="tdCenter blocoTabelaCenter blocoTabelaValor blocoTabelaHeight">R$ 426,90</td>
+                        <td class="tdCenter blocoTabelaCenter blocoTabelaOpcoes">
+                            <a href="javascript:;" class="iconesTabela iconeSacola replace">Sacola</a>
+                            <a href="javascript:;" class="iconesTabela iconeExcluir replace">Excluir</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <? include 'includes/rodape.php';?>
