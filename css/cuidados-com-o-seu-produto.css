@@ -44,53 +44,40 @@
 
 }
 
-
-.accordionComoComprar li{
-    background:#f6f6f6;
-    margin-bottom:3px;
-    padding:0 13px;
-    position:relative;
+.blocoCuidadosSeuProduto{
+    padding-top:14px;
 }
 
-.accordionComoComprar li:hover{
-    background:#eeeded;
-}
-
-.accordionComoComprar h3{
-    height:40px;
-    line-height:40px;
+.blocoCuidadosSeuProduto p{
     font-family:"vidaloka_regular";
     font-size:15px;
     color:#888888;
-    font-weight:normal;
-    cursor:pointer;
+    width:800px;
+    line-height:22px;
+    padding-bottom:50px;
 }
 
-.conteudoAccordion{
-    padding-bottom:13px;
-    color:#FFF;
-    font-size:13px;
-    display:none;
+.blocoLimpeza{
+    float:left;
+    width:433px;
+    margin-right:66px;
 }
 
-.btAbrirAccordion{
-    width:24px;
-    height:24px;
-    background:url("../img/sp-como-comprar.png") no-repeat 0 -60px;
-    position:absolute;
-    top:7px; right:7px;
+.blocoDanosIrreparaveis{
+    width:455px;
+    float:left;
 }
 
-.btAccordionAberto{
-    background-position:-39px -60px;
+.blocoLimpeza p,
+.blocoDanosIrreparaveis p{
+    width:100%;
 }
 
-.accordionComoComprar .accordionSelecionado,
-.accordionComoComprar .accordionSelecionado:hover{
-    background:#5ac1ac;
-}
-
-.accordionComoComprar .accordionSelecionado,
-.accordionComoComprar .accordionSelecionado h3{
-    color:#FFF;
+.ttLimpeza,
+.ttDanosIrreparaveis{
+    font-family:"porcelai";
+    display:block;
+    font-size:40px;
+    color:#888888;
+    padding-bottom:8px;
 }

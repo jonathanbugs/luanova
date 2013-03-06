@@ -74,13 +74,13 @@
             </div>
             <div id="blocoComoComprar" class="clearfix">
                 <div class="cabecalhoInternas">
-                    <h2 class="ttCabecalho">Como Comprar</h2>
+                    <h2 class="ttCabecalho">Perguntas Frequentes</h2>
                     <span class="categoria catComoComprar replace"></span>
                 </div>
                 
                 <ul class="subMenuComoComprar">
-                    <li><a class="selecionado" href="javascript:;" title="Como comprar">Como comprar</a> |</li>
-                    <li><a href="javascript:;" title="Perguntas frequentes">Perguntas frequentes</a> |</li>
+                    <li><a href="javascript:;" title="Como comprar">Como comprar</a> |</li>
+                    <li><a class="selecionado" href="javascript:;" title="Perguntas frequentes">Perguntas frequentes</a> |</li>
                     <li><a href="javascript:;" title="Cuidados com o seu produto">Cuidados com o seu produto</a></li>
                 </ul>
                 
