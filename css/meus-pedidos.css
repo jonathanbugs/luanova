@@ -42,7 +42,9 @@
     transition: all .3s;
 }
 
-
+.accordionMinhaConta{
+    width: 761px;
+}
 
 .accordionMinhaConta li{
     background:#f6f6f6;
@@ -69,7 +71,7 @@
     padding-bottom:13px;
     color:#FFF;
     font-size:13px;
-/*    display:none;*/
+    display:none;
 }
 
 .btAbrirAccordion{
@@ -118,4 +120,195 @@
 
 .accordionMinhaConta .statusMinhaConta .statusOk{
     color:#5ac1ac;
+}
+
+.accordionMinhaConta .accordionSelecionado .statusMinhaConta li{
+    color:#9dddd0;
+}
+
+.accordionMinhaConta .accordionSelecionado .statusMinhaConta .statusOk,
+.accordionMinhaConta .accordionSelecionado .statusMinhaConta li span{
+    color:#FFF;
+}
+
+.tabelaPedido{
+    margin-top:30px;
+    margin-bottom:20px;
+    visibility:hidden;
+    opacity:0;
+}
+
+.tabelaPedido thead td{
+    color:#FFF;
+    font-size:11px;
+    text-align:center;
+}
+
+.tabelaPedido thead td{
+    padding-bottom:10px;
+}
+
+.tabelaPedido thead .colProduto{
+    width:236px;
+    text-align:left;
+    text-indent: 13px;
+}
+
+.tabelaPedido thead .colValor{
+    width:132px;
+}
+
+.tabelaPedido thead .colTamanho{
+    width:117px;
+}
+
+.tabelaPedido thead .colQuantidade{
+    width:113px;
+}
+
+.tabelaPedido thead .colSubtotal{
+    width:133px;
+}
+
+.tabelaPedido tbody td{
+    background:#FFF;
+    padding:10px 13px;
+    height:70px;
+    vertical-align: middle;
+}
+
+.tabelaPedido tbody .colProduto img{
+    float:left;
+    border:1px solid #CCC;
+    margin-right:9px
+}
+
+.tabelaPedido .colProduto,
+.tabelaPedido .colValor,
+.tabelaPedido .colTamanho,
+.tabelaPedido .colQuantidade{
+    border-right:1px solid #5ac1ac;
+}
+
+.tabelaPedido tbody td{
+    color:#000;
+    font-size:11px;
+    font-weight:bold;
+    text-align:center;
+    border-bottom:1px solid #5ac1ac;
+}
+
+.tabelaPedido tbody .colProduto{
+    text-align:left;
+}
+
+.tabelaPedido tbody .colProduto span{
+    font-family:"vidaloka_regular";
+    font-size:13px;
+    display:table;
+    font-weight:normal;
+}
+
+.tabelaPedido tbody .colProduto span span{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.dadosEntrega{
+    float:left;
+    width:415px;
+    padding-left:20px;
+}
+
+.valorTotal{
+    float:right;
+    width:239px;
+}
+
+.ttEnderecoEntrega{
+    font-family:"vidaloka_regular";
+    color:#FFF;
+    font-size:13px;
+    display:block;
+    padding-bottom:15px;
+}
+
+.dadosEntrega ul li{
+    background:none;
+    padding:0;
+}
+
+.dadosEntrega .ttDadosPrazo{
+    display:block;
+    text-transform:uppercase;
+    color:#000;
+    font-family:"vidaloka_regular";
+    padding-bottom:10px;
+}
+
+.dadosEntrega .endereco{
+    display:block;
+    font-size:13px;
+    line-height:18px;
+}
+
+.dadosEntrega ul li{
+    padding-bottom:20px;
+}
+
+.dadosEntrega ul li:hover{
+    background:none;
+}
+
+.ttCampo{
+    float:left;
+    padding-left:69px;
+    text-align: left;
+}
+
+.valorTotal li,
+.valorTotal li:hover{
+    background:url("../img/backgrounds/bg-valores-meus-pedidos.jpg") repeat-x top left;
+    padding:0;
+    line-height:54px;
+    height:54px;
+    margin-bottom:9px;
+}
+
+.valorTotal li span{
+    line-height:54px;
+    font-size:11px;
+    text-transform:uppercase;
+    display:block;
+    float:left;
+}
+
+.valorTotal li .ttValor{
+    font-size:15px;
+}
+
+.valorTotal li  .ttValor{
+    padding-left:35px;
+    text-align: right;
+    float:right;
+    padding-right:7px;
+}
+
+.valorTotal .last{
+    background:none;
+    margin-bottom:0;
+}
+
+.valorTotal .last span{
+    float:none;
+    display:block;
+    text-align: right;
+    font-size:22px;
+    font-family:"vidaloka_regular";
+    color:#000;
+    padding-right:7px;
+}
+
+.statusMinhaConta{
+    cursor:pointer;
 }
