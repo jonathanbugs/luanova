@@ -82,18 +82,18 @@
             <div class="boxListaSacola">
                 <table class="tabelaSacola" cellspacing="0" cellpadding="0">
                     <tr>
-                        <th class="titulosTabela titulosTabelaProduto">Produto</th>
-                        <th class="titulosTabela">Valor</th>
-                        <th class="titulosTabela">Tamanho</th>
-                        <th class="titulosTabela">Quantidade</th>
-                        <th class="titulosTabela">SubTotal</th>
-                        <th class="titulosTabela">Opções</th>
+                        <th class="titulosTabela titulosTabelaProduto tituloTabelaProduto">Produto</th>
+                        <th class="titulosTabela tituloTabelaValor">Valor</th>
+                        <th class="titulosTabela tituloTabelaTamanho">Tamanho</th>
+                        <th class="titulosTabela tituloTabelaQuantidade">Quantidade</th>
+                        <th class="titulosTabela tituloTabelaSubTotal">SubTotal</th>
+                        <th class="titulosTabela tituloTabelaOpcoes">Opções</th>
                     </tr>
                     <tr class="blocoTabela">
                         <td class="blocoProduto">
-                            <a href="javascript:;">
+                            <a href="javascript:;" class="tabelaProduto">
                                 <img class="imgProdutoLista" src="img/conteudo/produto-lista-desejo-1.jpg" alt="" />
-                                Bolsa média - 4174V33
+                                <span class="tituloProduto">Bolsa média - 4174V33</span>
                             </a>
                         </td>
                         <td class="blocoCenter blocoValor"><strong>R$ 426,90</strong></td>
@@ -101,7 +101,7 @@
                             <div class="blocoRelative">
                                 <span class="boxAbsolute">
                                     <span class="divSelTamanho">
-                                        <select value="Único" name="selTamanho" id="selTamanho">
+                                        <select name="selTamanho" id="selTamanho">
                                             <option>Único</option>
                                             <option>G</option>
                                             <option>M</option>
@@ -113,14 +113,93 @@
                         <td class="blocoCenter blocoQuantidade">
                             <div class="blocoRelativeQuantidade">
                                 <span class="boxAbsoluteQuantidade">
-                                    <input type="" value="2" class="inputQuantidade" />
+                                    <input type="text" value="2" class="inputQuantidade" />
                                 </span>
                             </div>
                         </td>
-                        <td class="blocoCenter"><strong>R$ 426,90</strong></td>
-                        <td></td>
+                        <td class="blocoCenter blocoValorSub">
+                            <strong>R$ 426,90</strong>
+                        </td>
+
+                        <td class="blocoCenter blocoOpcoes">
+                            <div class="blocoRelativeOpcoes">
+                                <a class="iconesSacola iconeDesejos replace" href="javascript:;">Lista de Desejos</a>
+                                <a class="iconesSacola iconeExcluir replace" href="javascript:;">Excluir</a>
+                                <span class="hoverDesejos replace">Mover para Lista de Desejos</span>
+                            </div>
+                        </td>
                     </tr>
+
+                    <tr><td class="separarTabela"></td></tr>
+
+                    <tr class="blocoTabela">
+                        <td class="blocoProduto">
+                            <a href="javascript:;" class="tabelaProduto">
+                                <img class="imgProdutoLista" src="img/conteudo/produto-lista-desejo-2.jpg" alt="" />
+                                <span class="tituloProduto">Bolsa média - 4174V33</span>
+                            </a>
+                        </td>
+                        <td class="blocoCenter blocoValor"><strong>R$ 426,90</strong></td>
+                        <td class="blocoCenter blocoTamanho">
+                            <div class="blocoRelative">
+                                <span class="boxAbsolute">
+                                    <span class="divSelTamanho">
+                                        <select name="selTamanho" id="selTamanho">
+                                            <option>Único</option>
+                                            <option>G</option>
+                                            <option>M</option>
+                                        </select>
+                                    </span>
+                                </span>
+                            </div>
+                        </td>
+                        <td class="blocoCenter blocoQuantidade">
+                            <div class="blocoRelativeQuantidade">
+                                <span class="boxAbsoluteQuantidade">
+                                    <input type="text" value="2" class="inputQuantidade" />
+                                </span>
+                            </div>
+                        </td>
+                        <td class="blocoCenter blocoValorSub">
+                            <strong>R$ 426,90</strong>
+                        </td>
+
+                        <td class="blocoCenter blocoOpcoes">
+                            <div class="blocoRelativeOpcoes">
+                                <a class="iconesSacola iconeDesejos replace" href="javascript:;">Lista de Desejos</a>
+                                <a class="iconesSacola iconeExcluir replace" href="javascript:;">Excluir</a>
+                                <span class="hoverDesejos replace">Mover para Lista de Desejos</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td class="separarTabela"></td></tr>
                 </table>
+
+                <div class="blocoAbaixoTabela">
+                    <span class="textoAbaixo">Calcule o valor do frete:</span>
+                    <div class="relativeInput">
+                        <input type="text" class="inputBlocos" />
+                        <button type="submit" class="btOk">OK</button>
+                    </div>
+                    <a class="textoCep" href="javascript:;">Não sabe o cep?</a>
+
+                    <div class="boxValor">
+                        <span class="texto">Frete:</span>
+                        <span class="valor">R$ 23,80</span>
+                    </div>
+                </div>
+
+                <div class="blocoAbaixoTabela">
+                    <span class="textoAbaixo">Cupom de desconto:</span>
+                    <div class="relativeInput">
+                        <input type="text" class="inputBlocos" />
+                        <button type="submit" class="btOk">OK</button>
+                    </div>
+                    <div class="boxValor">
+                        <span class="texto">Desconto:</span>
+                        <span class="valor">R$ 50,80</span>
+                    </div>
+                </div>
             </div>
         </div>
 

@@ -25,7 +25,6 @@
 	background: #f2f2f2;
 	cursor: pointer;
 	position: relative;
-	line-height: 70px;
 }
 
 .tabelaSacola .titulosTabela {
@@ -56,8 +55,7 @@
 }
 
 .blocoProduto {
-	width: 257px;
-	padding: 10px !important;
+	width: 277px;
 }
 
 .tabelaSacola .imgProdutoLista {
@@ -73,28 +71,37 @@
 }
 
 
+.tabelaProduto {
+	display: table;
+}
+
+.tabelaProduto .tituloProduto {
+	vertical-align: middle;
+	display: table-cell;
+	*line-height: 70px;
+}
+
 .tabelaSacola .blocoValor {
-	background: url('../img/backgrounds/tabela-valor-sacola.png') no-repeat;
-	width: 170px;
+	background: url('../img/backgrounds/divisor-tabela.png') no-repeat top left;
+	width: 148px;
+	padding-left: 30px;
 }
 
 .tabelaSacola .blocoTamanho {
-	background: url('../img/backgrounds/tabela-tamanhos.png') no-repeat;
-	width: 168px;
-	height: 32px;
+	background: url('../img/backgrounds/divisor-tabela.png') no-repeat top left;
+	width: 148px;
 }
 
 .blocoRelative {
 	position: relative;
 	height: 25px;
 	width: 85px;
-	margin-left: 40px;
-	*margin-left: 0;
+	margin-left: 50px;
 }
 
 .boxAbsolute {
 	position: absolute;
-	top: 10px;
+	top: 2px;
 	left: 0;
 }
 
@@ -134,9 +141,8 @@
 
 
 .tabelaSacola .blocoQuantidade {
-	background: url('../img/backgrounds/tabela-quantidade.png') no-repeat;
-	width: 168px;
-	height: 32px;
+	background: url('../img/backgrounds/divisor-tabela.png') no-repeat top left;
+	width: 130px;
 }
 
 .blocoQuantidade .inputQuantidade {
@@ -144,65 +150,193 @@
 	width: 40px;
 	height: 25px;
 	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 25px;
+	font-size: 10px;
+	font-weight: bold;
 }
 
 .blocoRelativeQuantidade {
 	position: relative;
 	height: 25px;
 	width: 85px;
-	margin-left: 55px;
-	*margin-left: 0;
+	margin-left: 50px;
 }
 
 .boxAbsoluteQuantidade {
 	position: absolute;
-	top: 10px;
-	left: 0;
+	top: 2px;
+	left: 10px;
 }
 
-/*
-.tabelaSacola .blocoTabelaValor {
-	background: url('../img/backgrounds/lista_desejos.png') no-repeat;
-	width: 317px;
-	font-weight: bold;
-	font-size: 11px;
-	text-align: center;
+.blocoValorSub {
+	background: url('../img/backgrounds/divisor-tabela.png') no-repeat top left;
+	width: 100px;
+	padding-left: 30px;
 }
 
-.tabelaSacola .blocoTabelaOpcoes {
+
+.blocoOpcoes {
+	background: url('../img/backgrounds/divisor-tabela.png') no-repeat top left;
+	width: 95px;
 	position: relative;
 }
 
-.blocoTabelaOpcoes .iconesTabela {
-	background: url('../img/icones/lista-desejos.png') no-repeat;
-	width: 39px;
-	height: 38px;
+.blocoOpcoes .iconesSacola {
+	background: url('../img/icones/sacola.png') no-repeat;
+	width: 18px;
+	height: 18px;
 	float: left;
-	position: absolute;
-	top: 30px;
-	display: block;
-}
-.blocoTabelaOpcoes .iconeSacola {
-	background-position: 0 -93px;
-	left: 100px;
+	position: relative;
+	z-index: 3
 }
 
-.blocoTabelaOpcoes .iconeExcluir {
-	background-position: 0 -167px;
-	left: 165px;
+.blocoOpcoes .iconeDesejos {
+	background-position: 0 0;
+	margin: 0 8px 0 27px;
 }
 
-.iconeMover {
-	background: url('../img/icones/lista-desejos.png') no-repeat 0 -258px;
+.blocoOpcoes .iconeExcluir {
+	background-position: 0 -66px;
+}
+
+.blocoRelativeOpcoes {
+	width: 90px;
+	position: relative;
+	vertical-align: middle;
+	*margin-top: 26px;
+}
+
+.hoverDesejos {
+	background: url('../img/icones/sacola.png') no-repeat;
+	background-position: 0 -130px;
 	width: 181px;
-	height: 43px;
+	height: 24px;
 	position: absolute;
-	top: 15px;
-	right: 20px;
+	top: -26px;
+	left: -105px;
 	display: none;
+	z-index: 2;
 }
-*/
+
+.iconeDesejos:hover {
+	background-position: -132px -156px;
+}
+
+
+.tituloTabelaProduto {
+	padding-left: 10px;
+}
+
+.tituloTabelaValor {
+	padding-left: 33px;
+}
+
+.tituloTabelaTamanho,
+.tituloTabelaQuantidade {
+	padding-left: 40px;
+}
+
+.tituloTabelaSubTotal {
+	padding-left: 43px;
+}
+
+.tituloTabelaOpcoes {
+	padding-left: 16px;
+}
 
 td {
-	padding: 5px;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.separarTabela {
+	padding: 5px !important;
+}
+
+
+.blocoAbaixoTabela {
+	width: 100%;
+	height: 52px;
+	border-top: 1px dashed #d7d7d7;
+	border-bottom: 1px dashed #d7d7d7;
+	position: relative;
+	line-height: 54px;
+	*margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.blocoAbaixoTabela .textoAbaixo {
+	color: #888;
+	font-size: 11px;
+	font-weight: bold;
+	float: left;
+}
+
+.blocoAbaixoTabela .relativeInput {
+	width: 154px;
+	height: 28px;
+	position: absolute;
+	float: left;
+	top: 12px;
+	left: 145px;
+}
+
+.blocoAbaixoTabela .inputBlocos {
+	background: #e9e8e4;
+	width: 110px;
+	height: 28px;
+	float: left;
+	padding: 0 29px 0 15px;
+	font-size: 13px;
+	color: #888;
+}
+
+.blocoAbaixoTabela .btOk {
+	background: none;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	border: none;
+	display: block;
+	font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'vidaloka_regular', arial, sans-serif;
+}
+
+.blocoAbaixoTabela .textoCep {
+	color: #d2232a;
+	font-size: 10px;
+	text-decoration: underline;
+	position: absolute;
+	top: 0px;
+	left: 310px;
+}
+
+.blocoAbaixoTabela .textoCep:hover {
+	text-decoration: none;
+}
+
+.blocoAbaixoTabela .boxValor {
+	float: right;
+}
+
+.blocoAbaixoTabela .boxValor .texto {
+	font-size: 11px;
+	color: #888;
+	font-weight: bold;
+	padding-right: 70px;
+	text-transform: uppercase;
+}
+
+.blocoAbaixoTabela .boxValor .valor {
+	font-size: 15px;
+	color: #5ac1ac;
+	font-weight: bold;
+	padding-right: 5px;
+	text-transform: uppercase;
 }
