@@ -1,0 +1,161 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catDesejos {
+    background:url("../img/icones/lista-desejos.png") no-repeat 0 0;
+    width: 44px;
+    height: 46px;
+    position: relative;
+    top: 10px;
+}
+
+.boxListaSacola {
+	width: 956px;
+	height: 400px;
+	margin: 25px auto 0;
+}
+
+.tabelaSacola {
+	width: 100%;
+}
+
+.tabelaSacola .blocoTabela {
+	background: #f2f2f2;
+	cursor: pointer;
+	position: relative;
+	line-height: 70px;
+}
+
+.tabelaSacola .titulosTabela {
+	height: 20px;
+	color: #888;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.tabelaSacola .titulosTabelaProduto {
+	text-align: left !important;
+}
+
+.tabelaSacola .blocoProduto a {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.tabelaSacola .blocoProduto:hover a {
+	color: #d2232a;
+}
+
+.blocoProduto {
+	width: 257px;
+	padding: 10px !important;
+}
+
+.tabelaSacola .imgProdutoLista {
+	background: #FFF;
+	float: left;
+	border: 1px solid #CCC;
+	padding: 4px;
+	margin-right: 10px;
+}
+
+.tabelaSacola .blocoCenter {
+	text-align: center;
+}
+
+
+.tabelaSacola .blocoValor {
+	background: url('../img/backgrounds/tabela-valor-sacola.png') no-repeat;
+	width: 170px;
+}
+
+.tabelaSacola .blocoQuantidade {
+	background: url('../img/backgrounds/tabela-quantidade.png') no-repeat;
+	width: 168px;
+}
+
+
+
+.divSelQuantidade {
+	background: url("../img/backgrounds/select-sacola.png") no-repeat 0 0;
+    width: 70px;
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 33px;
+}
+
+.divSelQuantidade span {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    line-height: 14px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.divSelQuantidade select {
+	cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter:alpha(opacity= 0);
+    -webkit-appearance: none;
+}
+
+/*
+.tabelaSacola .blocoTabelaValor {
+	background: url('../img/backgrounds/lista_desejos.png') no-repeat;
+	width: 317px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+
+.tabelaSacola .blocoTabelaOpcoes {
+	position: relative;
+}
+
+.blocoTabelaOpcoes .iconesTabela {
+	background: url('../img/icones/lista-desejos.png') no-repeat;
+	width: 39px;
+	height: 38px;
+	float: left;
+	position: absolute;
+	top: 30px;
+	display: block;
+}
+.blocoTabelaOpcoes .iconeSacola {
+	background-position: 0 -93px;
+	left: 100px;
+}
+
+.blocoTabelaOpcoes .iconeExcluir {
+	background-position: 0 -167px;
+	left: 165px;
+}
+
+.iconeMover {
+	background: url('../img/icones/lista-desejos.png') no-repeat 0 -258px;
+	width: 181px;
+	height: 43px;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	display: none;
+}
+*/
+
+td {
+	padding: 5px;
+	*padding: 20px;
+}
