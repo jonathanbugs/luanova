@@ -1,0 +1,121 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catMeusPedidos{
+    width:44px;
+    height:46px;
+    background:url("../img/sp-login.png") no-repeat -6px 0;
+}
+
+.subMenuMinhaConta{
+    padding-top:16px;
+    height:18px;
+    padding-bottom:22px;
+}
+
+.subMenuMinhaConta li{
+    float:left;
+    padding-right:7px;
+}
+
+.subMenuMinhaConta a{
+    font-size:13px;
+    font-family:"vidaloka_regular";
+    color:#000;
+    padding-right:6px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.subMenuMinhaConta a:hover,
+.subMenuMinhaConta .selecionado{
+    color:#5ac1ac;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
+
+.accordionMinhaConta li{
+    background:#f6f6f6;
+    margin-bottom:3px;
+    padding:0 13px;
+    position:relative;
+}
+
+.accordionMinhaConta li:hover{
+    background:#eeeded;
+}
+
+.accordionMinhaConta h3{
+    height:40px;
+    line-height:40px;
+    font-family:"vidaloka_regular";
+    font-size:15px;
+    color:#888888;
+    font-weight:normal;
+    cursor:pointer;
+}
+
+.conteudoAccordion{
+    padding-bottom:13px;
+    color:#FFF;
+    font-size:13px;
+/*    display:none;*/
+}
+
+.btAbrirAccordion{
+    width:24px;
+    height:24px;
+    background:url("../img/sp-como-comprar.png") no-repeat 0 -60px;
+    position:absolute;
+    top:7px; right:7px;
+}
+
+.btAccordionAberto{
+    background-position:-39px -60px;
+}
+
+.accordionMinhaConta .accordionSelecionado,
+.accordionMinhaConta .accordionSelecionado:hover{
+    background:#5ac1ac;
+}
+
+.accordionMinhaConta .accordionSelecionado,
+.accordionMinhaConta .accordionSelecionado h3{
+    color:#FFF;
+}
+
+.statusMinhaConta{
+    position:absolute;
+    right:50px;
+    top:0px;
+}
+
+.accordionMinhaConta .statusMinhaConta li{
+    font-size:13px;
+    color:#cccccc;
+    font-family: "vidaloka_regular";
+    background:none;
+    float:left;
+    padding:0;
+    text-transform:uppercase;
+    padding-right:5px;
+    line-height:40px;
+}
+
+.accordionMinhaConta .statusMinhaConta li span{
+    color:#888888;
+}
+
+.accordionMinhaConta .statusMinhaConta .statusOk{
+    color:#5ac1ac;
+}
