@@ -97,16 +97,26 @@
                             </a>
                         </td>
                         <td class="blocoCenter blocoValor"><strong>R$ 426,90</strong></td>
-                        <td class="blocoCenter blocoQuantidade">
-                            <div class="divSelQuantidade">
-                                <select value="Único" name="selQuantidade" id="selQuantidade">
-                                    <option>Único</option>
-                                    <option>G</option>
-                                    <option>M</option>
-                                </select>
+                        <td class="blocoCenter blocoTamanho">
+                            <div class="blocoRelative">
+                                <span class="boxAbsolute">
+                                    <span class="divSelTamanho">
+                                        <select value="Único" name="selTamanho" id="selTamanho">
+                                            <option>Único</option>
+                                            <option>G</option>
+                                            <option>M</option>
+                                        </select>
+                                    </span>
+                                </span>
                             </div>
                         </td>
-                        <td class="blocoCenter">Quantidade</td>
+                        <td class="blocoCenter blocoQuantidade">
+                            <div class="blocoRelativeQuantidade">
+                                <span class="boxAbsoluteQuantidade">
+                                    <input type="" value="2" class="inputQuantidade" />
+                                </span>
+                            </div>
+                        </td>
                         <td class="blocoCenter"><strong>R$ 426,90</strong></td>
                         <td></td>
                     </tr>

@@ -78,23 +78,39 @@
 	width: 170px;
 }
 
-.tabelaSacola .blocoQuantidade {
-	background: url('../img/backgrounds/tabela-quantidade.png') no-repeat;
+.tabelaSacola .blocoTamanho {
+	background: url('../img/backgrounds/tabela-tamanhos.png') no-repeat;
 	width: 168px;
+	height: 32px;
+}
+
+.blocoRelative {
+	position: relative;
+	height: 25px;
+	width: 85px;
+	margin-left: 40px;
+	*margin-left: 0;
+}
+
+.boxAbsolute {
+	position: absolute;
+	top: 10px;
+	left: 0;
 }
 
 
-
-.divSelQuantidade {
+.divSelTamanho {
 	background: url("../img/backgrounds/select-sacola.png") no-repeat 0 0;
     width: 70px;
     height: 25px;
     overflow: hidden;
-    position: relative;
-    margin-left: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
 }
 
-.divSelQuantidade span {
+.divSelTamanho span {
     position: absolute;
     top: 7px;
     left: 8px;
@@ -103,13 +119,45 @@
     font-weight: bold;
 }
 
-.divSelQuantidade select {
+.divSelTamanho select {
+	position: absolute;
+	top: 0;
+	left: 0;
 	cursor: pointer;
     width: 100%;
     height: 100%;
     opacity: 0;
     filter:alpha(opacity= 0);
     -webkit-appearance: none;
+    *top: -18px;
+}
+
+
+.tabelaSacola .blocoQuantidade {
+	background: url('../img/backgrounds/tabela-quantidade.png') no-repeat;
+	width: 168px;
+	height: 32px;
+}
+
+.blocoQuantidade .inputQuantidade {
+	background: url('../img/backgrounds/input-quantidade.png') no-repeat;
+	width: 40px;
+	height: 25px;
+	text-align: center;
+}
+
+.blocoRelativeQuantidade {
+	position: relative;
+	height: 25px;
+	width: 85px;
+	margin-left: 55px;
+	*margin-left: 0;
+}
+
+.boxAbsoluteQuantidade {
+	position: absolute;
+	top: 10px;
+	left: 0;
 }
 
 /*
@@ -157,5 +205,4 @@
 
 td {
 	padding: 5px;
-	*padding: 20px;
 }
