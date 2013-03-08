@@ -1,0 +1,162 @@
+/************************/
+@import url("_basico.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+@import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
+/************************/
+
+.catContato{
+    width:44px;
+    height:46px;
+    background:url("../img/sp-contato.png") no-repeat -328px 0;
+}
+
+.pContato{
+    font-size:13px;
+    color:#888888;
+    font-family:"vidaloka_regular";
+    padding-bottom:30px;
+}
+
+#formContato{
+    width:760px;
+}
+
+#formContato li{
+    height:60px;
+    padding-bottom:16px;
+}
+
+#formContato .divCampo{
+    float:left;
+}
+
+#formContato label{
+    display:block;
+    padding-bottom:5px;
+}
+
+#formContato label span{
+    color:#d2232a;
+}
+
+#formContato .divCampo input{
+    font-size:13px;
+    line-height:14px;
+    padding:13px 8px;
+    background:#e9e8e4;
+}
+
+.divCampoCEP
+{width:175px;}
+
+.divCampo
+{margin-right:20px;}
+
+.divCampoLast
+{margin-right:0;}
+
+#iptNome,
+#iptEmail,
+#iptBairro,
+#iptSenha,
+#iptSenhaRepeticao
+{width:354px;}
+
+#iptTelefone,
+#iptNascimento,
+#iptCPF,
+#iptRG,
+#iptNumero,
+#iptComplemento
+{width:159px;}
+
+#iptCEP
+{width:89px;}
+
+#iptEndereco
+{width:549px;}
+
+.divSelEstado{
+    width:175px;
+}
+
+.divSelCidade{
+    width:370px;
+}
+
+.divSelCidade,
+.divSelEstado{
+    
+    height:40px;
+    overflow:hidden;
+    background:url("../img/select-cadastro.png") no-repeat top right;
+    position:relative;
+    cursor:pointer;
+}
+
+.divSelCidade span,
+.divSelEstado span{
+    position:absolute;
+    top:13px;
+    left:8px;
+    line-height:14px;
+    font-size:13px;
+}
+
+.divCampo select{
+    width:100%;
+    height:100%;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-appearance:none;
+}
+
+
+#txtMensagem{
+    width:734px;
+    padding:13px;
+    height:174px;
+    background:#E9E8E4;
+    resize:none;
+}
+
+
+#formContato .divEnviarContato{
+    height:40px;
+    margin-bottom:0;
+}
+
+
+.divBtEnviar{
+    width:111px;
+    height:38px;
+    background:url("../img/sp-login.png") no-repeat 0 -57px;
+    float:right;
+}
+
+#btEnviarDadosContato{
+    width:111px;
+    height:38px;
+    background:url("../img/sp-login.png") no-repeat 0 -104px;
+    opacity:0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+    border: none;
+
+}
+
+#btEnviarDadosContato:hover{
+    opacity:1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#formContato .last{
+    height:220px;
+}
