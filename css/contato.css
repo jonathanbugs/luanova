@@ -160,3 +160,65 @@
 #formContato .last{
     height:220px;
 }
+
+
+/* MSG SUCESSO */
+
+.divMsgSucesso{
+    padding:0 100px;
+    height:500px;
+    display:table;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+.divMsgSucesso div{
+    display: table-cell;
+    vertical-align: middle;
+    *padding-top: 120px;
+}
+
+.msgPrimaria{
+    font-size:46px;
+    color:#5ac1ac;
+    font-family:"vidaloka_regular";
+    text-transform:uppercase;
+    padding-bottom:25px;
+}
+
+.msgSecundaria{
+    font-size:16px;
+    font-family:"vidaloka_regular";
+    text-transform:uppercase;
+    padding-bottom:38px;
+}
+
+.btPaginaInicial{
+    width:166px;
+    height:38px;
+    background:url("../img/botoes/bt-pagina-inicial.png") no-repeat 0 0;
+    margin:0 auto;
+}
+
+.btPaginaInicial span{
+    display:block;
+    width:166px;
+    height:38px;
+    background:url("../img/botoes/bt-pagina-inicial.png") no-repeat bottom left;
+    opacity:0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btPaginaInicial span:hover{
+    opacity:1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
