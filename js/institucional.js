@@ -19,9 +19,6 @@ function modalZoomInstitucional(ele){
 						'<div id="contentImagemAmpliada">'+
 						'<a id="fecharZoomInstitucional" class="btFecharZoom replace" href="javascript:;">Fechar</a>'+
 						'<div class="boxImagem"><img class="imgServicoModal" src="img/conteudo/'+imagem+'.jpg"></div>'+
-						'<div class="scrollModal"><div class="boxTextoModal"><div class="tituloWrapper"></div>'+
-						'</div>'+
-						'</div>'+
 						'</div>'+
 						'</div>'+
 					'</div>');
