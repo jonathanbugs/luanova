@@ -79,7 +79,7 @@
                     <h2 class="ttCabecalho">Meus Pedidos</h2>
                     <span class="categoria catMeusPedidos replace"></span>
                 </div>
-            
+
                 <ul class="subMenuMinhaConta">
                     <li><a class="selecionado" href="javascript:;" title="Como comprar">Meus Pedidos</a> |</li>
                     <li><a href="javascript:;" title="Perguntas frequentes">Minha Conta</a></li>
@@ -104,7 +104,7 @@
                                         <td class="colSubtotal">Subtotal</td>
                                     </tr>
                                 </thead>
-                                
+
                                 <tbody>
                                     <tr>
                                         <td class="colProduto">
@@ -113,11 +113,11 @@
                                                 <span>Bolsa média - 4174V33</span>
                                             </span>
                                         </td>
-                                        
+
                                         <td class="colValor">
                                             R$ 426,90
                                         </td>
-                                        
+
                                         <td class="colTamanho">
                                             Único
                                         </td>
@@ -125,30 +125,30 @@
                                         <td class="colQuantidade">
                                             2
                                         </td>
-                                        
+
                                         <td class="colSubtotal">
                                             R$ 853,80
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            
+
                             <div class="clearfix">
-                                
+
                                 <div class="dadosEntrega">
                                     <span class="ttEnderecoEntrega">Endereço de entrega</span>
                                     <ul>
                                         <li>
                                             <span class="ttDadosPrazo">Dados para Entrega</span>
 
-                                            <span class="endereco">Rua Tomé de Souza, 36</span> 
+                                            <span class="endereco">Rua Tomé de Souza, 36</span>
                                             <span class="endereco">Santos Dumont  - São Leopoldo - RS</span>
                                             <span class="endereco">CEP 93115-270</span>
                                         </li>
                                         <li>
                                             <span class="ttDadosPrazo">Previsão de Entrega</span>
 
-                                            <span class="prazo">1 dias úteis após a confirmação do pagamento.</span> 
+                                            <span class="prazo">1 dias úteis após a confirmação do pagamento.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -168,6 +168,7 @@
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
                         </div>
                     </li>
                     <li>
@@ -188,7 +189,7 @@
                             <li>Entregue</li>
                         </ul>
                         <div class="conteudoAccordion">
-                            
+
                             <table class="tabelaPedido">
                                 <thead>
                                     <tr>
@@ -199,7 +200,7 @@
                                         <td class="colSubtotal">Subtotal</td>
                                     </tr>
                                 </thead>
-                                
+
                                 <tbody>
                                     <tr>
                                         <td class="colProduto">
@@ -208,11 +209,11 @@
                                                 <span>Bolsa média - 4174V33</span>
                                             </span>
                                         </td>
-                                        
+
                                         <td class="colValor">
                                             R$ 426,90
                                         </td>
-                                        
+
                                         <td class="colTamanho">
                                             Único
                                         </td>
@@ -220,7 +221,7 @@
                                         <td class="colQuantidade">
                                             2
                                         </td>
-                                        
+
                                         <td class="colSubtotal">
                                             R$ 853,80
                                         </td>
@@ -232,11 +233,11 @@
                                                 <span>Bolsa média - 4174V33</span>
                                             </span>
                                         </td>
-                                        
+
                                         <td class="colValor">
                                             R$ 426,90
                                         </td>
-                                        
+
                                         <td class="colTamanho">
                                             Único
                                         </td>
@@ -244,7 +245,7 @@
                                         <td class="colQuantidade">
                                             2
                                         </td>
-                                        
+
                                         <td class="colSubtotal">
                                             R$ 853,80
                                         </td>
@@ -256,11 +257,11 @@
                                                 <span>Bolsa média - 4174V33</span>
                                             </span>
                                         </td>
-                                        
+
                                         <td class="colValor">
                                             R$ 426,90
                                         </td>
-                                        
+
                                         <td class="colTamanho">
                                             Único
                                         </td>
@@ -268,30 +269,28 @@
                                         <td class="colQuantidade">
                                             2
                                         </td>
-                                        
+
                                         <td class="colSubtotal">
                                             R$ 853,80
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            
+
                             <div class="clearfix">
-                                
                                 <div class="dadosEntrega">
                                     <span class="ttEnderecoEntrega">Endereço de entrega</span>
                                     <ul>
                                         <li>
                                             <span class="ttDadosPrazo">Dados para Entrega</span>
-
-                                            <span class="endereco">Rua Tomé de Souza, 36</span> 
+                                            <span class="endereco">Rua Tomé de Souza, 36</span>
                                             <span class="endereco">Santos Dumont  - São Leopoldo - RS</span>
                                             <span class="endereco">CEP 93115-270</span>
                                         </li>
                                         <li>
                                             <span class="ttDadosPrazo">Previsão de Entrega</span>
 
-                                            <span class="prazo">1 dias úteis após a confirmação do pagamento.</span> 
+                                            <span class="prazo">1 dias úteis após a confirmação do pagamento.</span>
                                         </li>
                                     </ul>
                                 </div>

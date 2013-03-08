@@ -106,7 +106,7 @@
                             <div class="blocoRelative">
                                 <span class="boxAbsolute">
                                     <span class="divSelTamanho">
-                                        <select name="selTamanho" id="selTamanho">
+                                        <select id="tamanho" name="selTamanho">
                                             <option>Único</option>
                                             <option>G</option>
                                             <option>M</option>

@@ -103,7 +103,7 @@
                                         <label for="iptTelefone">Telefone:</label>
                                         <input type="text" name="iptTelefone" id="iptTelefone" />
                                     </div>
-                                    
+
                                     <div class="divCampo">
                                         <label for="selEstado">Estado: <span>*</span></label>
 
@@ -128,7 +128,7 @@
                                 <li class="last">
                                     <div class="divCampo divCampoLast">
                                         <label for="txtMensagem">Mensagem: <span>*</span></label>
-                                        <textarea id="txtMensagem" name="txtMensagem"></textarea>
+                                        <textarea id="txtMensagem" name="txtMensagem" cols="" rows=""></textarea>
                                     </div>
                                 </li>
 
@@ -141,7 +141,7 @@
                         </form>
 
                     </div>
-                    
+
                     <div class="divMsgSucesso hidden">
                         <div>
                         </div>
