@@ -53,6 +53,7 @@
 
     <!-- CSS e JS da secao -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/meus-pedidos.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.jscrollpane.css" />
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/funcoes.js"></script>
@@ -133,9 +134,8 @@
                                 </tbody>
                             </table>
 
-                            <div class="clearfix">
-
-                                <div class="dadosEntrega">
+                            <div class="dadosEntregaValorTotal clearfix">
+                                <div class="dadosEntrega clearfix" style="backgorund: red">
                                     <span class="ttEnderecoEntrega">Endereço de entrega</span>
                                     <ul>
                                         <li>
@@ -277,7 +277,7 @@
                                 </tbody>
                             </table>
 
-                            <div class="clearfix">
+                            <div class="dadosEntregaValorTotal clearfix">
                                 <div class="dadosEntrega">
                                     <span class="ttEnderecoEntrega">Endereço de entrega</span>
                                     <ul>

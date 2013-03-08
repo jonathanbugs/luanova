@@ -51,6 +51,8 @@
     margin-bottom:3px;
     padding:0 13px;
     position:relative;
+    display: block;
+    width: 734px;
 }
 
 .accordionMinhaConta li:hover{
@@ -112,6 +114,7 @@
     text-transform:uppercase;
     padding-right:5px;
     line-height:40px;
+    width: auto;
 }
 
 .accordionMinhaConta .statusMinhaConta li span{
@@ -121,6 +124,7 @@
 .accordionMinhaConta .statusMinhaConta .statusOk{
     color:#5ac1ac;
 }
+
 
 .accordionMinhaConta .accordionSelecionado .statusMinhaConta li{
     color:#9dddd0;
@@ -236,6 +240,7 @@
 .dadosEntrega ul li{
     background:none;
     padding:0;
+    width: auto;
 }
 
 .dadosEntrega .ttDadosPrazo{
@@ -254,6 +259,7 @@
 
 .dadosEntrega ul li{
     padding-bottom:20px;
+    width: auto;
 }
 
 .dadosEntrega ul li:hover{
@@ -273,6 +279,7 @@
     line-height:54px;
     height:54px;
     margin-bottom:9px;
+    width: auto;
 }
 
 .valorTotal li span{
@@ -311,4 +318,12 @@
 
 .statusMinhaConta{
     cursor:pointer;
+}
+
+
+
+.dadosEntregaValorTotal {
+    width: 100%;
+    *float: left;
+    background: #5AC1AC;
 }

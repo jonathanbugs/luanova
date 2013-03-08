@@ -45,6 +45,11 @@
 }
 
 
+.accordionComoComprar {
+    width: 761px;
+}
+
+
 .accordionComoComprar li{
     background:#f6f6f6;
     margin-bottom:3px;
