@@ -96,10 +96,12 @@
                         </td>
                         <td class="blocoTabelaValor">R$ 426,90</td>
                         <td class="blocoTabelaOpcoes">
-                           <div class="relativeOpcoes">
-                                <a href="javascript:;" class="iconesTabela iconeSacola replace">Sacola</a>
-                                <a href="javascript:;" class="iconesTabela iconeExcluir replace">Excluir</a>
-                                <a href="" class="iconeMover replace">Mover para sacola</a>
+                           <div class="blocoRelative">
+                                <div class="boxAbsolute">
+                                    <a href="javascript:;" class="iconesTabela iconeSacola replace">Sacola</a>
+                                    <a href="javascript:;" class="iconesTabela iconeExcluir replace">Excluir</a>
+                                    <a href="" class="iconeMover replace">Mover para sacola</a>
+                                </div>
                             </div>
                         </td>
                     </tr>
@@ -119,10 +121,12 @@
                         </td>
                         <td class="blocoTabelaValor">R$ 426,90</td>
                         <td class="blocoTabelaOpcoes">
-                            <div class="relativeOpcoes">
-                                <a href="javascript:;" class="iconesTabela iconeSacola replace">Sacola</a>
-                                <a href="javascript:;" class="iconesTabela iconeExcluir replace">Excluir</a>
-                                <a href="" class="iconeMover replace">Mover para sacola</a>
+                            <div class="blocoRelative">
+                                <div class="boxAbsolute">
+                                    <a href="javascript:;" class="iconesTabela iconeSacola replace">Sacola</a>
+                                    <a href="javascript:;" class="iconesTabela iconeExcluir replace">Excluir</a>
+                                    <a href="" class="iconeMover replace">Mover para sacola</a>
+                                </div>
                             </div>
                         </td>
                     </tr>

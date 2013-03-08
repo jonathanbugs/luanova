@@ -101,7 +101,7 @@
 	height: 43px;
 	position: absolute;
 	top: 15px;
-	right: 20px;
+	left: 90px;
 	display: none;
 }
 
@@ -115,6 +115,16 @@ td {
 	*padding: 20px;
 }
 
-.relativeOpcoes {
+.blocoRelative {
 	position: relative;
+	height: 38px;
+	width: 275px;
+	margin-left: 0;
 }
+
+.boxAbsolute {
+	position: absolute;
+	top: -10px;
+	left: 0;
+}
+
