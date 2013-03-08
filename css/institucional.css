@@ -91,7 +91,8 @@ ZOOM IMAGEM INSTITUCIONAL
     top: 50%;
     left: 0;
     width: 100%;
-    height: 0;
+    height: 400px;
+    margin-top: -180px;
     text-align: center;
 }
 
@@ -117,6 +118,7 @@ ZOOM IMAGEM INSTITUCIONAL
     top: -35px;
     width: 60px;
     height: 11px;
+    z-index: 9999
 }
 
 #fecharZoomInstitucional:hover {
