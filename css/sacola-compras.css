@@ -3,12 +3,59 @@
 @import url("template.css"); /* CHAMADA PARA ARQUIVO DE RESET, BIBLIOTECA DE ESTILO E FORMATAÇÃO PADRÃO DE FORMULÁRIO */
 /************************/
 
-.catDesejos {
-    background:url("../img/icones/lista-desejos.png") no-repeat 0 0;
-    width: 44px;
-    height: 46px;
+.cabecalhoInternaSacola {
+    background:url("../img/backgrounds/bg-linha-sacola.jpg") no-repeat left center;
+    height: 47px;
+    padding-bottom: 7px;
     position: relative;
-    top: 10px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ttCabecalhoSacola{
+    font-size:22px;
+    font-family:"vidaloka_regular";
+    font-weight:normal;
+    text-transform:uppercase;
+    float:left;
+    padding:12px 20px 0 0;
+    background:#FFF;
+}
+
+.blocoIconesSacola {
+	position: relative;
+	float: right;
+}
+
+.iconeSacola {
+	background: url('../img/icones/sacola-compras.png') no-repeat;
+	width: 45px;
+	height: 46px;
+	float: left;
+	margin-left: -1px;
+	display: block;
+}
+
+.iconeSacola1 {
+	background-position: 0 -9px;
+}
+
+.iconeSacola2 {
+	background-position: -75px -9px;
+	margin-top: 2px;
+}
+
+.iconeSacola3 {
+	background-position: -145px -9px;
+	margin-top: 2px;
+	margin-left: -4px;
+}
+
+.iconeSacola4 {
+	background-position: -214px 0px;
+	margin-top: -7px;
+	margin-left: -6px;
 }
 
 .boxListaSacola {
@@ -264,11 +311,12 @@ td {
 	border-bottom: 1px dashed #d7d7d7;
 	position: relative;
 	line-height: 54px;
-	*margin-top: 10px;
 	margin-bottom: 10px;
+	*margin-top: 10px;
 }
 
 .blocoAbaixoTabela .textoAbaixo {
+	min-width: 135px;
 	color: #888;
 	font-size: 11px;
 	font-weight: bold;
@@ -276,12 +324,10 @@ td {
 }
 
 .blocoAbaixoTabela .relativeInput {
-	width: 154px;
 	height: 28px;
-	position: absolute;
+	position: relative;
 	float: left;
-	top: 12px;
-	left: 145px;
+	margin: 12px 10px 0 10px;
 }
 
 .blocoAbaixoTabela .inputBlocos {
@@ -298,6 +344,8 @@ td {
 	background: none;
 	position: absolute;
 	top: 5px;
+	top /*\**/: -14px\9;
+	*right: 10px;
 	right: 0;
 	border: none;
 	display: block;
@@ -312,9 +360,7 @@ td {
 	color: #d2232a;
 	font-size: 10px;
 	text-decoration: underline;
-	position: absolute;
-	top: 0px;
-	left: 310px;
+	float: left;
 }
 
 .blocoAbaixoTabela .textoCep:hover {
@@ -322,7 +368,8 @@ td {
 }
 
 .blocoAbaixoTabela .boxValor {
-	float: right;
+	position: absolute;
+	right: 0;
 }
 
 .blocoAbaixoTabela .boxValor .texto {
@@ -339,4 +386,20 @@ td {
 	font-weight: bold;
 	padding-right: 5px;
 	text-transform: uppercase;
+}
+
+.blocoAbaixoTabela .textoTotal {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 22px;
+	color: #000;
+	text-transform: uppercase;
+	float: left;
+}
+
+.blocoAbaixoTabela .textoValorTotal {
+	font-family: 'vidaloka_regular', arial, sans-serif;
+	font-size: 22px;
+	color: #d2232a;
+	text-transform: uppercase;
+	float: right;
 }

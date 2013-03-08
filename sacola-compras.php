@@ -74,9 +74,14 @@
                 </ul>
             </div>
 
-            <div class="cabecalhoInternas clearfix">
-                <h2 class="ttCabecalho">Sacola de Compras</h2>
-                <span class="categoria catDesejos replace"></span>
+            <div class="cabecalhoInternaSacola clearfix">
+                <h2 class="ttCabecalhoSacola">Sacola de Compras</h2>
+                <div class="blocoIconesSacola">
+                    <span class="iconeSacola iconeSacola1"></span>
+                    <span class="iconeSacola iconeSacola2"></span>
+                    <span class="iconeSacola iconeSacola3"></span>
+                    <span class="iconeSacola iconeSacola4"></span>
+                </div>
             </div>
 
             <div class="boxListaSacola">
@@ -182,7 +187,6 @@
                         <button type="submit" class="btOk">OK</button>
                     </div>
                     <a class="textoCep" href="javascript:;">Não sabe o cep?</a>
-
                     <div class="boxValor">
                         <span class="texto">Frete:</span>
                         <span class="valor">R$ 23,80</span>
@@ -195,10 +199,23 @@
                         <input type="text" class="inputBlocos" />
                         <button type="submit" class="btOk">OK</button>
                     </div>
+                    <a class="textoCep" href="javascript:;"></a>
                     <div class="boxValor">
                         <span class="texto">Desconto:</span>
                         <span class="valor">R$ 50,80</span>
                     </div>
+                </div>
+
+                <div class="blocoAbaixoTabela">
+                    <span class="textoTotal">Total:</span>
+                    <span class="textoValorTotal">R$ 1.154,50</span>
+                </div>
+
+                <div class="clearfix">
+                    <a class="continuarCompra" href="javascript:;">Continuar Comprando</a>
+                    <a class="finalizarCompra replace" href="javascript:;">
+                        <span class="finalizarComprahover">Finalizar Compra</span>
+                    </a>
                 </div>
             </div>
         </div>

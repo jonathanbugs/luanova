@@ -308,7 +308,7 @@ html, body {
 	margin: 23px auto 0;
 }
 
-.boxVoltarContinuar .continuarCompra {
+.continuarCompra {
 	background: url('../img/botoes/botao-continuar-comprando.png') no-repeat left center;
 	background-position: 0 0;
 	height: 17px;
@@ -328,7 +328,7 @@ html, body {
 	transition: all .2s;
 }
 
-.boxVoltarContinuar .continuarCompra:hover {
+.continuarCompra:hover {
 	background-position: 0 -28px;
 	color: #d2232a;
 }
